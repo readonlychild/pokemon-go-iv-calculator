@@ -16,7 +16,7 @@ GameMaster.then(data => {
   const Pokemon = data.itemTemplates
     .filter(x => x.hasOwnProperty('pokemonSettings'))
     .map(({ pokemonSettings }, i) => ({
-      id: i + 1,
+      id: pokemonSettings.form ? pokemonSettings.form : pokemonSettings.pokemonId,
       name: pokemonSettings.pokemonId,
       type1: type(pokemonSettings.type),
       type2: type(pokemonSettings.type2),

@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "BULBASAUR",
     "name": "BULBASAUR",
     "type1": "GRASS",
     "type2": "POISON",
@@ -34,7 +34,7 @@
     "weight": 6.9
   },
   {
-    "id": 2,
+    "id": "IVYSAUR",
     "name": "IVYSAUR",
     "type1": "GRASS",
     "type2": "POISON",
@@ -69,7 +69,7 @@
     "weight": 13
   },
   {
-    "id": 3,
+    "id": "VENUSAUR",
     "name": "VENUSAUR",
     "type1": "GRASS",
     "type2": "POISON",
@@ -98,7 +98,7 @@
     "weight": 100
   },
   {
-    "id": 4,
+    "id": "CHARMANDER",
     "name": "CHARMANDER",
     "type1": "FIRE",
     "type2": null,
@@ -132,7 +132,7 @@
     "weight": 8.5
   },
   {
-    "id": 5,
+    "id": "CHARMELEON",
     "name": "CHARMELEON",
     "type1": "FIRE",
     "type2": null,
@@ -167,7 +167,7 @@
     "weight": 19
   },
   {
-    "id": 6,
+    "id": "CHARIZARD",
     "name": "CHARIZARD",
     "type1": "FIRE",
     "type2": "FLYING",
@@ -196,7 +196,7 @@
     "weight": 90.5
   },
   {
-    "id": 7,
+    "id": "SQUIRTLE",
     "name": "SQUIRTLE",
     "type1": "WATER",
     "type2": null,
@@ -230,7 +230,7 @@
     "weight": 9
   },
   {
-    "id": 8,
+    "id": "WARTORTLE",
     "name": "WARTORTLE",
     "type1": "WATER",
     "type2": null,
@@ -265,7 +265,7 @@
     "weight": 22.5
   },
   {
-    "id": 9,
+    "id": "BLASTOISE",
     "name": "BLASTOISE",
     "type1": "WATER",
     "type2": null,
@@ -294,7 +294,7 @@
     "weight": 85.5
   },
   {
-    "id": 10,
+    "id": "CATERPIE",
     "name": "CATERPIE",
     "type1": "BUG",
     "type2": null,
@@ -326,7 +326,7 @@
     "weight": 2.9
   },
   {
-    "id": 11,
+    "id": "METAPOD",
     "name": "METAPOD",
     "type1": "BUG",
     "type2": null,
@@ -359,7 +359,7 @@
     "weight": 9.9
   },
   {
-    "id": 12,
+    "id": "BUTTERFREE",
     "name": "BUTTERFREE",
     "type1": "BUG",
     "type2": "FLYING",
@@ -388,7 +388,7 @@
     "weight": 32
   },
   {
-    "id": 13,
+    "id": "WEEDLE",
     "name": "WEEDLE",
     "type1": "BUG",
     "type2": "POISON",
@@ -420,7 +420,7 @@
     "weight": 3.2
   },
   {
-    "id": 14,
+    "id": "KAKUNA",
     "name": "KAKUNA",
     "type1": "BUG",
     "type2": "POISON",
@@ -453,7 +453,7 @@
     "weight": 10
   },
   {
-    "id": 15,
+    "id": "BEEDRILL",
     "name": "BEEDRILL",
     "type1": "BUG",
     "type2": "POISON",
@@ -482,7 +482,7 @@
     "weight": 29.5
   },
   {
-    "id": 16,
+    "id": "PIDGEY",
     "name": "PIDGEY",
     "type1": "NORMAL",
     "type2": "FLYING",
@@ -516,7 +516,7 @@
     "weight": 1.8
   },
   {
-    "id": 17,
+    "id": "PIDGEOTTO",
     "name": "PIDGEOTTO",
     "type1": "NORMAL",
     "type2": "FLYING",
@@ -551,7 +551,7 @@
     "weight": 30
   },
   {
-    "id": 18,
+    "id": "PIDGEOT",
     "name": "PIDGEOT",
     "type1": "NORMAL",
     "type2": "FLYING",
@@ -580,7 +580,7 @@
     "weight": 39.5
   },
   {
-    "id": 19,
+    "id": "RATTATA",
     "name": "RATTATA",
     "type1": "NORMAL",
     "type2": null,
@@ -605,7 +605,8 @@
     "evolutionBranch": [
       {
         "evolution": "RATICATE",
-        "candyCost": 25
+        "candyCost": 25,
+        "form": "RATICATE_NORMAL"
       }
     ],
     "captureRate": 0.5,
@@ -614,7 +615,77 @@
     "weight": 3.5
   },
   {
-    "id": 20,
+    "id": "RATTATA_ALOLA",
+    "name": "RATTATA",
+    "type1": "DARK",
+    "type2": "NORMAL",
+    "moves": {
+      "quick": [
+        "TACKLE_FAST",
+        "QUICK_ATTACK_FAST"
+      ],
+      "charge": [
+        "CRUNCH",
+        "HYPER_FANG",
+        "SHADOW_BALL"
+      ]
+    },
+    "stats": {
+      "stamina": 60,
+      "attack": 103,
+      "defense": 70
+    },
+    "family": "FAMILY_RATTATA",
+    "kmBuddyDistance": 1,
+    "evolutionBranch": [
+      {
+        "evolution": "RATICATE",
+        "candyCost": 25,
+        "form": "RATICATE_ALOLA"
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.2,
+    "height": 0.3,
+    "weight": 3.8
+  },
+  {
+    "id": "RATTATA_NORMAL",
+    "name": "RATTATA",
+    "type1": "NORMAL",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "TACKLE_FAST",
+        "QUICK_ATTACK_FAST"
+      ],
+      "charge": [
+        "DIG",
+        "HYPER_FANG",
+        "BODY_SLAM"
+      ]
+    },
+    "stats": {
+      "stamina": 60,
+      "attack": 103,
+      "defense": 70
+    },
+    "family": "FAMILY_RATTATA",
+    "kmBuddyDistance": 1,
+    "evolutionBranch": [
+      {
+        "evolution": "RATICATE",
+        "candyCost": 25,
+        "form": "RATICATE_NORMAL"
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.2,
+    "height": 0.3,
+    "weight": 3.5
+  },
+  {
+    "id": "RATICATE",
     "name": "RATICATE",
     "type1": "NORMAL",
     "type2": null,
@@ -643,7 +714,65 @@
     "weight": 18.5
   },
   {
-    "id": 21,
+    "id": "RATICATE_ALOLA",
+    "name": "RATICATE",
+    "type1": "DARK",
+    "type2": "NORMAL",
+    "moves": {
+      "quick": [
+        "BITE_FAST",
+        "QUICK_ATTACK_FAST"
+      ],
+      "charge": [
+        "CRUNCH",
+        "HYPER_FANG",
+        "HYPER_BEAM"
+      ]
+    },
+    "stats": {
+      "stamina": 150,
+      "attack": 135,
+      "defense": 159
+    },
+    "family": "FAMILY_RATTATA",
+    "parentPokemonId": "RATTATA",
+    "kmBuddyDistance": 1,
+    "captureRate": 0.2,
+    "fleeRate": 0.07,
+    "height": 0.7,
+    "weight": 25.5
+  },
+  {
+    "id": "RATICATE_NORMAL",
+    "name": "RATICATE",
+    "type1": "NORMAL",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "BITE_FAST",
+        "QUICK_ATTACK_FAST"
+      ],
+      "charge": [
+        "DIG",
+        "HYPER_FANG",
+        "HYPER_BEAM"
+      ]
+    },
+    "stats": {
+      "stamina": 110,
+      "attack": 161,
+      "defense": 144
+    },
+    "family": "FAMILY_RATTATA",
+    "parentPokemonId": "RATTATA",
+    "kmBuddyDistance": 1,
+    "captureRate": 0.2,
+    "fleeRate": 0.07,
+    "height": 0.7,
+    "weight": 18.5
+  },
+  {
+    "id": "SPEAROW",
     "name": "SPEAROW",
     "type1": "NORMAL",
     "type2": "FLYING",
@@ -677,7 +806,7 @@
     "weight": 2
   },
   {
-    "id": 22,
+    "id": "FEAROW",
     "name": "FEAROW",
     "type1": "NORMAL",
     "type2": "FLYING",
@@ -706,7 +835,7 @@
     "weight": 38
   },
   {
-    "id": 23,
+    "id": "EKANS",
     "name": "EKANS",
     "type1": "POISON",
     "type2": null,
@@ -740,7 +869,7 @@
     "weight": 6.9
   },
   {
-    "id": 24,
+    "id": "ARBOK",
     "name": "ARBOK",
     "type1": "POISON",
     "type2": null,
@@ -769,7 +898,7 @@
     "weight": 65
   },
   {
-    "id": 25,
+    "id": "PIKACHU",
     "name": "PIKACHU",
     "type1": "ELECTRIC",
     "type2": null,
@@ -804,7 +933,7 @@
     "weight": 6
   },
   {
-    "id": 26,
+    "id": "RAICHU",
     "name": "RAICHU",
     "type1": "ELECTRIC",
     "type2": null,
@@ -833,7 +962,65 @@
     "weight": 30
   },
   {
-    "id": 27,
+    "id": "RAICHU_ALOLA",
+    "name": "RAICHU",
+    "type1": "ELECTRIC",
+    "type2": "PSYCHIC",
+    "moves": {
+      "quick": [
+        "VOLT_SWITCH_FAST",
+        "SPARK_FAST"
+      ],
+      "charge": [
+        "PSYCHIC",
+        "THUNDER_PUNCH",
+        "WILD_CHARGE"
+      ]
+    },
+    "stats": {
+      "stamina": 120,
+      "attack": 201,
+      "defense": 172
+    },
+    "family": "FAMILY_PIKACHU",
+    "parentPokemonId": "PIKACHU",
+    "kmBuddyDistance": 1,
+    "captureRate": 0.1,
+    "fleeRate": 0.06,
+    "height": 0.7,
+    "weight": 21
+  },
+  {
+    "id": "RAICHU_NORMAL",
+    "name": "RAICHU",
+    "type1": "ELECTRIC",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "VOLT_SWITCH_FAST",
+        "SPARK_FAST"
+      ],
+      "charge": [
+        "BRICK_BREAK",
+        "THUNDER_PUNCH",
+        "WILD_CHARGE"
+      ]
+    },
+    "stats": {
+      "stamina": 120,
+      "attack": 193,
+      "defense": 165
+    },
+    "family": "FAMILY_PIKACHU",
+    "parentPokemonId": "PIKACHU",
+    "kmBuddyDistance": 1,
+    "captureRate": 0.1,
+    "fleeRate": 0.06,
+    "height": 0.8,
+    "weight": 30
+  },
+  {
+    "id": "SANDSHREW",
     "name": "SANDSHREW",
     "type1": "GROUND",
     "type2": null,
@@ -858,7 +1045,8 @@
     "evolutionBranch": [
       {
         "evolution": "SANDSLASH",
-        "candyCost": 50
+        "candyCost": 50,
+        "form": "SANDSLASH_NORMAL"
       }
     ],
     "captureRate": 0.5,
@@ -867,7 +1055,77 @@
     "weight": 12
   },
   {
-    "id": 28,
+    "id": "SANDSHREW_ALOLA",
+    "name": "SANDSHREW",
+    "type1": "ICE",
+    "type2": "STEEL",
+    "moves": {
+      "quick": [
+        "METAL_CLAW_FAST",
+        "POWDER_SNOW_FAST"
+      ],
+      "charge": [
+        "BLIZZARD",
+        "GYRO_BALL",
+        "NIGHT_SLASH"
+      ]
+    },
+    "stats": {
+      "stamina": 100,
+      "attack": 125,
+      "defense": 154
+    },
+    "family": "FAMILY_SANDSHREW",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "SANDSLASH",
+        "candyCost": 50,
+        "form": "SANDSLASH_ALOLA"
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.1,
+    "height": 0.7,
+    "weight": 40
+  },
+  {
+    "id": "SANDSHREW_NORMAL",
+    "name": "SANDSHREW",
+    "type1": "GROUND",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "SCRATCH_FAST",
+        "MUD_SHOT_FAST"
+      ],
+      "charge": [
+        "DIG",
+        "ROCK_SLIDE",
+        "SAND_TOMB"
+      ]
+    },
+    "stats": {
+      "stamina": 100,
+      "attack": 126,
+      "defense": 145
+    },
+    "family": "FAMILY_SANDSHREW",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "SANDSLASH",
+        "candyCost": 50,
+        "form": "SANDSLASH_NORMAL"
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.1,
+    "height": 0.6,
+    "weight": 12
+  },
+  {
+    "id": "SANDSLASH",
     "name": "SANDSLASH",
     "type1": "GROUND",
     "type2": null,
@@ -896,7 +1154,65 @@
     "weight": 29.5
   },
   {
-    "id": 29,
+    "id": "SANDSLASH_ALOLA",
+    "name": "SANDSLASH",
+    "type1": "ICE",
+    "type2": "STEEL",
+    "moves": {
+      "quick": [
+        "METAL_CLAW_FAST",
+        "POWDER_SNOW_FAST"
+      ],
+      "charge": [
+        "BLIZZARD",
+        "GYRO_BALL",
+        "BULLDOZE"
+      ]
+    },
+    "stats": {
+      "stamina": 150,
+      "attack": 177,
+      "defense": 221
+    },
+    "family": "FAMILY_SANDSHREW",
+    "parentPokemonId": "SANDSHREW",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.2,
+    "fleeRate": 0.06,
+    "height": 1.2,
+    "weight": 55
+  },
+  {
+    "id": "SANDSLASH_NORMAL",
+    "name": "SANDSLASH",
+    "type1": "GROUND",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "METAL_CLAW_FAST",
+        "MUD_SHOT_FAST"
+      ],
+      "charge": [
+        "EARTHQUAKE",
+        "ROCK_TOMB",
+        "BULLDOZE"
+      ]
+    },
+    "stats": {
+      "stamina": 150,
+      "attack": 182,
+      "defense": 202
+    },
+    "family": "FAMILY_SANDSHREW",
+    "parentPokemonId": "SANDSHREW",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.2,
+    "fleeRate": 0.06,
+    "height": 1,
+    "weight": 29.5
+  },
+  {
+    "id": "NIDORAN_FEMALE",
     "name": "NIDORAN_FEMALE",
     "type1": "POISON",
     "type2": null,
@@ -930,7 +1246,7 @@
     "weight": 7
   },
   {
-    "id": 30,
+    "id": "NIDORINA",
     "name": "NIDORINA",
     "type1": "POISON",
     "type2": null,
@@ -965,7 +1281,7 @@
     "weight": 20
   },
   {
-    "id": 31,
+    "id": "NIDOQUEEN",
     "name": "NIDOQUEEN",
     "type1": "POISON",
     "type2": "GROUND",
@@ -994,7 +1310,7 @@
     "weight": 60
   },
   {
-    "id": 32,
+    "id": "NIDORAN_MALE",
     "name": "NIDORAN_MALE",
     "type1": "POISON",
     "type2": null,
@@ -1028,7 +1344,7 @@
     "weight": 9
   },
   {
-    "id": 33,
+    "id": "NIDORINO",
     "name": "NIDORINO",
     "type1": "POISON",
     "type2": null,
@@ -1063,7 +1379,7 @@
     "weight": 19.5
   },
   {
-    "id": 34,
+    "id": "NIDOKING",
     "name": "NIDOKING",
     "type1": "POISON",
     "type2": "GROUND",
@@ -1092,7 +1408,7 @@
     "weight": 62
   },
   {
-    "id": 35,
+    "id": "CLEFAIRY",
     "name": "CLEFAIRY",
     "type1": "FAIRY",
     "type2": null,
@@ -1127,7 +1443,7 @@
     "weight": 7.5
   },
   {
-    "id": 36,
+    "id": "CLEFABLE",
     "name": "CLEFABLE",
     "type1": "FAIRY",
     "type2": null,
@@ -1156,7 +1472,7 @@
     "weight": 40
   },
   {
-    "id": 37,
+    "id": "VULPIX",
     "name": "VULPIX",
     "type1": "FIRE",
     "type2": null,
@@ -1181,7 +1497,8 @@
     "evolutionBranch": [
       {
         "evolution": "NINETALES",
-        "candyCost": 50
+        "candyCost": 50,
+        "form": "NINETALES_NORMAL"
       }
     ],
     "captureRate": 0.3,
@@ -1190,7 +1507,77 @@
     "weight": 9.9
   },
   {
-    "id": 38,
+    "id": "VULPIX_ALOLA",
+    "name": "VULPIX",
+    "type1": "ICE",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "ZEN_HEADBUTT_FAST",
+        "POWDER_SNOW_FAST"
+      ],
+      "charge": [
+        "DARK_PULSE",
+        "ICE_BEAM",
+        "BLIZZARD"
+      ]
+    },
+    "stats": {
+      "stamina": 76,
+      "attack": 96,
+      "defense": 122
+    },
+    "family": "FAMILY_VULPIX",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "NINETALES",
+        "candyCost": 50,
+        "form": "NINETALES_ALOLA"
+      }
+    ],
+    "captureRate": 0.3,
+    "fleeRate": 0.1,
+    "height": 0.6,
+    "weight": 9.9
+  },
+  {
+    "id": "VULPIX_NORMAL",
+    "name": "VULPIX",
+    "type1": "FIRE",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "QUICK_ATTACK_FAST",
+        "EMBER_FAST"
+      ],
+      "charge": [
+        "BODY_SLAM",
+        "FLAMETHROWER",
+        "FLAME_CHARGE"
+      ]
+    },
+    "stats": {
+      "stamina": 76,
+      "attack": 96,
+      "defense": 122
+    },
+    "family": "FAMILY_VULPIX",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "NINETALES",
+        "candyCost": 50,
+        "form": "NINETALES_NORMAL"
+      }
+    ],
+    "captureRate": 0.3,
+    "fleeRate": 0.1,
+    "height": 0.6,
+    "weight": 9.9
+  },
+  {
+    "id": "NINETALES",
     "name": "NINETALES",
     "type1": "FIRE",
     "type2": null,
@@ -1219,7 +1606,65 @@
     "weight": 19.9
   },
   {
-    "id": 39,
+    "id": "NINETALES_ALOLA",
+    "name": "NINETALES",
+    "type1": "ICE",
+    "type2": "FAIRY",
+    "moves": {
+      "quick": [
+        "FEINT_ATTACK_FAST",
+        "POWDER_SNOW_FAST"
+      ],
+      "charge": [
+        "DAZZLING_GLEAM",
+        "ICE_BEAM",
+        "BLIZZARD"
+      ]
+    },
+    "stats": {
+      "stamina": 146,
+      "attack": 170,
+      "defense": 207
+    },
+    "family": "FAMILY_VULPIX",
+    "parentPokemonId": "VULPIX",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.1,
+    "fleeRate": 0.06,
+    "height": 1.1,
+    "weight": 19.9
+  },
+  {
+    "id": "NINETALES_NORMAL",
+    "name": "NINETALES",
+    "type1": "FIRE",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "FEINT_ATTACK_FAST",
+        "FIRE_SPIN_FAST"
+      ],
+      "charge": [
+        "HEAT_WAVE",
+        "OVERHEAT",
+        "SOLAR_BEAM"
+      ]
+    },
+    "stats": {
+      "stamina": 146,
+      "attack": 169,
+      "defense": 204
+    },
+    "family": "FAMILY_VULPIX",
+    "parentPokemonId": "VULPIX",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.1,
+    "fleeRate": 0.06,
+    "height": 1.1,
+    "weight": 19.9
+  },
+  {
+    "id": "JIGGLYPUFF",
     "name": "JIGGLYPUFF",
     "type1": "NORMAL",
     "type2": "FAIRY",
@@ -1254,7 +1699,7 @@
     "weight": 5.5
   },
   {
-    "id": 40,
+    "id": "WIGGLYTUFF",
     "name": "WIGGLYTUFF",
     "type1": "NORMAL",
     "type2": "FAIRY",
@@ -1283,7 +1728,7 @@
     "weight": 12
   },
   {
-    "id": 41,
+    "id": "ZUBAT",
     "name": "ZUBAT",
     "type1": "POISON",
     "type2": "FLYING",
@@ -1317,7 +1762,7 @@
     "weight": 7.5
   },
   {
-    "id": 42,
+    "id": "GOLBAT",
     "name": "GOLBAT",
     "type1": "POISON",
     "type2": "FLYING",
@@ -1352,7 +1797,7 @@
     "weight": 55
   },
   {
-    "id": 43,
+    "id": "ODDISH",
     "name": "ODDISH",
     "type1": "GRASS",
     "type2": "POISON",
@@ -1386,7 +1831,7 @@
     "weight": 5.4
   },
   {
-    "id": 44,
+    "id": "GLOOM",
     "name": "GLOOM",
     "type1": "GRASS",
     "type2": "POISON",
@@ -1426,7 +1871,7 @@
     "weight": 8.6
   },
   {
-    "id": 45,
+    "id": "VILEPLUME",
     "name": "VILEPLUME",
     "type1": "GRASS",
     "type2": "POISON",
@@ -1455,7 +1900,7 @@
     "weight": 18.6
   },
   {
-    "id": 46,
+    "id": "PARAS",
     "name": "PARAS",
     "type1": "BUG",
     "type2": "GRASS",
@@ -1489,7 +1934,7 @@
     "weight": 5.4
   },
   {
-    "id": 47,
+    "id": "PARASECT",
     "name": "PARASECT",
     "type1": "BUG",
     "type2": "GRASS",
@@ -1518,7 +1963,7 @@
     "weight": 29.5
   },
   {
-    "id": 48,
+    "id": "VENONAT",
     "name": "VENONAT",
     "type1": "BUG",
     "type2": "POISON",
@@ -1552,7 +1997,7 @@
     "weight": 30
   },
   {
-    "id": 49,
+    "id": "VENOMOTH",
     "name": "VENOMOTH",
     "type1": "BUG",
     "type2": "POISON",
@@ -1581,7 +2026,7 @@
     "weight": 12.5
   },
   {
-    "id": 50,
+    "id": "DIGLETT",
     "name": "DIGLETT",
     "type1": "GROUND",
     "type2": null,
@@ -1606,7 +2051,8 @@
     "evolutionBranch": [
       {
         "evolution": "DUGTRIO",
-        "candyCost": 50
+        "candyCost": 50,
+        "form": "DUGTRIO_NORMAL"
       }
     ],
     "captureRate": 0.5,
@@ -1615,7 +2061,77 @@
     "weight": 0.8
   },
   {
-    "id": 51,
+    "id": "DIGLETT_ALOLA",
+    "name": "DIGLETT",
+    "type1": "GROUND",
+    "type2": "STEEL",
+    "moves": {
+      "quick": [
+        "MUD_SLAP_FAST",
+        "METAL_CLAW_FAST"
+      ],
+      "charge": [
+        "DIG",
+        "MUD_BOMB",
+        "ROCK_TOMB"
+      ]
+    },
+    "stats": {
+      "stamina": 20,
+      "attack": 109,
+      "defense": 89
+    },
+    "family": "FAMILY_DIGLETT",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "DUGTRIO",
+        "candyCost": 50,
+        "form": "DUGTRIO_ALOLA"
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.1,
+    "height": 0.2,
+    "weight": 1
+  },
+  {
+    "id": "DIGLETT_NORMAL",
+    "name": "DIGLETT",
+    "type1": "GROUND",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "MUD_SLAP_FAST",
+        "SCRATCH_FAST"
+      ],
+      "charge": [
+        "DIG",
+        "MUD_BOMB",
+        "ROCK_TOMB"
+      ]
+    },
+    "stats": {
+      "stamina": 20,
+      "attack": 109,
+      "defense": 88
+    },
+    "family": "FAMILY_DIGLETT",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "DUGTRIO",
+        "candyCost": 50,
+        "form": "DUGTRIO_NORMAL"
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.1,
+    "height": 0.2,
+    "weight": 0.8
+  },
+  {
+    "id": "DUGTRIO",
     "name": "DUGTRIO",
     "type1": "GROUND",
     "type2": null,
@@ -1644,7 +2160,65 @@
     "weight": 33.3
   },
   {
-    "id": 52,
+    "id": "DUGTRIO_ALOLA",
+    "name": "DUGTRIO",
+    "type1": "GROUND",
+    "type2": "STEEL",
+    "moves": {
+      "quick": [
+        "METAL_CLAW_FAST",
+        "MUD_SLAP_FAST"
+      ],
+      "charge": [
+        "EARTHQUAKE",
+        "MUD_BOMB",
+        "IRON_HEAD"
+      ]
+    },
+    "stats": {
+      "stamina": 70,
+      "attack": 201,
+      "defense": 148
+    },
+    "family": "FAMILY_DIGLETT",
+    "parentPokemonId": "DIGLETT",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.2,
+    "fleeRate": 0.06,
+    "height": 0.7,
+    "weight": 66.6
+  },
+  {
+    "id": "DUGTRIO_NORMAL",
+    "name": "DUGTRIO",
+    "type1": "GROUND",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "SUCKER_PUNCH_FAST",
+        "MUD_SLAP_FAST"
+      ],
+      "charge": [
+        "EARTHQUAKE",
+        "MUD_BOMB",
+        "STONE_EDGE"
+      ]
+    },
+    "stats": {
+      "stamina": 70,
+      "attack": 167,
+      "defense": 147
+    },
+    "family": "FAMILY_DIGLETT",
+    "parentPokemonId": "DIGLETT",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.2,
+    "fleeRate": 0.06,
+    "height": 0.7,
+    "weight": 33.3
+  },
+  {
+    "id": "MEOWTH",
     "name": "MEOWTH",
     "type1": "NORMAL",
     "type2": null,
@@ -1669,7 +2243,8 @@
     "evolutionBranch": [
       {
         "evolution": "PERSIAN",
-        "candyCost": 50
+        "candyCost": 50,
+        "form": "PERSIAN_NORMAL"
       }
     ],
     "captureRate": 0.5,
@@ -1678,7 +2253,77 @@
     "weight": 4.2
   },
   {
-    "id": 53,
+    "id": "MEOWTH_ALOLA",
+    "name": "MEOWTH",
+    "type1": "DARK",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "SCRATCH_FAST",
+        "BITE_FAST"
+      ],
+      "charge": [
+        "NIGHT_SLASH",
+        "DARK_PULSE",
+        "FOUL_PLAY"
+      ]
+    },
+    "stats": {
+      "stamina": 80,
+      "attack": 99,
+      "defense": 81
+    },
+    "family": "FAMILY_MEOWTH",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "PERSIAN",
+        "candyCost": 50,
+        "form": "PERSIAN_ALOLA"
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.15,
+    "height": 0.4,
+    "weight": 4.2
+  },
+  {
+    "id": "MEOWTH_NORMAL",
+    "name": "MEOWTH",
+    "type1": "NORMAL",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "SCRATCH_FAST",
+        "BITE_FAST"
+      ],
+      "charge": [
+        "NIGHT_SLASH",
+        "DARK_PULSE",
+        "FOUL_PLAY"
+      ]
+    },
+    "stats": {
+      "stamina": 80,
+      "attack": 92,
+      "defense": 81
+    },
+    "family": "FAMILY_MEOWTH",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "PERSIAN",
+        "candyCost": 50,
+        "form": "PERSIAN_NORMAL"
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.15,
+    "height": 0.4,
+    "weight": 4.2
+  },
+  {
+    "id": "PERSIAN",
     "name": "PERSIAN",
     "type1": "NORMAL",
     "type2": null,
@@ -1707,7 +2352,65 @@
     "weight": 32
   },
   {
-    "id": 54,
+    "id": "PERSIAN_ALOLA",
+    "name": "PERSIAN",
+    "type1": "DARK",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "SCRATCH_FAST",
+        "FEINT_ATTACK_FAST"
+      ],
+      "charge": [
+        "FOUL_PLAY",
+        "DARK_PULSE",
+        "PLAY_ROUGH"
+      ]
+    },
+    "stats": {
+      "stamina": 130,
+      "attack": 158,
+      "defense": 139
+    },
+    "family": "FAMILY_MEOWTH",
+    "parentPokemonId": "MEOWTH",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.2,
+    "fleeRate": 0.07,
+    "height": 1.1,
+    "weight": 33
+  },
+  {
+    "id": "PERSIAN_NORMAL",
+    "name": "PERSIAN",
+    "type1": "NORMAL",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "SCRATCH_FAST",
+        "FEINT_ATTACK_FAST"
+      ],
+      "charge": [
+        "FOUL_PLAY",
+        "POWER_GEM",
+        "PLAY_ROUGH"
+      ]
+    },
+    "stats": {
+      "stamina": 130,
+      "attack": 150,
+      "defense": 139
+    },
+    "family": "FAMILY_MEOWTH",
+    "parentPokemonId": "MEOWTH",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.2,
+    "fleeRate": 0.07,
+    "height": 1,
+    "weight": 32
+  },
+  {
+    "id": "PSYDUCK",
     "name": "PSYDUCK",
     "type1": "WATER",
     "type2": null,
@@ -1741,7 +2444,7 @@
     "weight": 19.6
   },
   {
-    "id": 55,
+    "id": "GOLDUCK",
     "name": "GOLDUCK",
     "type1": "WATER",
     "type2": null,
@@ -1770,7 +2473,7 @@
     "weight": 76.6
   },
   {
-    "id": 56,
+    "id": "MANKEY",
     "name": "MANKEY",
     "type1": "FIGHTING",
     "type2": null,
@@ -1804,7 +2507,7 @@
     "weight": 28
   },
   {
-    "id": 57,
+    "id": "PRIMEAPE",
     "name": "PRIMEAPE",
     "type1": "FIGHTING",
     "type2": null,
@@ -1833,7 +2536,7 @@
     "weight": 32
   },
   {
-    "id": 58,
+    "id": "GROWLITHE",
     "name": "GROWLITHE",
     "type1": "FIRE",
     "type2": null,
@@ -1867,7 +2570,7 @@
     "weight": 19
   },
   {
-    "id": 59,
+    "id": "ARCANINE",
     "name": "ARCANINE",
     "type1": "FIRE",
     "type2": null,
@@ -1896,7 +2599,7 @@
     "weight": 155
   },
   {
-    "id": 60,
+    "id": "POLIWAG",
     "name": "POLIWAG",
     "type1": "WATER",
     "type2": null,
@@ -1930,7 +2633,7 @@
     "weight": 12.4
   },
   {
-    "id": 61,
+    "id": "POLIWHIRL",
     "name": "POLIWHIRL",
     "type1": "WATER",
     "type2": null,
@@ -1970,7 +2673,7 @@
     "weight": 20
   },
   {
-    "id": 62,
+    "id": "POLIWRATH",
     "name": "POLIWRATH",
     "type1": "WATER",
     "type2": "FIGHTING",
@@ -1999,7 +2702,7 @@
     "weight": 54
   },
   {
-    "id": 63,
+    "id": "ABRA",
     "name": "ABRA",
     "type1": "PSYCHIC",
     "type2": null,
@@ -2033,7 +2736,7 @@
     "weight": 19.5
   },
   {
-    "id": 64,
+    "id": "KADABRA",
     "name": "KADABRA",
     "type1": "PSYCHIC",
     "type2": null,
@@ -2068,7 +2771,7 @@
     "weight": 56.5
   },
   {
-    "id": 65,
+    "id": "ALAKAZAM",
     "name": "ALAKAZAM",
     "type1": "PSYCHIC",
     "type2": null,
@@ -2097,7 +2800,7 @@
     "weight": 48
   },
   {
-    "id": 66,
+    "id": "MACHOP",
     "name": "MACHOP",
     "type1": "FIGHTING",
     "type2": null,
@@ -2131,7 +2834,7 @@
     "weight": 19.5
   },
   {
-    "id": 67,
+    "id": "MACHOKE",
     "name": "MACHOKE",
     "type1": "FIGHTING",
     "type2": null,
@@ -2166,7 +2869,7 @@
     "weight": 70.5
   },
   {
-    "id": 68,
+    "id": "MACHAMP",
     "name": "MACHAMP",
     "type1": "FIGHTING",
     "type2": null,
@@ -2195,7 +2898,7 @@
     "weight": 130
   },
   {
-    "id": 69,
+    "id": "BELLSPROUT",
     "name": "BELLSPROUT",
     "type1": "GRASS",
     "type2": "POISON",
@@ -2229,7 +2932,7 @@
     "weight": 4
   },
   {
-    "id": 70,
+    "id": "WEEPINBELL",
     "name": "WEEPINBELL",
     "type1": "GRASS",
     "type2": "POISON",
@@ -2264,7 +2967,7 @@
     "weight": 6.4
   },
   {
-    "id": 71,
+    "id": "VICTREEBEL",
     "name": "VICTREEBEL",
     "type1": "GRASS",
     "type2": "POISON",
@@ -2293,7 +2996,7 @@
     "weight": 15.5
   },
   {
-    "id": 72,
+    "id": "TENTACOOL",
     "name": "TENTACOOL",
     "type1": "WATER",
     "type2": "POISON",
@@ -2327,7 +3030,7 @@
     "weight": 45.5
   },
   {
-    "id": 73,
+    "id": "TENTACRUEL",
     "name": "TENTACRUEL",
     "type1": "WATER",
     "type2": "POISON",
@@ -2356,7 +3059,7 @@
     "weight": 55
   },
   {
-    "id": 74,
+    "id": "GEODUDE",
     "name": "GEODUDE",
     "type1": "ROCK",
     "type2": "GROUND",
@@ -2381,7 +3084,8 @@
     "evolutionBranch": [
       {
         "evolution": "GRAVELER",
-        "candyCost": 25
+        "candyCost": 25,
+        "form": "GRAVELER_NORMAL"
       }
     ],
     "captureRate": 0.5,
@@ -2390,7 +3094,77 @@
     "weight": 20
   },
   {
-    "id": 75,
+    "id": "GEODUDE_ALOLA",
+    "name": "GEODUDE",
+    "type1": "ROCK",
+    "type2": "ELECTRIC",
+    "moves": {
+      "quick": [
+        "ROCK_THROW_FAST",
+        "VOLT_SWITCH_FAST"
+      ],
+      "charge": [
+        "ROCK_SLIDE",
+        "ROCK_TOMB",
+        "THUNDERBOLT"
+      ]
+    },
+    "stats": {
+      "stamina": 80,
+      "attack": 132,
+      "defense": 163
+    },
+    "family": "FAMILY_GEODUDE",
+    "kmBuddyDistance": 1,
+    "evolutionBranch": [
+      {
+        "evolution": "GRAVELER",
+        "candyCost": 25,
+        "form": "GRAVELER_ALOLA"
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.1,
+    "height": 0.4,
+    "weight": 20.3
+  },
+  {
+    "id": "GEODUDE_NORMAL",
+    "name": "GEODUDE",
+    "type1": "ROCK",
+    "type2": "GROUND",
+    "moves": {
+      "quick": [
+        "ROCK_THROW_FAST",
+        "TACKLE_FAST"
+      ],
+      "charge": [
+        "ROCK_SLIDE",
+        "ROCK_TOMB",
+        "DIG"
+      ]
+    },
+    "stats": {
+      "stamina": 80,
+      "attack": 132,
+      "defense": 163
+    },
+    "family": "FAMILY_GEODUDE",
+    "kmBuddyDistance": 1,
+    "evolutionBranch": [
+      {
+        "evolution": "GRAVELER",
+        "candyCost": 25,
+        "form": "GRAVELER_NORMAL"
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.1,
+    "height": 0.4,
+    "weight": 20
+  },
+  {
+    "id": "GRAVELER",
     "name": "GRAVELER",
     "type1": "ROCK",
     "type2": "GROUND",
@@ -2416,7 +3190,8 @@
     "evolutionBranch": [
       {
         "evolution": "GOLEM",
-        "candyCost": 100
+        "candyCost": 100,
+        "form": "GOLEM_NORMAL"
       }
     ],
     "captureRate": 0.25,
@@ -2425,7 +3200,79 @@
     "weight": 105
   },
   {
-    "id": 76,
+    "id": "GRAVELER_ALOLA",
+    "name": "GRAVELER",
+    "type1": "ROCK",
+    "type2": "ELECTRIC",
+    "moves": {
+      "quick": [
+        "ROCK_THROW_FAST",
+        "VOLT_SWITCH_FAST"
+      ],
+      "charge": [
+        "THUNDERBOLT",
+        "STONE_EDGE",
+        "ROCK_BLAST"
+      ]
+    },
+    "stats": {
+      "stamina": 110,
+      "attack": 164,
+      "defense": 196
+    },
+    "family": "FAMILY_GEODUDE",
+    "parentPokemonId": "GEODUDE",
+    "kmBuddyDistance": 1,
+    "evolutionBranch": [
+      {
+        "evolution": "GOLEM",
+        "candyCost": 100,
+        "form": "GOLEM_ALOLA"
+      }
+    ],
+    "captureRate": 0.25,
+    "fleeRate": 0.07,
+    "height": 1,
+    "weight": 110
+  },
+  {
+    "id": "GRAVELER_NORMAL",
+    "name": "GRAVELER",
+    "type1": "ROCK",
+    "type2": "GROUND",
+    "moves": {
+      "quick": [
+        "ROCK_THROW_FAST",
+        "MUD_SLAP_FAST"
+      ],
+      "charge": [
+        "DIG",
+        "STONE_EDGE",
+        "ROCK_BLAST"
+      ]
+    },
+    "stats": {
+      "stamina": 110,
+      "attack": 164,
+      "defense": 196
+    },
+    "family": "FAMILY_GEODUDE",
+    "parentPokemonId": "GEODUDE",
+    "kmBuddyDistance": 1,
+    "evolutionBranch": [
+      {
+        "evolution": "GOLEM",
+        "candyCost": 100,
+        "form": "GOLEM_NORMAL"
+      }
+    ],
+    "captureRate": 0.25,
+    "fleeRate": 0.07,
+    "height": 1,
+    "weight": 105
+  },
+  {
+    "id": "GOLEM",
     "name": "GOLEM",
     "type1": "ROCK",
     "type2": "GROUND",
@@ -2454,7 +3301,65 @@
     "weight": 300
   },
   {
-    "id": 77,
+    "id": "GOLEM_ALOLA",
+    "name": "GOLEM",
+    "type1": "ROCK",
+    "type2": "ELECTRIC",
+    "moves": {
+      "quick": [
+        "ROCK_THROW_FAST",
+        "VOLT_SWITCH_FAST"
+      ],
+      "charge": [
+        "STONE_EDGE",
+        "ROCK_BLAST",
+        "WILD_CHARGE"
+      ]
+    },
+    "stats": {
+      "stamina": 160,
+      "attack": 211,
+      "defense": 229
+    },
+    "family": "FAMILY_GEODUDE",
+    "parentPokemonId": "GRAVELER",
+    "kmBuddyDistance": 1,
+    "captureRate": 0.125,
+    "fleeRate": 0.05,
+    "height": 1.7,
+    "weight": 316
+  },
+  {
+    "id": "GOLEM_NORMAL",
+    "name": "GOLEM",
+    "type1": "ROCK",
+    "type2": "GROUND",
+    "moves": {
+      "quick": [
+        "ROCK_THROW_FAST",
+        "MUD_SLAP_FAST"
+      ],
+      "charge": [
+        "STONE_EDGE",
+        "ROCK_BLAST",
+        "EARTHQUAKE"
+      ]
+    },
+    "stats": {
+      "stamina": 160,
+      "attack": 211,
+      "defense": 229
+    },
+    "family": "FAMILY_GEODUDE",
+    "parentPokemonId": "GRAVELER",
+    "kmBuddyDistance": 1,
+    "captureRate": 0.125,
+    "fleeRate": 0.05,
+    "height": 1.4,
+    "weight": 300
+  },
+  {
+    "id": "PONYTA",
     "name": "PONYTA",
     "type1": "FIRE",
     "type2": null,
@@ -2488,7 +3393,7 @@
     "weight": 30
   },
   {
-    "id": 78,
+    "id": "RAPIDASH",
     "name": "RAPIDASH",
     "type1": "FIRE",
     "type2": null,
@@ -2517,7 +3422,7 @@
     "weight": 95
   },
   {
-    "id": 79,
+    "id": "SLOWPOKE",
     "name": "SLOWPOKE",
     "type1": "WATER",
     "type2": "PSYCHIC",
@@ -2556,7 +3461,7 @@
     "weight": 36
   },
   {
-    "id": 80,
+    "id": "SLOWBRO",
     "name": "SLOWBRO",
     "type1": "WATER",
     "type2": "PSYCHIC",
@@ -2585,7 +3490,7 @@
     "weight": 78.5
   },
   {
-    "id": 81,
+    "id": "MAGNEMITE",
     "name": "MAGNEMITE",
     "type1": "ELECTRIC",
     "type2": "STEEL",
@@ -2619,7 +3524,7 @@
     "weight": 6
   },
   {
-    "id": 82,
+    "id": "MAGNETON",
     "name": "MAGNETON",
     "type1": "ELECTRIC",
     "type2": "STEEL",
@@ -2648,7 +3553,7 @@
     "weight": 60
   },
   {
-    "id": 83,
+    "id": "FARFETCHD",
     "name": "FARFETCHD",
     "type1": "NORMAL",
     "type2": "FLYING",
@@ -2676,7 +3581,7 @@
     "weight": 15
   },
   {
-    "id": 84,
+    "id": "DODUO",
     "name": "DODUO",
     "type1": "NORMAL",
     "type2": "FLYING",
@@ -2710,7 +3615,7 @@
     "weight": 39.2
   },
   {
-    "id": 85,
+    "id": "DODRIO",
     "name": "DODRIO",
     "type1": "NORMAL",
     "type2": "FLYING",
@@ -2739,7 +3644,7 @@
     "weight": 85.2
   },
   {
-    "id": 86,
+    "id": "SEEL",
     "name": "SEEL",
     "type1": "WATER",
     "type2": null,
@@ -2773,7 +3678,7 @@
     "weight": 90
   },
   {
-    "id": 87,
+    "id": "DEWGONG",
     "name": "DEWGONG",
     "type1": "WATER",
     "type2": "ICE",
@@ -2802,7 +3707,7 @@
     "weight": 120
   },
   {
-    "id": 88,
+    "id": "GRIMER",
     "name": "GRIMER",
     "type1": "POISON",
     "type2": null,
@@ -2827,7 +3732,8 @@
     "evolutionBranch": [
       {
         "evolution": "MUK",
-        "candyCost": 50
+        "candyCost": 50,
+        "form": "MUK_NORMAL"
       }
     ],
     "captureRate": 0.5,
@@ -2836,7 +3742,77 @@
     "weight": 30
   },
   {
-    "id": 89,
+    "id": "GRIMER_ALOLA",
+    "name": "GRIMER",
+    "type1": "POISON",
+    "type2": "DARK",
+    "moves": {
+      "quick": [
+        "POISON_JAB_FAST",
+        "BITE_FAST"
+      ],
+      "charge": [
+        "CRUNCH",
+        "GUNK_SHOT",
+        "SLUDGE_BOMB"
+      ]
+    },
+    "stats": {
+      "stamina": 160,
+      "attack": 135,
+      "defense": 90
+    },
+    "family": "FAMILY_GRIMER",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "MUK",
+        "candyCost": 50,
+        "form": "MUK_ALOLA"
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.1,
+    "height": 0.7,
+    "weight": 42
+  },
+  {
+    "id": "GRIMER_NORMAL",
+    "name": "GRIMER",
+    "type1": "POISON",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "POISON_JAB_FAST",
+        "MUD_SLAP_FAST"
+      ],
+      "charge": [
+        "SLUDGE",
+        "MUD_BOMB",
+        "SLUDGE_BOMB"
+      ]
+    },
+    "stats": {
+      "stamina": 160,
+      "attack": 135,
+      "defense": 90
+    },
+    "family": "FAMILY_GRIMER",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "MUK",
+        "candyCost": 50,
+        "form": "MUK_NORMAL"
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.1,
+    "height": 0.9,
+    "weight": 30
+  },
+  {
+    "id": "MUK",
     "name": "MUK",
     "type1": "POISON",
     "type2": null,
@@ -2865,7 +3841,65 @@
     "weight": 30
   },
   {
-    "id": 90,
+    "id": "MUK_ALOLA",
+    "name": "MUK",
+    "type1": "POISON",
+    "type2": "DARK",
+    "moves": {
+      "quick": [
+        "BITE_FAST",
+        "POISON_JAB_FAST"
+      ],
+      "charge": [
+        "DARK_PULSE",
+        "GUNK_SHOT",
+        "SLUDGE_WAVE"
+      ]
+    },
+    "stats": {
+      "stamina": 210,
+      "attack": 190,
+      "defense": 184
+    },
+    "family": "FAMILY_GRIMER",
+    "parentPokemonId": "GRIMER",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.2,
+    "fleeRate": 0.06,
+    "height": 1,
+    "weight": 52
+  },
+  {
+    "id": "MUK_NORMAL",
+    "name": "MUK",
+    "type1": "POISON",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "INFESTATION_FAST",
+        "POISON_JAB_FAST"
+      ],
+      "charge": [
+        "DARK_PULSE",
+        "GUNK_SHOT",
+        "SLUDGE_WAVE"
+      ]
+    },
+    "stats": {
+      "stamina": 210,
+      "attack": 190,
+      "defense": 184
+    },
+    "family": "FAMILY_GRIMER",
+    "parentPokemonId": "GRIMER",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.2,
+    "fleeRate": 0.06,
+    "height": 1.2,
+    "weight": 30
+  },
+  {
+    "id": "SHELLDER",
     "name": "SHELLDER",
     "type1": "WATER",
     "type2": null,
@@ -2899,7 +3933,7 @@
     "weight": 4
   },
   {
-    "id": 91,
+    "id": "CLOYSTER",
     "name": "CLOYSTER",
     "type1": "WATER",
     "type2": "ICE",
@@ -2928,7 +3962,7 @@
     "weight": 132.5
   },
   {
-    "id": 92,
+    "id": "GASTLY",
     "name": "GASTLY",
     "type1": "GHOST",
     "type2": "POISON",
@@ -2962,7 +3996,7 @@
     "weight": 0.1
   },
   {
-    "id": 93,
+    "id": "HAUNTER",
     "name": "HAUNTER",
     "type1": "GHOST",
     "type2": "POISON",
@@ -2997,7 +4031,7 @@
     "weight": 0.1
   },
   {
-    "id": 94,
+    "id": "GENGAR",
     "name": "GENGAR",
     "type1": "GHOST",
     "type2": "POISON",
@@ -3026,7 +4060,7 @@
     "weight": 40.5
   },
   {
-    "id": 95,
+    "id": "ONIX",
     "name": "ONIX",
     "type1": "ROCK",
     "type2": "GROUND",
@@ -3061,7 +4095,7 @@
     "weight": 210
   },
   {
-    "id": 96,
+    "id": "DROWZEE",
     "name": "DROWZEE",
     "type1": "PSYCHIC",
     "type2": null,
@@ -3095,7 +4129,7 @@
     "weight": 32.4
   },
   {
-    "id": 97,
+    "id": "HYPNO",
     "name": "HYPNO",
     "type1": "PSYCHIC",
     "type2": null,
@@ -3124,7 +4158,7 @@
     "weight": 75.6
   },
   {
-    "id": 98,
+    "id": "KRABBY",
     "name": "KRABBY",
     "type1": "WATER",
     "type2": null,
@@ -3158,7 +4192,7 @@
     "weight": 6.5
   },
   {
-    "id": 99,
+    "id": "KINGLER",
     "name": "KINGLER",
     "type1": "WATER",
     "type2": null,
@@ -3187,7 +4221,7 @@
     "weight": 60
   },
   {
-    "id": 100,
+    "id": "VOLTORB",
     "name": "VOLTORB",
     "type1": "ELECTRIC",
     "type2": null,
@@ -3221,7 +4255,7 @@
     "weight": 10.4
   },
   {
-    "id": 101,
+    "id": "ELECTRODE",
     "name": "ELECTRODE",
     "type1": "ELECTRIC",
     "type2": null,
@@ -3250,7 +4284,7 @@
     "weight": 66.6
   },
   {
-    "id": 102,
+    "id": "EXEGGCUTE",
     "name": "EXEGGCUTE",
     "type1": "GRASS",
     "type2": "PSYCHIC",
@@ -3284,7 +4318,7 @@
     "weight": 2.5
   },
   {
-    "id": 103,
+    "id": "EXEGGUTOR",
     "name": "EXEGGUTOR",
     "type1": "GRASS",
     "type2": "PSYCHIC",
@@ -3313,7 +4347,65 @@
     "weight": 120
   },
   {
-    "id": 104,
+    "id": "EXEGGUTOR_ALOLA",
+    "name": "EXEGGUTOR",
+    "type1": "GRASS",
+    "type2": "DRAGON",
+    "moves": {
+      "quick": [
+        "BULLET_SEED_FAST",
+        "DRAGON_TAIL_FAST"
+      ],
+      "charge": [
+        "SEED_BOMB",
+        "DRAGON_PULSE",
+        "SOLAR_BEAM"
+      ]
+    },
+    "stats": {
+      "stamina": 190,
+      "attack": 230,
+      "defense": 158
+    },
+    "family": "FAMILY_EXEGGCUTE",
+    "parentPokemonId": "EXEGGCUTE",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.2,
+    "fleeRate": 0.06,
+    "height": 10.9,
+    "weight": 415.6
+  },
+  {
+    "id": "EXEGGUTOR_NORMAL",
+    "name": "EXEGGUTOR",
+    "type1": "GRASS",
+    "type2": "PSYCHIC",
+    "moves": {
+      "quick": [
+        "BULLET_SEED_FAST",
+        "EXTRASENSORY_FAST"
+      ],
+      "charge": [
+        "SEED_BOMB",
+        "PSYCHIC",
+        "SOLAR_BEAM"
+      ]
+    },
+    "stats": {
+      "stamina": 190,
+      "attack": 233,
+      "defense": 158
+    },
+    "family": "FAMILY_EXEGGCUTE",
+    "parentPokemonId": "EXEGGCUTE",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.2,
+    "fleeRate": 0.06,
+    "height": 2,
+    "weight": 120
+  },
+  {
+    "id": "CUBONE",
     "name": "CUBONE",
     "type1": "GROUND",
     "type2": null,
@@ -3347,7 +4439,7 @@
     "weight": 6.5
   },
   {
-    "id": 105,
+    "id": "MAROWAK",
     "name": "MAROWAK",
     "type1": "GROUND",
     "type2": null,
@@ -3376,7 +4468,65 @@
     "weight": 45
   },
   {
-    "id": 106,
+    "id": "MAROWAK_ALOLA",
+    "name": "MAROWAK",
+    "type1": "FIRE",
+    "type2": "GHOST",
+    "moves": {
+      "quick": [
+        "HEX_FAST",
+        "ROCK_SMASH_FAST"
+      ],
+      "charge": [
+        "BONE_CLUB",
+        "SHADOW_BALL",
+        "FIRE_BLAST"
+      ]
+    },
+    "stats": {
+      "stamina": 120,
+      "attack": 144,
+      "defense": 200
+    },
+    "family": "FAMILY_CUBONE",
+    "parentPokemonId": "CUBONE",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.15,
+    "fleeRate": 0.06,
+    "height": 1,
+    "weight": 34
+  },
+  {
+    "id": "MAROWAK_NORMAL",
+    "name": "MAROWAK",
+    "type1": "GROUND",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "MUD_SLAP_FAST",
+        "ROCK_SMASH_FAST"
+      ],
+      "charge": [
+        "BONE_CLUB",
+        "DIG",
+        "EARTHQUAKE"
+      ]
+    },
+    "stats": {
+      "stamina": 120,
+      "attack": 144,
+      "defense": 200
+    },
+    "family": "FAMILY_CUBONE",
+    "parentPokemonId": "CUBONE",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.15,
+    "fleeRate": 0.06,
+    "height": 1,
+    "weight": 45
+  },
+  {
+    "id": "HITMONLEE",
     "name": "HITMONLEE",
     "type1": "FIGHTING",
     "type2": null,
@@ -3405,7 +4555,7 @@
     "weight": 49.8
   },
   {
-    "id": 107,
+    "id": "HITMONCHAN",
     "name": "HITMONCHAN",
     "type1": "FIGHTING",
     "type2": null,
@@ -3435,7 +4585,7 @@
     "weight": 50.2
   },
   {
-    "id": 108,
+    "id": "LICKITUNG",
     "name": "LICKITUNG",
     "type1": "NORMAL",
     "type2": null,
@@ -3463,7 +4613,7 @@
     "weight": 65.5
   },
   {
-    "id": 109,
+    "id": "KOFFING",
     "name": "KOFFING",
     "type1": "POISON",
     "type2": null,
@@ -3497,7 +4647,7 @@
     "weight": 1
   },
   {
-    "id": 110,
+    "id": "WEEZING",
     "name": "WEEZING",
     "type1": "POISON",
     "type2": null,
@@ -3526,7 +4676,7 @@
     "weight": 9.5
   },
   {
-    "id": 111,
+    "id": "RHYHORN",
     "name": "RHYHORN",
     "type1": "GROUND",
     "type2": "ROCK",
@@ -3560,7 +4710,7 @@
     "weight": 115
   },
   {
-    "id": 112,
+    "id": "RHYDON",
     "name": "RHYDON",
     "type1": "GROUND",
     "type2": "ROCK",
@@ -3589,7 +4739,7 @@
     "weight": 120
   },
   {
-    "id": 113,
+    "id": "CHANSEY",
     "name": "CHANSEY",
     "type1": "NORMAL",
     "type2": null,
@@ -3623,7 +4773,7 @@
     "weight": 34.6
   },
   {
-    "id": 114,
+    "id": "TANGELA",
     "name": "TANGELA",
     "type1": "GRASS",
     "type2": null,
@@ -3651,7 +4801,7 @@
     "weight": 35
   },
   {
-    "id": 115,
+    "id": "KANGASKHAN",
     "name": "KANGASKHAN",
     "type1": "NORMAL",
     "type2": null,
@@ -3679,7 +4829,7 @@
     "weight": 80
   },
   {
-    "id": 116,
+    "id": "HORSEA",
     "name": "HORSEA",
     "type1": "WATER",
     "type2": null,
@@ -3713,7 +4863,7 @@
     "weight": 8
   },
   {
-    "id": 117,
+    "id": "SEADRA",
     "name": "SEADRA",
     "type1": "WATER",
     "type2": null,
@@ -3749,7 +4899,7 @@
     "weight": 25
   },
   {
-    "id": 118,
+    "id": "GOLDEEN",
     "name": "GOLDEEN",
     "type1": "WATER",
     "type2": null,
@@ -3783,7 +4933,7 @@
     "weight": 15
   },
   {
-    "id": 119,
+    "id": "SEAKING",
     "name": "SEAKING",
     "type1": "WATER",
     "type2": null,
@@ -3812,7 +4962,7 @@
     "weight": 39
   },
   {
-    "id": 120,
+    "id": "STARYU",
     "name": "STARYU",
     "type1": "WATER",
     "type2": null,
@@ -3846,7 +4996,7 @@
     "weight": 34.5
   },
   {
-    "id": 121,
+    "id": "STARMIE",
     "name": "STARMIE",
     "type1": "WATER",
     "type2": "PSYCHIC",
@@ -3875,7 +5025,7 @@
     "weight": 80
   },
   {
-    "id": 122,
+    "id": "MR_MIME",
     "name": "MR_MIME",
     "type1": "PSYCHIC",
     "type2": "FAIRY",
@@ -3903,7 +5053,7 @@
     "weight": 54.5
   },
   {
-    "id": 123,
+    "id": "SCYTHER",
     "name": "SCYTHER",
     "type1": "BUG",
     "type2": "FLYING",
@@ -3938,7 +5088,7 @@
     "weight": 56
   },
   {
-    "id": 124,
+    "id": "JYNX",
     "name": "JYNX",
     "type1": "ICE",
     "type2": "PSYCHIC",
@@ -3967,7 +5117,7 @@
     "weight": 40.6
   },
   {
-    "id": 125,
+    "id": "ELECTABUZZ",
     "name": "ELECTABUZZ",
     "type1": "ELECTRIC",
     "type2": null,
@@ -3996,7 +5146,7 @@
     "weight": 30
   },
   {
-    "id": 126,
+    "id": "MAGMAR",
     "name": "MAGMAR",
     "type1": "FIRE",
     "type2": null,
@@ -4025,7 +5175,7 @@
     "weight": 44.5
   },
   {
-    "id": 127,
+    "id": "PINSIR",
     "name": "PINSIR",
     "type1": "BUG",
     "type2": null,
@@ -4053,7 +5203,7 @@
     "weight": 55
   },
   {
-    "id": 128,
+    "id": "TAUROS",
     "name": "TAUROS",
     "type1": "NORMAL",
     "type2": null,
@@ -4081,7 +5231,7 @@
     "weight": 88.4
   },
   {
-    "id": 129,
+    "id": "MAGIKARP",
     "name": "MAGIKARP",
     "type1": "WATER",
     "type2": null,
@@ -4112,7 +5262,7 @@
     "weight": 10
   },
   {
-    "id": 130,
+    "id": "GYARADOS",
     "name": "GYARADOS",
     "type1": "WATER",
     "type2": "FLYING",
@@ -4141,7 +5291,7 @@
     "weight": 235
   },
   {
-    "id": 131,
+    "id": "LAPRAS",
     "name": "LAPRAS",
     "type1": "WATER",
     "type2": "ICE",
@@ -4169,7 +5319,7 @@
     "weight": 220
   },
   {
-    "id": 132,
+    "id": "DITTO",
     "name": "DITTO",
     "type1": "NORMAL",
     "type2": null,
@@ -4194,7 +5344,7 @@
     "weight": 4
   },
   {
-    "id": 133,
+    "id": "EEVEE",
     "name": "EEVEE",
     "type1": "NORMAL",
     "type2": null,
@@ -4243,7 +5393,7 @@
     "weight": 6.5
   },
   {
-    "id": 134,
+    "id": "VAPOREON",
     "name": "VAPOREON",
     "type1": "WATER",
     "type2": null,
@@ -4271,7 +5421,7 @@
     "weight": 29
   },
   {
-    "id": 135,
+    "id": "JOLTEON",
     "name": "JOLTEON",
     "type1": "ELECTRIC",
     "type2": null,
@@ -4300,7 +5450,7 @@
     "weight": 24.5
   },
   {
-    "id": 136,
+    "id": "FLAREON",
     "name": "FLAREON",
     "type1": "FIRE",
     "type2": null,
@@ -4329,7 +5479,7 @@
     "weight": 25
   },
   {
-    "id": 137,
+    "id": "PORYGON",
     "name": "PORYGON",
     "type1": "NORMAL",
     "type2": null,
@@ -4364,7 +5514,7 @@
     "weight": 36.5
   },
   {
-    "id": 138,
+    "id": "OMANYTE",
     "name": "OMANYTE",
     "type1": "ROCK",
     "type2": "WATER",
@@ -4398,7 +5548,7 @@
     "weight": 7.5
   },
   {
-    "id": 139,
+    "id": "OMASTAR",
     "name": "OMASTAR",
     "type1": "ROCK",
     "type2": "WATER",
@@ -4427,7 +5577,7 @@
     "weight": 35
   },
   {
-    "id": 140,
+    "id": "KABUTO",
     "name": "KABUTO",
     "type1": "ROCK",
     "type2": "WATER",
@@ -4461,7 +5611,7 @@
     "weight": 11.5
   },
   {
-    "id": 141,
+    "id": "KABUTOPS",
     "name": "KABUTOPS",
     "type1": "ROCK",
     "type2": "WATER",
@@ -4490,7 +5640,7 @@
     "weight": 40.5
   },
   {
-    "id": 142,
+    "id": "AERODACTYL",
     "name": "AERODACTYL",
     "type1": "ROCK",
     "type2": "FLYING",
@@ -4518,7 +5668,7 @@
     "weight": 59
   },
   {
-    "id": 143,
+    "id": "SNORLAX",
     "name": "SNORLAX",
     "type1": "NORMAL",
     "type2": null,
@@ -4546,7 +5696,7 @@
     "weight": 460
   },
   {
-    "id": 144,
+    "id": "ARTICUNO",
     "name": "ARTICUNO",
     "type1": "ICE",
     "type2": "FLYING",
@@ -4573,7 +5723,7 @@
     "weight": 55.4
   },
   {
-    "id": 145,
+    "id": "ZAPDOS",
     "name": "ZAPDOS",
     "type1": "ELECTRIC",
     "type2": "FLYING",
@@ -4600,7 +5750,7 @@
     "weight": 52.6
   },
   {
-    "id": 146,
+    "id": "MOLTRES",
     "name": "MOLTRES",
     "type1": "FIRE",
     "type2": "FLYING",
@@ -4627,7 +5777,7 @@
     "weight": 60
   },
   {
-    "id": 147,
+    "id": "DRATINI",
     "name": "DRATINI",
     "type1": "DRAGON",
     "type2": null,
@@ -4661,7 +5811,7 @@
     "weight": 3.3
   },
   {
-    "id": 148,
+    "id": "DRAGONAIR",
     "name": "DRAGONAIR",
     "type1": "DRAGON",
     "type2": null,
@@ -4696,7 +5846,7 @@
     "weight": 16.5
   },
   {
-    "id": 149,
+    "id": "DRAGONITE",
     "name": "DRAGONITE",
     "type1": "DRAGON",
     "type2": "FLYING",
@@ -4725,7 +5875,7 @@
     "weight": 210
   },
   {
-    "id": 150,
+    "id": "MEWTWO",
     "name": "MEWTWO",
     "type1": "PSYCHIC",
     "type2": null,
@@ -4754,7 +5904,7 @@
     "weight": 122
   },
   {
-    "id": 151,
+    "id": "MEW",
     "name": "MEW",
     "type1": "PSYCHIC",
     "type2": null,
@@ -4815,7 +5965,7 @@
     "weight": 4
   },
   {
-    "id": 152,
+    "id": "CHIKORITA",
     "name": "CHIKORITA",
     "type1": "GRASS",
     "type2": null,
@@ -4849,7 +5999,7 @@
     "weight": 6.4
   },
   {
-    "id": 153,
+    "id": "BAYLEEF",
     "name": "BAYLEEF",
     "type1": "GRASS",
     "type2": null,
@@ -4884,7 +6034,7 @@
     "weight": 15.8
   },
   {
-    "id": 154,
+    "id": "MEGANIUM",
     "name": "MEGANIUM",
     "type1": "GRASS",
     "type2": null,
@@ -4913,7 +6063,7 @@
     "weight": 100.5
   },
   {
-    "id": 155,
+    "id": "CYNDAQUIL",
     "name": "CYNDAQUIL",
     "type1": "FIRE",
     "type2": null,
@@ -4947,7 +6097,7 @@
     "weight": 7.9
   },
   {
-    "id": 156,
+    "id": "QUILAVA",
     "name": "QUILAVA",
     "type1": "FIRE",
     "type2": null,
@@ -4982,7 +6132,7 @@
     "weight": 19
   },
   {
-    "id": 157,
+    "id": "TYPHLOSION",
     "name": "TYPHLOSION",
     "type1": "FIRE",
     "type2": null,
@@ -5011,7 +6161,7 @@
     "weight": 79.5
   },
   {
-    "id": 158,
+    "id": "TOTODILE",
     "name": "TOTODILE",
     "type1": "WATER",
     "type2": null,
@@ -5045,7 +6195,7 @@
     "weight": 9.5
   },
   {
-    "id": 159,
+    "id": "CROCONAW",
     "name": "CROCONAW",
     "type1": "WATER",
     "type2": null,
@@ -5080,7 +6230,7 @@
     "weight": 25
   },
   {
-    "id": 160,
+    "id": "FERALIGATR",
     "name": "FERALIGATR",
     "type1": "WATER",
     "type2": null,
@@ -5109,7 +6259,7 @@
     "weight": 88.8
   },
   {
-    "id": 161,
+    "id": "SENTRET",
     "name": "SENTRET",
     "type1": "NORMAL",
     "type2": null,
@@ -5143,7 +6293,7 @@
     "weight": 6
   },
   {
-    "id": 162,
+    "id": "FURRET",
     "name": "FURRET",
     "type1": "NORMAL",
     "type2": null,
@@ -5172,7 +6322,7 @@
     "weight": 32.5
   },
   {
-    "id": 163,
+    "id": "HOOTHOOT",
     "name": "HOOTHOOT",
     "type1": "NORMAL",
     "type2": "FLYING",
@@ -5206,7 +6356,7 @@
     "weight": 21.2
   },
   {
-    "id": 164,
+    "id": "NOCTOWL",
     "name": "NOCTOWL",
     "type1": "NORMAL",
     "type2": "FLYING",
@@ -5235,7 +6385,7 @@
     "weight": 40.8
   },
   {
-    "id": 165,
+    "id": "LEDYBA",
     "name": "LEDYBA",
     "type1": "BUG",
     "type2": "FLYING",
@@ -5269,7 +6419,7 @@
     "weight": 10.8
   },
   {
-    "id": 166,
+    "id": "LEDIAN",
     "name": "LEDIAN",
     "type1": "BUG",
     "type2": "FLYING",
@@ -5298,7 +6448,7 @@
     "weight": 35.6
   },
   {
-    "id": 167,
+    "id": "SPINARAK",
     "name": "SPINARAK",
     "type1": "BUG",
     "type2": "POISON",
@@ -5332,7 +6482,7 @@
     "weight": 8.5
   },
   {
-    "id": 168,
+    "id": "ARIADOS",
     "name": "ARIADOS",
     "type1": "BUG",
     "type2": "POISON",
@@ -5361,7 +6511,7 @@
     "weight": 33.5
   },
   {
-    "id": 169,
+    "id": "CROBAT",
     "name": "CROBAT",
     "type1": "POISON",
     "type2": "FLYING",
@@ -5390,7 +6540,7 @@
     "weight": 75
   },
   {
-    "id": 170,
+    "id": "CHINCHOU",
     "name": "CHINCHOU",
     "type1": "WATER",
     "type2": "ELECTRIC",
@@ -5424,7 +6574,7 @@
     "weight": 12
   },
   {
-    "id": 171,
+    "id": "LANTURN",
     "name": "LANTURN",
     "type1": "WATER",
     "type2": "ELECTRIC",
@@ -5453,7 +6603,7 @@
     "weight": 22.5
   },
   {
-    "id": 172,
+    "id": "PICHU",
     "name": "PICHU",
     "type1": "ELECTRIC",
     "type2": null,
@@ -5485,7 +6635,7 @@
     "weight": 2
   },
   {
-    "id": 173,
+    "id": "CLEFFA",
     "name": "CLEFFA",
     "type1": "FAIRY",
     "type2": null,
@@ -5518,7 +6668,7 @@
     "weight": 3
   },
   {
-    "id": 174,
+    "id": "IGGLYBUFF",
     "name": "IGGLYBUFF",
     "type1": "NORMAL",
     "type2": "FAIRY",
@@ -5551,7 +6701,7 @@
     "weight": 1
   },
   {
-    "id": 175,
+    "id": "TOGEPI",
     "name": "TOGEPI",
     "type1": "FAIRY",
     "type2": null,
@@ -5584,7 +6734,7 @@
     "weight": 1.5
   },
   {
-    "id": 176,
+    "id": "TOGETIC",
     "name": "TOGETIC",
     "type1": "FAIRY",
     "type2": "FLYING",
@@ -5613,7 +6763,7 @@
     "weight": 3.2
   },
   {
-    "id": 177,
+    "id": "NATU",
     "name": "NATU",
     "type1": "PSYCHIC",
     "type2": "FLYING",
@@ -5647,7 +6797,7 @@
     "weight": 2
   },
   {
-    "id": 178,
+    "id": "XATU",
     "name": "XATU",
     "type1": "PSYCHIC",
     "type2": "FLYING",
@@ -5676,7 +6826,7 @@
     "weight": 15
   },
   {
-    "id": 179,
+    "id": "MAREEP",
     "name": "MAREEP",
     "type1": "ELECTRIC",
     "type2": null,
@@ -5710,7 +6860,7 @@
     "weight": 7.8
   },
   {
-    "id": 180,
+    "id": "FLAAFFY",
     "name": "FLAAFFY",
     "type1": "ELECTRIC",
     "type2": null,
@@ -5745,7 +6895,7 @@
     "weight": 13.3
   },
   {
-    "id": 181,
+    "id": "AMPHAROS",
     "name": "AMPHAROS",
     "type1": "ELECTRIC",
     "type2": null,
@@ -5774,7 +6924,7 @@
     "weight": 61.5
   },
   {
-    "id": 182,
+    "id": "BELLOSSOM",
     "name": "BELLOSSOM",
     "type1": "GRASS",
     "type2": null,
@@ -5803,7 +6953,7 @@
     "weight": 5.8
   },
   {
-    "id": 183,
+    "id": "MARILL",
     "name": "MARILL",
     "type1": "WATER",
     "type2": "FAIRY",
@@ -5838,7 +6988,7 @@
     "weight": 8.5
   },
   {
-    "id": 184,
+    "id": "AZUMARILL",
     "name": "AZUMARILL",
     "type1": "WATER",
     "type2": "FAIRY",
@@ -5867,7 +7017,7 @@
     "weight": 28.5
   },
   {
-    "id": 185,
+    "id": "SUDOWOODO",
     "name": "SUDOWOODO",
     "type1": "ROCK",
     "type2": null,
@@ -5895,7 +7045,7 @@
     "weight": 38
   },
   {
-    "id": 186,
+    "id": "POLITOED",
     "name": "POLITOED",
     "type1": "WATER",
     "type2": null,
@@ -5924,7 +7074,7 @@
     "weight": 33.9
   },
   {
-    "id": 187,
+    "id": "HOPPIP",
     "name": "HOPPIP",
     "type1": "GRASS",
     "type2": "FLYING",
@@ -5958,7 +7108,7 @@
     "weight": 0.5
   },
   {
-    "id": 188,
+    "id": "SKIPLOOM",
     "name": "SKIPLOOM",
     "type1": "GRASS",
     "type2": "FLYING",
@@ -5993,7 +7143,7 @@
     "weight": 1
   },
   {
-    "id": 189,
+    "id": "JUMPLUFF",
     "name": "JUMPLUFF",
     "type1": "GRASS",
     "type2": "FLYING",
@@ -6022,7 +7172,7 @@
     "weight": 3
   },
   {
-    "id": 190,
+    "id": "AIPOM",
     "name": "AIPOM",
     "type1": "NORMAL",
     "type2": null,
@@ -6050,7 +7200,7 @@
     "weight": 11.5
   },
   {
-    "id": 191,
+    "id": "SUNKERN",
     "name": "SUNKERN",
     "type1": "GRASS",
     "type2": null,
@@ -6085,7 +7235,7 @@
     "weight": 1.8
   },
   {
-    "id": 192,
+    "id": "SUNFLORA",
     "name": "SUNFLORA",
     "type1": "GRASS",
     "type2": null,
@@ -6114,7 +7264,7 @@
     "weight": 8.5
   },
   {
-    "id": 193,
+    "id": "YANMA",
     "name": "YANMA",
     "type1": "BUG",
     "type2": "FLYING",
@@ -6142,7 +7292,7 @@
     "weight": 38
   },
   {
-    "id": 194,
+    "id": "WOOPER",
     "name": "WOOPER",
     "type1": "WATER",
     "type2": "GROUND",
@@ -6176,7 +7326,7 @@
     "weight": 8.5
   },
   {
-    "id": 195,
+    "id": "QUAGSIRE",
     "name": "QUAGSIRE",
     "type1": "WATER",
     "type2": "GROUND",
@@ -6205,7 +7355,7 @@
     "weight": 75
   },
   {
-    "id": 196,
+    "id": "ESPEON",
     "name": "ESPEON",
     "type1": "PSYCHIC",
     "type2": null,
@@ -6233,7 +7383,7 @@
     "weight": 26.5
   },
   {
-    "id": 197,
+    "id": "UMBREON",
     "name": "UMBREON",
     "type1": "DARK",
     "type2": null,
@@ -6260,7 +7410,7 @@
     "weight": 27
   },
   {
-    "id": 198,
+    "id": "MURKROW",
     "name": "MURKROW",
     "type1": "DARK",
     "type2": "FLYING",
@@ -6288,7 +7438,7 @@
     "weight": 2.1
   },
   {
-    "id": 199,
+    "id": "SLOWKING",
     "name": "SLOWKING",
     "type1": "WATER",
     "type2": "PSYCHIC",
@@ -6317,7 +7467,7 @@
     "weight": 79.5
   },
   {
-    "id": 200,
+    "id": "MISDREAVUS",
     "name": "MISDREAVUS",
     "type1": "GHOST",
     "type2": null,
@@ -6345,7 +7495,7 @@
     "weight": 1
   },
   {
-    "id": 201,
+    "id": "UNOWN",
     "name": "UNOWN",
     "type1": "PSYCHIC",
     "type2": null,
@@ -6370,7 +7520,7 @@
     "weight": 5
   },
   {
-    "id": 202,
+    "id": "WOBBUFFET",
     "name": "WOBBUFFET",
     "type1": "PSYCHIC",
     "type2": null,
@@ -6397,7 +7547,7 @@
     "weight": 28.5
   },
   {
-    "id": 203,
+    "id": "GIRAFARIG",
     "name": "GIRAFARIG",
     "type1": "NORMAL",
     "type2": "PSYCHIC",
@@ -6425,7 +7575,7 @@
     "weight": 41.5
   },
   {
-    "id": 204,
+    "id": "PINECO",
     "name": "PINECO",
     "type1": "BUG",
     "type2": null,
@@ -6459,7 +7609,7 @@
     "weight": 7.2
   },
   {
-    "id": 205,
+    "id": "FORRETRESS",
     "name": "FORRETRESS",
     "type1": "BUG",
     "type2": "STEEL",
@@ -6488,7 +7638,7 @@
     "weight": 125.8
   },
   {
-    "id": 206,
+    "id": "DUNSPARCE",
     "name": "DUNSPARCE",
     "type1": "NORMAL",
     "type2": null,
@@ -6516,7 +7666,7 @@
     "weight": 14
   },
   {
-    "id": 207,
+    "id": "GLIGAR",
     "name": "GLIGAR",
     "type1": "GROUND",
     "type2": "FLYING",
@@ -6544,7 +7694,7 @@
     "weight": 64.8
   },
   {
-    "id": 208,
+    "id": "STEELIX",
     "name": "STEELIX",
     "type1": "STEEL",
     "type2": "GROUND",
@@ -6573,7 +7723,7 @@
     "weight": 400
   },
   {
-    "id": 209,
+    "id": "SNUBBULL",
     "name": "SNUBBULL",
     "type1": "FAIRY",
     "type2": null,
@@ -6607,7 +7757,7 @@
     "weight": 7.8
   },
   {
-    "id": 210,
+    "id": "GRANBULL",
     "name": "GRANBULL",
     "type1": "FAIRY",
     "type2": null,
@@ -6636,7 +7786,7 @@
     "weight": 48.7
   },
   {
-    "id": 211,
+    "id": "QWILFISH",
     "name": "QWILFISH",
     "type1": "WATER",
     "type2": "POISON",
@@ -6664,7 +7814,7 @@
     "weight": 3.9
   },
   {
-    "id": 212,
+    "id": "SCIZOR",
     "name": "SCIZOR",
     "type1": "BUG",
     "type2": "STEEL",
@@ -6693,7 +7843,7 @@
     "weight": 125
   },
   {
-    "id": 213,
+    "id": "SHUCKLE",
     "name": "SHUCKLE",
     "type1": "BUG",
     "type2": "ROCK",
@@ -6721,7 +7871,7 @@
     "weight": 20.5
   },
   {
-    "id": 214,
+    "id": "HERACROSS",
     "name": "HERACROSS",
     "type1": "BUG",
     "type2": "FIGHTING",
@@ -6749,7 +7899,7 @@
     "weight": 54
   },
   {
-    "id": 215,
+    "id": "SNEASEL",
     "name": "SNEASEL",
     "type1": "DARK",
     "type2": "ICE",
@@ -6777,7 +7927,7 @@
     "weight": 28
   },
   {
-    "id": 216,
+    "id": "TEDDIURSA",
     "name": "TEDDIURSA",
     "type1": "NORMAL",
     "type2": null,
@@ -6811,7 +7961,7 @@
     "weight": 8.8
   },
   {
-    "id": 217,
+    "id": "URSARING",
     "name": "URSARING",
     "type1": "NORMAL",
     "type2": null,
@@ -6840,7 +7990,7 @@
     "weight": 125.8
   },
   {
-    "id": 218,
+    "id": "SLUGMA",
     "name": "SLUGMA",
     "type1": "FIRE",
     "type2": null,
@@ -6874,7 +8024,7 @@
     "weight": 35
   },
   {
-    "id": 219,
+    "id": "MAGCARGO",
     "name": "MAGCARGO",
     "type1": "FIRE",
     "type2": "ROCK",
@@ -6903,7 +8053,7 @@
     "weight": 55
   },
   {
-    "id": 220,
+    "id": "SWINUB",
     "name": "SWINUB",
     "type1": "ICE",
     "type2": "GROUND",
@@ -6937,7 +8087,7 @@
     "weight": 6.5
   },
   {
-    "id": 221,
+    "id": "PILOSWINE",
     "name": "PILOSWINE",
     "type1": "ICE",
     "type2": "GROUND",
@@ -6966,7 +8116,7 @@
     "weight": 55.8
   },
   {
-    "id": 222,
+    "id": "CORSOLA",
     "name": "CORSOLA",
     "type1": "WATER",
     "type2": "ROCK",
@@ -6994,7 +8144,7 @@
     "weight": 5
   },
   {
-    "id": 223,
+    "id": "REMORAID",
     "name": "REMORAID",
     "type1": "WATER",
     "type2": null,
@@ -7028,7 +8178,7 @@
     "weight": 12
   },
   {
-    "id": 224,
+    "id": "OCTILLERY",
     "name": "OCTILLERY",
     "type1": "WATER",
     "type2": null,
@@ -7057,7 +8207,7 @@
     "weight": 28.5
   },
   {
-    "id": 225,
+    "id": "DELIBIRD",
     "name": "DELIBIRD",
     "type1": "ICE",
     "type2": "FLYING",
@@ -7084,7 +8234,7 @@
     "weight": 16
   },
   {
-    "id": 226,
+    "id": "MANTINE",
     "name": "MANTINE",
     "type1": "WATER",
     "type2": "FLYING",
@@ -7112,7 +8262,7 @@
     "weight": 220
   },
   {
-    "id": 227,
+    "id": "SKARMORY",
     "name": "SKARMORY",
     "type1": "STEEL",
     "type2": "FLYING",
@@ -7140,7 +8290,7 @@
     "weight": 50.5
   },
   {
-    "id": 228,
+    "id": "HOUNDOUR",
     "name": "HOUNDOUR",
     "type1": "DARK",
     "type2": "FIRE",
@@ -7174,7 +8324,7 @@
     "weight": 10.8
   },
   {
-    "id": 229,
+    "id": "HOUNDOOM",
     "name": "HOUNDOOM",
     "type1": "DARK",
     "type2": "FIRE",
@@ -7203,7 +8353,7 @@
     "weight": 35
   },
   {
-    "id": 230,
+    "id": "KINGDRA",
     "name": "KINGDRA",
     "type1": "WATER",
     "type2": "DRAGON",
@@ -7232,7 +8382,7 @@
     "weight": 152
   },
   {
-    "id": 231,
+    "id": "PHANPY",
     "name": "PHANPY",
     "type1": "GROUND",
     "type2": null,
@@ -7266,7 +8416,7 @@
     "weight": 33.5
   },
   {
-    "id": 232,
+    "id": "DONPHAN",
     "name": "DONPHAN",
     "type1": "GROUND",
     "type2": null,
@@ -7295,7 +8445,7 @@
     "weight": 120
   },
   {
-    "id": 233,
+    "id": "PORYGON2",
     "name": "PORYGON2",
     "type1": "NORMAL",
     "type2": null,
@@ -7324,7 +8474,7 @@
     "weight": 32.5
   },
   {
-    "id": 234,
+    "id": "STANTLER",
     "name": "STANTLER",
     "type1": "NORMAL",
     "type2": null,
@@ -7352,7 +8502,7 @@
     "weight": 71.2
   },
   {
-    "id": 235,
+    "id": "SMEARGLE",
     "name": "SMEARGLE",
     "type1": "NORMAL",
     "type2": null,
@@ -7377,7 +8527,7 @@
     "weight": 58
   },
   {
-    "id": 236,
+    "id": "TYROGUE",
     "name": "TYROGUE",
     "type1": "FIGHTING",
     "type2": null,
@@ -7418,7 +8568,7 @@
     "weight": 21
   },
   {
-    "id": 237,
+    "id": "HITMONTOP",
     "name": "HITMONTOP",
     "type1": "FIGHTING",
     "type2": null,
@@ -7447,7 +8597,7 @@
     "weight": 48
   },
   {
-    "id": 238,
+    "id": "SMOOCHUM",
     "name": "SMOOCHUM",
     "type1": "ICE",
     "type2": "PSYCHIC",
@@ -7480,7 +8630,7 @@
     "weight": 6
   },
   {
-    "id": 239,
+    "id": "ELEKID",
     "name": "ELEKID",
     "type1": "ELECTRIC",
     "type2": null,
@@ -7513,7 +8663,7 @@
     "weight": 23.5
   },
   {
-    "id": 240,
+    "id": "MAGBY",
     "name": "MAGBY",
     "type1": "FIRE",
     "type2": null,
@@ -7546,7 +8696,7 @@
     "weight": 21.4
   },
   {
-    "id": 241,
+    "id": "MILTANK",
     "name": "MILTANK",
     "type1": "NORMAL",
     "type2": null,
@@ -7574,7 +8724,7 @@
     "weight": 75.5
   },
   {
-    "id": 242,
+    "id": "BLISSEY",
     "name": "BLISSEY",
     "type1": "NORMAL",
     "type2": null,
@@ -7603,7 +8753,7 @@
     "weight": 46.8
   },
   {
-    "id": 243,
+    "id": "RAIKOU",
     "name": "RAIKOU",
     "type1": "ELECTRIC",
     "type2": null,
@@ -7631,7 +8781,7 @@
     "weight": 178
   },
   {
-    "id": 244,
+    "id": "ENTEI",
     "name": "ENTEI",
     "type1": "FIRE",
     "type2": null,
@@ -7659,7 +8809,7 @@
     "weight": 198
   },
   {
-    "id": 245,
+    "id": "SUICUNE",
     "name": "SUICUNE",
     "type1": "WATER",
     "type2": null,
@@ -7687,7 +8837,7 @@
     "weight": 187
   },
   {
-    "id": 246,
+    "id": "LARVITAR",
     "name": "LARVITAR",
     "type1": "ROCK",
     "type2": "GROUND",
@@ -7721,7 +8871,7 @@
     "weight": 72
   },
   {
-    "id": 247,
+    "id": "PUPITAR",
     "name": "PUPITAR",
     "type1": "ROCK",
     "type2": "GROUND",
@@ -7756,7 +8906,7 @@
     "weight": 152
   },
   {
-    "id": 248,
+    "id": "TYRANITAR",
     "name": "TYRANITAR",
     "type1": "ROCK",
     "type2": "DARK",
@@ -7785,7 +8935,7 @@
     "weight": 202
   },
   {
-    "id": 249,
+    "id": "LUGIA",
     "name": "LUGIA",
     "type1": "PSYCHIC",
     "type2": "FLYING",
@@ -7813,7 +8963,7 @@
     "weight": 216
   },
   {
-    "id": 250,
+    "id": "HO_OH",
     "name": "HO_OH",
     "type1": "FIRE",
     "type2": "FLYING",
@@ -7841,7 +8991,7 @@
     "weight": 199
   },
   {
-    "id": 251,
+    "id": "CELEBI",
     "name": "CELEBI",
     "type1": "PSYCHIC",
     "type2": "GRASS",
@@ -7868,7 +9018,7 @@
     "weight": 5
   },
   {
-    "id": 252,
+    "id": "TREECKO",
     "name": "TREECKO",
     "type1": "GRASS",
     "type2": null,
@@ -7902,7 +9052,7 @@
     "weight": 5
   },
   {
-    "id": 253,
+    "id": "GROVYLE",
     "name": "GROVYLE",
     "type1": "GRASS",
     "type2": null,
@@ -7937,7 +9087,7 @@
     "weight": 21.6
   },
   {
-    "id": 254,
+    "id": "SCEPTILE",
     "name": "SCEPTILE",
     "type1": "GRASS",
     "type2": null,
@@ -7966,7 +9116,7 @@
     "weight": 52.2
   },
   {
-    "id": 255,
+    "id": "TORCHIC",
     "name": "TORCHIC",
     "type1": "FIRE",
     "type2": null,
@@ -8000,7 +9150,7 @@
     "weight": 2.5
   },
   {
-    "id": 256,
+    "id": "COMBUSKEN",
     "name": "COMBUSKEN",
     "type1": "FIRE",
     "type2": "FIGHTING",
@@ -8035,7 +9185,7 @@
     "weight": 19.5
   },
   {
-    "id": 257,
+    "id": "BLAZIKEN",
     "name": "BLAZIKEN",
     "type1": "FIRE",
     "type2": "FIGHTING",
@@ -8064,7 +9214,7 @@
     "weight": 52
   },
   {
-    "id": 258,
+    "id": "MUDKIP",
     "name": "MUDKIP",
     "type1": "WATER",
     "type2": null,
@@ -8098,7 +9248,7 @@
     "weight": 7.6
   },
   {
-    "id": 259,
+    "id": "MARSHTOMP",
     "name": "MARSHTOMP",
     "type1": "WATER",
     "type2": "GROUND",
@@ -8133,7 +9283,7 @@
     "weight": 28
   },
   {
-    "id": 260,
+    "id": "SWAMPERT",
     "name": "SWAMPERT",
     "type1": "WATER",
     "type2": "GROUND",
@@ -8162,7 +9312,7 @@
     "weight": 81.9
   },
   {
-    "id": 261,
+    "id": "POOCHYENA",
     "name": "POOCHYENA",
     "type1": "DARK",
     "type2": null,
@@ -8196,7 +9346,7 @@
     "weight": 13.6
   },
   {
-    "id": 262,
+    "id": "MIGHTYENA",
     "name": "MIGHTYENA",
     "type1": "DARK",
     "type2": null,
@@ -8225,7 +9375,7 @@
     "weight": 37
   },
   {
-    "id": 263,
+    "id": "ZIGZAGOON",
     "name": "ZIGZAGOON",
     "type1": "NORMAL",
     "type2": null,
@@ -8259,7 +9409,7 @@
     "weight": 17.5
   },
   {
-    "id": 264,
+    "id": "LINOONE",
     "name": "LINOONE",
     "type1": "NORMAL",
     "type2": null,
@@ -8288,7 +9438,7 @@
     "weight": 32.5
   },
   {
-    "id": 265,
+    "id": "WURMPLE",
     "name": "WURMPLE",
     "type1": "BUG",
     "type2": null,
@@ -8324,7 +9474,7 @@
     "weight": 3.6
   },
   {
-    "id": 266,
+    "id": "SILCOON",
     "name": "SILCOON",
     "type1": "BUG",
     "type2": null,
@@ -8357,7 +9507,7 @@
     "weight": 10
   },
   {
-    "id": 267,
+    "id": "BEAUTIFLY",
     "name": "BEAUTIFLY",
     "type1": "BUG",
     "type2": "FLYING",
@@ -8386,7 +9536,7 @@
     "weight": 28.4
   },
   {
-    "id": 268,
+    "id": "CASCOON",
     "name": "CASCOON",
     "type1": "BUG",
     "type2": null,
@@ -8419,7 +9569,7 @@
     "weight": 11.5
   },
   {
-    "id": 269,
+    "id": "DUSTOX",
     "name": "DUSTOX",
     "type1": "BUG",
     "type2": "POISON",
@@ -8448,7 +9598,7 @@
     "weight": 31.6
   },
   {
-    "id": 270,
+    "id": "LOTAD",
     "name": "LOTAD",
     "type1": "WATER",
     "type2": "GRASS",
@@ -8481,7 +9631,7 @@
     "weight": 2.6
   },
   {
-    "id": 271,
+    "id": "LOMBRE",
     "name": "LOMBRE",
     "type1": "WATER",
     "type2": "GRASS",
@@ -8516,7 +9666,7 @@
     "weight": 32.5
   },
   {
-    "id": 272,
+    "id": "LUDICOLO",
     "name": "LUDICOLO",
     "type1": "WATER",
     "type2": "GRASS",
@@ -8545,7 +9695,7 @@
     "weight": 55
   },
   {
-    "id": 273,
+    "id": "SEEDOT",
     "name": "SEEDOT",
     "type1": "GRASS",
     "type2": null,
@@ -8579,7 +9729,7 @@
     "weight": 4
   },
   {
-    "id": 274,
+    "id": "NUZLEAF",
     "name": "NUZLEAF",
     "type1": "GRASS",
     "type2": "DARK",
@@ -8614,7 +9764,7 @@
     "weight": 28
   },
   {
-    "id": 275,
+    "id": "SHIFTRY",
     "name": "SHIFTRY",
     "type1": "GRASS",
     "type2": "DARK",
@@ -8643,7 +9793,7 @@
     "weight": 59.6
   },
   {
-    "id": 276,
+    "id": "TAILLOW",
     "name": "TAILLOW",
     "type1": "NORMAL",
     "type2": "FLYING",
@@ -8675,7 +9825,7 @@
     "weight": 2.3
   },
   {
-    "id": 277,
+    "id": "SWELLOW",
     "name": "SWELLOW",
     "type1": "NORMAL",
     "type2": "FLYING",
@@ -8704,7 +9854,7 @@
     "weight": 19.8
   },
   {
-    "id": 278,
+    "id": "WINGULL",
     "name": "WINGULL",
     "type1": "WATER",
     "type2": "FLYING",
@@ -8738,7 +9888,7 @@
     "weight": 9.5
   },
   {
-    "id": 279,
+    "id": "PELIPPER",
     "name": "PELIPPER",
     "type1": "WATER",
     "type2": "FLYING",
@@ -8767,7 +9917,7 @@
     "weight": 28
   },
   {
-    "id": 280,
+    "id": "RALTS",
     "name": "RALTS",
     "type1": "PSYCHIC",
     "type2": "FAIRY",
@@ -8801,7 +9951,7 @@
     "weight": 6.6
   },
   {
-    "id": 281,
+    "id": "KIRLIA",
     "name": "KIRLIA",
     "type1": "PSYCHIC",
     "type2": "FAIRY",
@@ -8836,7 +9986,7 @@
     "weight": 20.2
   },
   {
-    "id": 282,
+    "id": "GARDEVOIR",
     "name": "GARDEVOIR",
     "type1": "PSYCHIC",
     "type2": "FAIRY",
@@ -8865,7 +10015,7 @@
     "weight": 48.4
   },
   {
-    "id": 283,
+    "id": "SURSKIT",
     "name": "SURSKIT",
     "type1": "BUG",
     "type2": "WATER",
@@ -8899,7 +10049,7 @@
     "weight": 1.7
   },
   {
-    "id": 284,
+    "id": "MASQUERAIN",
     "name": "MASQUERAIN",
     "type1": "BUG",
     "type2": "FLYING",
@@ -8928,7 +10078,7 @@
     "weight": 3.6
   },
   {
-    "id": 285,
+    "id": "SHROOMISH",
     "name": "SHROOMISH",
     "type1": "GRASS",
     "type2": null,
@@ -8962,7 +10112,7 @@
     "weight": 4.5
   },
   {
-    "id": 286,
+    "id": "BRELOOM",
     "name": "BRELOOM",
     "type1": "GRASS",
     "type2": "FIGHTING",
@@ -8991,7 +10141,7 @@
     "weight": 39.2
   },
   {
-    "id": 287,
+    "id": "SLAKOTH",
     "name": "SLAKOTH",
     "type1": "NORMAL",
     "type2": null,
@@ -9024,7 +10174,7 @@
     "weight": 24
   },
   {
-    "id": 288,
+    "id": "VIGOROTH",
     "name": "VIGOROTH",
     "type1": "NORMAL",
     "type2": null,
@@ -9059,7 +10209,7 @@
     "weight": 46.5
   },
   {
-    "id": 289,
+    "id": "SLAKING",
     "name": "SLAKING",
     "type1": "NORMAL",
     "type2": null,
@@ -9087,7 +10237,7 @@
     "weight": 130.5
   },
   {
-    "id": 290,
+    "id": "NINCADA",
     "name": "NINCADA",
     "type1": "BUG",
     "type2": "GROUND",
@@ -9125,7 +10275,7 @@
     "weight": 5.5
   },
   {
-    "id": 291,
+    "id": "NINJASK",
     "name": "NINJASK",
     "type1": "BUG",
     "type2": "FLYING",
@@ -9154,7 +10304,7 @@
     "weight": 12
   },
   {
-    "id": 292,
+    "id": "SHEDINJA",
     "name": "SHEDINJA",
     "type1": "BUG",
     "type2": "GHOST",
@@ -9183,7 +10333,7 @@
     "weight": 1.2
   },
   {
-    "id": 293,
+    "id": "WHISMUR",
     "name": "WHISMUR",
     "type1": "NORMAL",
     "type2": null,
@@ -9217,7 +10367,7 @@
     "weight": 16.3
   },
   {
-    "id": 294,
+    "id": "LOUDRED",
     "name": "LOUDRED",
     "type1": "NORMAL",
     "type2": null,
@@ -9252,7 +10402,7 @@
     "weight": 40.5
   },
   {
-    "id": 295,
+    "id": "EXPLOUD",
     "name": "EXPLOUD",
     "type1": "NORMAL",
     "type2": null,
@@ -9281,7 +10431,7 @@
     "weight": 84
   },
   {
-    "id": 296,
+    "id": "MAKUHITA",
     "name": "MAKUHITA",
     "type1": "FIGHTING",
     "type2": null,
@@ -9315,7 +10465,7 @@
     "weight": 86.4
   },
   {
-    "id": 297,
+    "id": "HARIYAMA",
     "name": "HARIYAMA",
     "type1": "FIGHTING",
     "type2": null,
@@ -9344,7 +10494,7 @@
     "weight": 253.8
   },
   {
-    "id": 298,
+    "id": "AZURILL",
     "name": "AZURILL",
     "type1": "NORMAL",
     "type2": "FAIRY",
@@ -9378,7 +10528,7 @@
     "weight": 2
   },
   {
-    "id": 299,
+    "id": "NOSEPASS",
     "name": "NOSEPASS",
     "type1": "ROCK",
     "type2": null,
@@ -9406,7 +10556,7 @@
     "weight": 97
   },
   {
-    "id": 300,
+    "id": "SKITTY",
     "name": "SKITTY",
     "type1": "NORMAL",
     "type2": null,
@@ -9440,7 +10590,7 @@
     "weight": 11
   },
   {
-    "id": 301,
+    "id": "DELCATTY",
     "name": "DELCATTY",
     "type1": "NORMAL",
     "type2": null,
@@ -9469,7 +10619,7 @@
     "weight": 32.6
   },
   {
-    "id": 302,
+    "id": "SABLEYE",
     "name": "SABLEYE",
     "type1": "DARK",
     "type2": "GHOST",
@@ -9497,7 +10647,7 @@
     "weight": 11
   },
   {
-    "id": 303,
+    "id": "MAWILE",
     "name": "MAWILE",
     "type1": "STEEL",
     "type2": "FAIRY",
@@ -9525,7 +10675,7 @@
     "weight": 11.5
   },
   {
-    "id": 304,
+    "id": "ARON",
     "name": "ARON",
     "type1": "STEEL",
     "type2": "ROCK",
@@ -9559,7 +10709,7 @@
     "weight": 60
   },
   {
-    "id": 305,
+    "id": "LAIRON",
     "name": "LAIRON",
     "type1": "STEEL",
     "type2": "ROCK",
@@ -9594,7 +10744,7 @@
     "weight": 120
   },
   {
-    "id": 306,
+    "id": "AGGRON",
     "name": "AGGRON",
     "type1": "STEEL",
     "type2": "ROCK",
@@ -9623,7 +10773,7 @@
     "weight": 360
   },
   {
-    "id": 307,
+    "id": "MEDITITE",
     "name": "MEDITITE",
     "type1": "FIGHTING",
     "type2": "PSYCHIC",
@@ -9657,7 +10807,7 @@
     "weight": 11.2
   },
   {
-    "id": 308,
+    "id": "MEDICHAM",
     "name": "MEDICHAM",
     "type1": "FIGHTING",
     "type2": "PSYCHIC",
@@ -9686,7 +10836,7 @@
     "weight": 31.5
   },
   {
-    "id": 309,
+    "id": "ELECTRIKE",
     "name": "ELECTRIKE",
     "type1": "ELECTRIC",
     "type2": null,
@@ -9720,7 +10870,7 @@
     "weight": 15.2
   },
   {
-    "id": 310,
+    "id": "MANECTRIC",
     "name": "MANECTRIC",
     "type1": "ELECTRIC",
     "type2": null,
@@ -9749,7 +10899,7 @@
     "weight": 40.2
   },
   {
-    "id": 311,
+    "id": "PLUSLE",
     "name": "PLUSLE",
     "type1": "ELECTRIC",
     "type2": null,
@@ -9777,7 +10927,7 @@
     "weight": 4.2
   },
   {
-    "id": 312,
+    "id": "MINUN",
     "name": "MINUN",
     "type1": "ELECTRIC",
     "type2": null,
@@ -9805,7 +10955,7 @@
     "weight": 4.2
   },
   {
-    "id": 313,
+    "id": "VOLBEAT",
     "name": "VOLBEAT",
     "type1": "BUG",
     "type2": null,
@@ -9833,7 +10983,7 @@
     "weight": 17.7
   },
   {
-    "id": 314,
+    "id": "ILLUMISE",
     "name": "ILLUMISE",
     "type1": "BUG",
     "type2": null,
@@ -9861,7 +11011,7 @@
     "weight": 17.7
   },
   {
-    "id": 315,
+    "id": "ROSELIA",
     "name": "ROSELIA",
     "type1": "GRASS",
     "type2": "POISON",
@@ -9889,7 +11039,7 @@
     "weight": 2
   },
   {
-    "id": 316,
+    "id": "GULPIN",
     "name": "GULPIN",
     "type1": "POISON",
     "type2": null,
@@ -9923,7 +11073,7 @@
     "weight": 10.3
   },
   {
-    "id": 317,
+    "id": "SWALOT",
     "name": "SWALOT",
     "type1": "POISON",
     "type2": null,
@@ -9952,7 +11102,7 @@
     "weight": 80
   },
   {
-    "id": 318,
+    "id": "CARVANHA",
     "name": "CARVANHA",
     "type1": "WATER",
     "type2": "DARK",
@@ -9986,7 +11136,7 @@
     "weight": 20.8
   },
   {
-    "id": 319,
+    "id": "SHARPEDO",
     "name": "SHARPEDO",
     "type1": "WATER",
     "type2": "DARK",
@@ -10015,7 +11165,7 @@
     "weight": 88.8
   },
   {
-    "id": 320,
+    "id": "WAILMER",
     "name": "WAILMER",
     "type1": "WATER",
     "type2": null,
@@ -10049,7 +11199,7 @@
     "weight": 130
   },
   {
-    "id": 321,
+    "id": "WAILORD",
     "name": "WAILORD",
     "type1": "WATER",
     "type2": null,
@@ -10078,7 +11228,7 @@
     "weight": 398
   },
   {
-    "id": 322,
+    "id": "NUMEL",
     "name": "NUMEL",
     "type1": "FIRE",
     "type2": "GROUND",
@@ -10112,7 +11262,7 @@
     "weight": 24
   },
   {
-    "id": 323,
+    "id": "CAMERUPT",
     "name": "CAMERUPT",
     "type1": "FIRE",
     "type2": "GROUND",
@@ -10141,7 +11291,7 @@
     "weight": 220
   },
   {
-    "id": 324,
+    "id": "TORKOAL",
     "name": "TORKOAL",
     "type1": "FIRE",
     "type2": null,
@@ -10169,7 +11319,7 @@
     "weight": 80.4
   },
   {
-    "id": 325,
+    "id": "SPOINK",
     "name": "SPOINK",
     "type1": "PSYCHIC",
     "type2": null,
@@ -10203,7 +11353,7 @@
     "weight": 30.6
   },
   {
-    "id": 326,
+    "id": "GRUMPIG",
     "name": "GRUMPIG",
     "type1": "PSYCHIC",
     "type2": null,
@@ -10232,7 +11382,7 @@
     "weight": 71.5
   },
   {
-    "id": 327,
+    "id": "SPINDA",
     "name": "SPINDA",
     "type1": "NORMAL",
     "type2": null,
@@ -10260,7 +11410,7 @@
     "weight": 5
   },
   {
-    "id": 328,
+    "id": "TRAPINCH",
     "name": "TRAPINCH",
     "type1": "GROUND",
     "type2": null,
@@ -10294,7 +11444,7 @@
     "weight": 15
   },
   {
-    "id": 329,
+    "id": "VIBRAVA",
     "name": "VIBRAVA",
     "type1": "GROUND",
     "type2": "DRAGON",
@@ -10329,7 +11479,7 @@
     "weight": 15.3
   },
   {
-    "id": 330,
+    "id": "FLYGON",
     "name": "FLYGON",
     "type1": "GROUND",
     "type2": "DRAGON",
@@ -10358,7 +11508,7 @@
     "weight": 82
   },
   {
-    "id": 331,
+    "id": "CACNEA",
     "name": "CACNEA",
     "type1": "GRASS",
     "type2": null,
@@ -10392,7 +11542,7 @@
     "weight": 51.3
   },
   {
-    "id": 332,
+    "id": "CACTURNE",
     "name": "CACTURNE",
     "type1": "GRASS",
     "type2": "DARK",
@@ -10421,7 +11571,7 @@
     "weight": 77.4
   },
   {
-    "id": 333,
+    "id": "SWABLU",
     "name": "SWABLU",
     "type1": "NORMAL",
     "type2": "FLYING",
@@ -10455,7 +11605,7 @@
     "weight": 1.2
   },
   {
-    "id": 334,
+    "id": "ALTARIA",
     "name": "ALTARIA",
     "type1": "DRAGON",
     "type2": "FLYING",
@@ -10484,7 +11634,7 @@
     "weight": 20.6
   },
   {
-    "id": 335,
+    "id": "ZANGOOSE",
     "name": "ZANGOOSE",
     "type1": "NORMAL",
     "type2": null,
@@ -10512,7 +11662,7 @@
     "weight": 40.3
   },
   {
-    "id": 336,
+    "id": "SEVIPER",
     "name": "SEVIPER",
     "type1": "POISON",
     "type2": null,
@@ -10540,7 +11690,7 @@
     "weight": 52.5
   },
   {
-    "id": 337,
+    "id": "LUNATONE",
     "name": "LUNATONE",
     "type1": "ROCK",
     "type2": "PSYCHIC",
@@ -10568,7 +11718,7 @@
     "weight": 168
   },
   {
-    "id": 338,
+    "id": "SOLROCK",
     "name": "SOLROCK",
     "type1": "ROCK",
     "type2": "PSYCHIC",
@@ -10596,7 +11746,7 @@
     "weight": 154
   },
   {
-    "id": 339,
+    "id": "BARBOACH",
     "name": "BARBOACH",
     "type1": "WATER",
     "type2": "GROUND",
@@ -10630,7 +11780,7 @@
     "weight": 1.9
   },
   {
-    "id": 340,
+    "id": "WHISCASH",
     "name": "WHISCASH",
     "type1": "WATER",
     "type2": "GROUND",
@@ -10659,7 +11809,7 @@
     "weight": 23.6
   },
   {
-    "id": 341,
+    "id": "CORPHISH",
     "name": "CORPHISH",
     "type1": "WATER",
     "type2": null,
@@ -10693,7 +11843,7 @@
     "weight": 11.5
   },
   {
-    "id": 342,
+    "id": "CRAWDAUNT",
     "name": "CRAWDAUNT",
     "type1": "WATER",
     "type2": "DARK",
@@ -10722,7 +11872,7 @@
     "weight": 32.8
   },
   {
-    "id": 343,
+    "id": "BALTOY",
     "name": "BALTOY",
     "type1": "GROUND",
     "type2": "PSYCHIC",
@@ -10756,7 +11906,7 @@
     "weight": 21.5
   },
   {
-    "id": 344,
+    "id": "CLAYDOL",
     "name": "CLAYDOL",
     "type1": "GROUND",
     "type2": "PSYCHIC",
@@ -10785,7 +11935,7 @@
     "weight": 108
   },
   {
-    "id": 345,
+    "id": "LILEEP",
     "name": "LILEEP",
     "type1": "ROCK",
     "type2": "GRASS",
@@ -10819,7 +11969,7 @@
     "weight": 23.8
   },
   {
-    "id": 346,
+    "id": "CRADILY",
     "name": "CRADILY",
     "type1": "ROCK",
     "type2": "GRASS",
@@ -10848,7 +11998,7 @@
     "weight": 60.4
   },
   {
-    "id": 347,
+    "id": "ANORITH",
     "name": "ANORITH",
     "type1": "ROCK",
     "type2": "BUG",
@@ -10882,7 +12032,7 @@
     "weight": 12.5
   },
   {
-    "id": 348,
+    "id": "ARMALDO",
     "name": "ARMALDO",
     "type1": "ROCK",
     "type2": "BUG",
@@ -10911,7 +12061,7 @@
     "weight": 68.2
   },
   {
-    "id": 349,
+    "id": "FEEBAS",
     "name": "FEEBAS",
     "type1": "WATER",
     "type2": null,
@@ -10944,7 +12094,7 @@
     "weight": 7.4
   },
   {
-    "id": 350,
+    "id": "MILOTIC",
     "name": "MILOTIC",
     "type1": "WATER",
     "type2": null,
@@ -10973,7 +12123,7 @@
     "weight": 162
   },
   {
-    "id": 351,
+    "id": "CASTFORM",
     "name": "CASTFORM",
     "type1": "NORMAL",
     "type2": null,
@@ -11000,7 +12150,7 @@
     "weight": 0.8
   },
   {
-    "id": 352,
+    "id": "CASTFORM_NORMAL",
     "name": "CASTFORM",
     "type1": "NORMAL",
     "type2": null,
@@ -11027,7 +12177,7 @@
     "weight": 0.8
   },
   {
-    "id": 353,
+    "id": "CASTFORM_RAINY",
     "name": "CASTFORM",
     "type1": "WATER",
     "type2": null,
@@ -11054,7 +12204,7 @@
     "weight": 0.8
   },
   {
-    "id": 354,
+    "id": "CASTFORM_SNOWY",
     "name": "CASTFORM",
     "type1": "ICE",
     "type2": null,
@@ -11081,7 +12231,7 @@
     "weight": 0.8
   },
   {
-    "id": 355,
+    "id": "CASTFORM_SUNNY",
     "name": "CASTFORM",
     "type1": "FIRE",
     "type2": null,
@@ -11108,7 +12258,7 @@
     "weight": 0.8
   },
   {
-    "id": 356,
+    "id": "KECLEON",
     "name": "KECLEON",
     "type1": "NORMAL",
     "type2": null,
@@ -11139,7 +12289,7 @@
     "weight": 22
   },
   {
-    "id": 357,
+    "id": "SHUPPET",
     "name": "SHUPPET",
     "type1": "GHOST",
     "type2": null,
@@ -11173,7 +12323,7 @@
     "weight": 2.3
   },
   {
-    "id": 358,
+    "id": "BANETTE",
     "name": "BANETTE",
     "type1": "GHOST",
     "type2": null,
@@ -11202,7 +12352,7 @@
     "weight": 12.5
   },
   {
-    "id": 359,
+    "id": "DUSKULL",
     "name": "DUSKULL",
     "type1": "GHOST",
     "type2": null,
@@ -11236,7 +12386,7 @@
     "weight": 15
   },
   {
-    "id": 360,
+    "id": "DUSCLOPS",
     "name": "DUSCLOPS",
     "type1": "GHOST",
     "type2": null,
@@ -11265,7 +12415,7 @@
     "weight": 30.6
   },
   {
-    "id": 361,
+    "id": "TROPIUS",
     "name": "TROPIUS",
     "type1": "GRASS",
     "type2": "FLYING",
@@ -11293,7 +12443,7 @@
     "weight": 100
   },
   {
-    "id": 362,
+    "id": "CHIMECHO",
     "name": "CHIMECHO",
     "type1": "PSYCHIC",
     "type2": null,
@@ -11321,7 +12471,7 @@
     "weight": 1
   },
   {
-    "id": 363,
+    "id": "ABSOL",
     "name": "ABSOL",
     "type1": "DARK",
     "type2": null,
@@ -11349,7 +12499,7 @@
     "weight": 47
   },
   {
-    "id": 364,
+    "id": "WYNAUT",
     "name": "WYNAUT",
     "type1": "PSYCHIC",
     "type2": null,
@@ -11381,7 +12531,7 @@
     "weight": 14
   },
   {
-    "id": 365,
+    "id": "SNORUNT",
     "name": "SNORUNT",
     "type1": "ICE",
     "type2": null,
@@ -11415,7 +12565,7 @@
     "weight": 16.8
   },
   {
-    "id": 366,
+    "id": "GLALIE",
     "name": "GLALIE",
     "type1": "ICE",
     "type2": null,
@@ -11444,7 +12594,7 @@
     "weight": 256.5
   },
   {
-    "id": 367,
+    "id": "SPHEAL",
     "name": "SPHEAL",
     "type1": "ICE",
     "type2": "WATER",
@@ -11478,7 +12628,7 @@
     "weight": 39.5
   },
   {
-    "id": 368,
+    "id": "SEALEO",
     "name": "SEALEO",
     "type1": "ICE",
     "type2": "WATER",
@@ -11513,7 +12663,7 @@
     "weight": 87.6
   },
   {
-    "id": 369,
+    "id": "WALREIN",
     "name": "WALREIN",
     "type1": "ICE",
     "type2": "WATER",
@@ -11542,7 +12692,7 @@
     "weight": 150.6
   },
   {
-    "id": 370,
+    "id": "CLAMPERL",
     "name": "CLAMPERL",
     "type1": "WATER",
     "type2": null,
@@ -11579,7 +12729,7 @@
     "weight": 52.5
   },
   {
-    "id": 371,
+    "id": "HUNTAIL",
     "name": "HUNTAIL",
     "type1": "WATER",
     "type2": null,
@@ -11608,7 +12758,7 @@
     "weight": 27
   },
   {
-    "id": 372,
+    "id": "GOREBYSS",
     "name": "GOREBYSS",
     "type1": "WATER",
     "type2": null,
@@ -11637,7 +12787,7 @@
     "weight": 22.6
   },
   {
-    "id": 373,
+    "id": "RELICANTH",
     "name": "RELICANTH",
     "type1": "WATER",
     "type2": "ROCK",
@@ -11665,7 +12815,7 @@
     "weight": 23.4
   },
   {
-    "id": 374,
+    "id": "LUVDISC",
     "name": "LUVDISC",
     "type1": "WATER",
     "type2": null,
@@ -11693,7 +12843,7 @@
     "weight": 8.7
   },
   {
-    "id": 375,
+    "id": "BAGON",
     "name": "BAGON",
     "type1": "DRAGON",
     "type2": null,
@@ -11727,7 +12877,7 @@
     "weight": 42.1
   },
   {
-    "id": 376,
+    "id": "SHELGON",
     "name": "SHELGON",
     "type1": "DRAGON",
     "type2": null,
@@ -11762,7 +12912,7 @@
     "weight": 110.5
   },
   {
-    "id": 377,
+    "id": "SALAMENCE",
     "name": "SALAMENCE",
     "type1": "DRAGON",
     "type2": "FLYING",
@@ -11791,7 +12941,7 @@
     "weight": 102.6
   },
   {
-    "id": 378,
+    "id": "BELDUM",
     "name": "BELDUM",
     "type1": "STEEL",
     "type2": "PSYCHIC",
@@ -11822,7 +12972,7 @@
     "weight": 95.2
   },
   {
-    "id": 379,
+    "id": "METANG",
     "name": "METANG",
     "type1": "STEEL",
     "type2": "PSYCHIC",
@@ -11857,7 +13007,7 @@
     "weight": 202.5
   },
   {
-    "id": 380,
+    "id": "METAGROSS",
     "name": "METAGROSS",
     "type1": "STEEL",
     "type2": "PSYCHIC",
@@ -11886,7 +13036,7 @@
     "weight": 550
   },
   {
-    "id": 381,
+    "id": "REGIROCK",
     "name": "REGIROCK",
     "type1": "ROCK",
     "type2": null,
@@ -11914,7 +13064,7 @@
     "weight": 230
   },
   {
-    "id": 382,
+    "id": "REGICE",
     "name": "REGICE",
     "type1": "ICE",
     "type2": null,
@@ -11942,7 +13092,7 @@
     "weight": 175
   },
   {
-    "id": 383,
+    "id": "REGISTEEL",
     "name": "REGISTEEL",
     "type1": "STEEL",
     "type2": null,
@@ -11970,7 +13120,7 @@
     "weight": 205
   },
   {
-    "id": 384,
+    "id": "LATIAS",
     "name": "LATIAS",
     "type1": "DRAGON",
     "type2": "PSYCHIC",
@@ -11998,7 +13148,7 @@
     "weight": 40
   },
   {
-    "id": 385,
+    "id": "LATIOS",
     "name": "LATIOS",
     "type1": "DRAGON",
     "type2": "PSYCHIC",
@@ -12026,7 +13176,7 @@
     "weight": 60
   },
   {
-    "id": 386,
+    "id": "KYOGRE",
     "name": "KYOGRE",
     "type1": "WATER",
     "type2": null,
@@ -12053,7 +13203,7 @@
     "weight": 352
   },
   {
-    "id": 387,
+    "id": "GROUDON",
     "name": "GROUDON",
     "type1": "GROUND",
     "type2": null,
@@ -12081,7 +13231,7 @@
     "weight": 950
   },
   {
-    "id": 388,
+    "id": "RAYQUAZA",
     "name": "RAYQUAZA",
     "type1": "DRAGON",
     "type2": "FLYING",
@@ -12109,7 +13259,7 @@
     "weight": 206.5
   },
   {
-    "id": 389,
+    "id": "JIRACHI",
     "name": "JIRACHI",
     "type1": "STEEL",
     "type2": "PSYCHIC",
@@ -12137,7 +13287,7 @@
     "weight": 1.1
   },
   {
-    "id": 390,
+    "id": "DEOXYS",
     "name": "DEOXYS",
     "type1": "PSYCHIC",
     "type2": null,
@@ -12165,7 +13315,7 @@
     "weight": 60.8
   },
   {
-    "id": 391,
+    "id": "DEOXYS_ATTACK",
     "name": "DEOXYS",
     "type1": "PSYCHIC",
     "type2": null,
@@ -12193,7 +13343,7 @@
     "weight": 60.8
   },
   {
-    "id": 392,
+    "id": "DEOXYS_DEFENSE",
     "name": "DEOXYS",
     "type1": "PSYCHIC",
     "type2": null,
@@ -12221,7 +13371,7 @@
     "weight": 60.8
   },
   {
-    "id": 393,
+    "id": "DEOXYS_NORMAL",
     "name": "DEOXYS",
     "type1": "PSYCHIC",
     "type2": null,
@@ -12249,7 +13399,7 @@
     "weight": 60.8
   },
   {
-    "id": 394,
+    "id": "DEOXYS_SPEED",
     "name": "DEOXYS",
     "type1": "PSYCHIC",
     "type2": null,

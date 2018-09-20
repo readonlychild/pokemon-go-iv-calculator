@@ -1721,5 +1721,32 @@
     "Energy": -50,
     "DamageWindowStartMs": 2145,
     "DamageWindowEndMs": 2550
+  },
+  "SMACK_DOWN_FAST": {
+    "Name": "SMACK_DOWN_FAST",
+    "Type": "ROCK",
+    "Power": 16,
+    "DurationMs": 1200,
+    "Energy": 8,
+    "DamageWindowStartMs": 800,
+    "DamageWindowEndMs": 1100
+  },
+  "BLAST_BURN": {
+    "Name": "BLAST_BURN",
+    "Type": "FIRE",
+    "Power": 110,
+    "DurationMs": 3300,
+    "Energy": -50,
+    "DamageWindowStartMs": 2750,
+    "DamageWindowEndMs": 3200
+  },
+  "HYDRO_CANNON": {
+    "Name": "HYDRO_CANNON",
+    "Type": "WATER",
+    "Power": 90,
+    "DurationMs": 1900,
+    "Energy": -50,
+    "DamageWindowStartMs": 500,
+    "DamageWindowEndMs": 1600
   }
 }
