@@ -5886,9 +5886,10 @@
       ],
       "charge": [
         "PSYCHIC",
-        "SHADOW_BALL",
-        "HYPER_BEAM",
-        "FOCUS_BLAST"
+        "THUNDERBOLT",
+        "ICE_BEAM",
+        "FOCUS_BLAST",
+        "FLAMETHROWER"
       ]
     },
     "stats": {
@@ -9012,8 +9013,8 @@
       "defense": 210
     },
     "family": "FAMILY_CELEBI",
-    "kmBuddyDistance": 5,
-    "fleeRate": 0.04,
+    "kmBuddyDistance": 20,
+    "captureRate": 100,
     "height": 0.61,
     "weight": 5
   },
@@ -13294,22 +13295,22 @@
     "moves": {
       "quick": [
         "ZEN_HEADBUTT_FAST",
-        "COUNTER_FAST"
+        "CHARGE_BEAM_FAST"
       ],
       "charge": [
         "PSYCHO_BOOST",
         "ZAP_CANNON",
-        "SWIFT"
+        "HYPER_BEAM"
       ]
     },
     "stats": {
-      "stamina": 1,
-      "attack": 1,
-      "defense": 1
+      "stamina": 100,
+      "attack": 345,
+      "defense": 115
     },
     "family": "FAMILY_DEOXYS",
     "kmBuddyDistance": 20,
-    "captureRate": 0.02,
+    "captureRate": 0.06,
     "fleeRate": 0.01,
     "height": 1.7,
     "weight": 60.8
@@ -13322,22 +13323,22 @@
     "moves": {
       "quick": [
         "ZEN_HEADBUTT_FAST",
-        "COUNTER_FAST"
+        "POISON_JAB_FAST"
       ],
       "charge": [
         "PSYCHO_BOOST",
         "ZAP_CANNON",
-        "SWIFT"
+        "DARK_PULSE"
       ]
     },
     "stats": {
-      "stamina": 1,
-      "attack": 1,
-      "defense": 1
+      "stamina": 100,
+      "attack": 414,
+      "defense": 46
     },
     "family": "FAMILY_DEOXYS",
     "kmBuddyDistance": 20,
-    "captureRate": 0.02,
+    "captureRate": 0.06,
     "fleeRate": 0.01,
     "height": 1.7,
     "weight": 60.8
@@ -13355,17 +13356,17 @@
       "charge": [
         "PSYCHO_BOOST",
         "ZAP_CANNON",
-        "SWIFT"
+        "ROCK_SLIDE"
       ]
     },
     "stats": {
-      "stamina": 1,
-      "attack": 1,
-      "defense": 1
+      "stamina": 100,
+      "attack": 144,
+      "defense": 330
     },
     "family": "FAMILY_DEOXYS",
     "kmBuddyDistance": 20,
-    "captureRate": 0.02,
+    "captureRate": 0.06,
     "fleeRate": 0.01,
     "height": 1.7,
     "weight": 60.8
@@ -13378,22 +13379,22 @@
     "moves": {
       "quick": [
         "ZEN_HEADBUTT_FAST",
-        "COUNTER_FAST"
+        "CHARGE_BEAM_FAST"
       ],
       "charge": [
         "PSYCHO_BOOST",
-        "ZAP_CANNON",
-        "SWIFT"
+        "THUNDERBOLT",
+        "HYPER_BEAM"
       ]
     },
     "stats": {
-      "stamina": 1,
-      "attack": 1,
-      "defense": 1
+      "stamina": 100,
+      "attack": 345,
+      "defense": 115
     },
     "family": "FAMILY_DEOXYS",
     "kmBuddyDistance": 20,
-    "captureRate": 0.02,
+    "captureRate": 0.06,
     "fleeRate": 0.01,
     "height": 1.7,
     "weight": 60.8
@@ -13406,7 +13407,7 @@
     "moves": {
       "quick": [
         "ZEN_HEADBUTT_FAST",
-        "COUNTER_FAST"
+        "CHARGE_BEAM_FAST"
       ],
       "charge": [
         "PSYCHO_BOOST",
@@ -13415,15 +13416,4350 @@
       ]
     },
     "stats": {
-      "stamina": 1,
-      "attack": 1,
-      "defense": 1
+      "stamina": 100,
+      "attack": 230,
+      "defense": 218
     },
     "family": "FAMILY_DEOXYS",
     "kmBuddyDistance": 20,
-    "captureRate": 0.02,
+    "captureRate": 0.06,
     "fleeRate": 0.01,
     "height": 1.7,
     "weight": 60.8
+  },
+  {
+    "id": "TURTWIG",
+    "name": "TURTWIG",
+    "type1": "GRASS",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "TACKLE_FAST",
+        "RAZOR_LEAF_FAST"
+      ],
+      "charge": [
+        "ENERGY_BALL",
+        "SEED_BOMB",
+        "BODY_SLAM"
+      ]
+    },
+    "stats": {
+      "stamina": 146,
+      "attack": 119,
+      "defense": 110
+    },
+    "family": "FAMILY_TURTWIG",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "GROTLE",
+        "candyCost": 25
+      }
+    ],
+    "captureRate": 0.2,
+    "fleeRate": 0.1,
+    "height": 0.4,
+    "weight": 10.2
+  },
+  {
+    "id": "GROTLE",
+    "name": "GROTLE",
+    "type1": "GRASS",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "BITE_FAST",
+        "RAZOR_LEAF_FAST"
+      ],
+      "charge": [
+        "ENERGY_BALL",
+        "SOLAR_BEAM",
+        "BODY_SLAM"
+      ]
+    },
+    "stats": {
+      "stamina": 181,
+      "attack": 157,
+      "defense": 143
+    },
+    "family": "FAMILY_TURTWIG",
+    "parentPokemonId": "TURTWIG",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "TORTERRA",
+        "candyCost": 100
+      }
+    ],
+    "captureRate": 0.1,
+    "fleeRate": 0.07,
+    "height": 1.1,
+    "weight": 97
+  },
+  {
+    "id": "TORTERRA",
+    "name": "TORTERRA",
+    "type1": "GRASS",
+    "type2": "GROUND",
+    "moves": {
+      "quick": [
+        "BITE_FAST",
+        "RAZOR_LEAF_FAST"
+      ],
+      "charge": [
+        "STONE_EDGE",
+        "SOLAR_BEAM",
+        "EARTHQUAKE"
+      ]
+    },
+    "stats": {
+      "stamina": 216,
+      "attack": 202,
+      "defense": 188
+    },
+    "family": "FAMILY_TURTWIG",
+    "parentPokemonId": "GROTLE",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.05,
+    "fleeRate": 0.05,
+    "height": 2.2,
+    "weight": 310
+  },
+  {
+    "id": "CHIMCHAR",
+    "name": "CHIMCHAR",
+    "type1": "FIRE",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "EMBER_FAST",
+        "SCRATCH_FAST"
+      ],
+      "charge": [
+        "FLAME_WHEEL",
+        "FLAMETHROWER",
+        "FLAME_CHARGE"
+      ]
+    },
+    "stats": {
+      "stamina": 127,
+      "attack": 113,
+      "defense": 86
+    },
+    "family": "FAMILY_CHIMCHAR",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "MONFERNO",
+        "candyCost": 25
+      }
+    ],
+    "captureRate": 0.2,
+    "fleeRate": 0.1,
+    "height": 0.5,
+    "weight": 6.2
+  },
+  {
+    "id": "MONFERNO",
+    "name": "MONFERNO",
+    "type1": "FIRE",
+    "type2": "FIGHTING",
+    "moves": {
+      "quick": [
+        "EMBER_FAST",
+        "ROCK_SMASH_FAST"
+      ],
+      "charge": [
+        "FLAME_WHEEL",
+        "FLAMETHROWER",
+        "LOW_SWEEP"
+      ]
+    },
+    "stats": {
+      "stamina": 162,
+      "attack": 158,
+      "defense": 105
+    },
+    "family": "FAMILY_CHIMCHAR",
+    "parentPokemonId": "CHIMCHAR",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "INFERNAPE",
+        "candyCost": 100
+      }
+    ],
+    "captureRate": 0.1,
+    "fleeRate": 0.07,
+    "height": 0.9,
+    "weight": 22
+  },
+  {
+    "id": "INFERNAPE",
+    "name": "INFERNAPE",
+    "type1": "FIRE",
+    "type2": "FIGHTING",
+    "moves": {
+      "quick": [
+        "FIRE_SPIN_FAST",
+        "ROCK_SMASH_FAST"
+      ],
+      "charge": [
+        "SOLAR_BEAM",
+        "FLAMETHROWER",
+        "CLOSE_COMBAT"
+      ]
+    },
+    "stats": {
+      "stamina": 183,
+      "attack": 222,
+      "defense": 151
+    },
+    "family": "FAMILY_CHIMCHAR",
+    "parentPokemonId": "MONFERNO",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.05,
+    "fleeRate": 0.05,
+    "height": 1.2,
+    "weight": 55
+  },
+  {
+    "id": "PIPLUP",
+    "name": "PIPLUP",
+    "type1": "WATER",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "BUBBLE_FAST",
+        "POUND_FAST"
+      ],
+      "charge": [
+        "BUBBLE_BEAM",
+        "DRILL_PECK",
+        "ICY_WIND"
+      ]
+    },
+    "stats": {
+      "stamina": 142,
+      "attack": 112,
+      "defense": 102
+    },
+    "family": "FAMILY_PIPLUP",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "PRINPLUP",
+        "candyCost": 25
+      }
+    ],
+    "captureRate": 0.2,
+    "fleeRate": 0.1,
+    "height": 0.4,
+    "weight": 5.2
+  },
+  {
+    "id": "PRINPLUP",
+    "name": "PRINPLUP",
+    "type1": "WATER",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "BUBBLE_FAST",
+        "METAL_CLAW_FAST"
+      ],
+      "charge": [
+        "BUBBLE_BEAM",
+        "HYDRO_PUMP",
+        "ICY_WIND"
+      ]
+    },
+    "stats": {
+      "stamina": 162,
+      "attack": 150,
+      "defense": 139
+    },
+    "family": "FAMILY_PIPLUP",
+    "parentPokemonId": "PIPLUP",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "EMPOLEON",
+        "candyCost": 100
+      }
+    ],
+    "captureRate": 0.1,
+    "fleeRate": 0.07,
+    "height": 0.8,
+    "weight": 23
+  },
+  {
+    "id": "EMPOLEON",
+    "name": "EMPOLEON",
+    "type1": "WATER",
+    "type2": "STEEL",
+    "moves": {
+      "quick": [
+        "WATERFALL_FAST",
+        "METAL_CLAW_FAST"
+      ],
+      "charge": [
+        "HYDRO_PUMP",
+        "BLIZZARD",
+        "FLASH_CANNON"
+      ]
+    },
+    "stats": {
+      "stamina": 197,
+      "attack": 210,
+      "defense": 186
+    },
+    "family": "FAMILY_PIPLUP",
+    "parentPokemonId": "PRINPLUP",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.05,
+    "fleeRate": 0.05,
+    "height": 1.7,
+    "weight": 84.5
+  },
+  {
+    "id": "STARLY",
+    "name": "STARLY",
+    "type1": "NORMAL",
+    "type2": "FLYING",
+    "moves": {
+      "quick": [
+        "TACKLE_FAST",
+        "QUICK_ATTACK_FAST"
+      ],
+      "charge": [
+        "AERIAL_ACE",
+        "BRAVE_BIRD"
+      ]
+    },
+    "stats": {
+      "stamina": 120,
+      "attack": 101,
+      "defense": 58
+    },
+    "family": "FAMILY_STARLY",
+    "kmBuddyDistance": 1,
+    "evolutionBranch": [
+      {
+        "evolution": "STARAVIA",
+        "candyCost": 25
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.2,
+    "height": 0.3,
+    "weight": 2
+  },
+  {
+    "id": "STARAVIA",
+    "name": "STARAVIA",
+    "type1": "NORMAL",
+    "type2": "FLYING",
+    "moves": {
+      "quick": [
+        "WING_ATTACK_FAST",
+        "QUICK_ATTACK_FAST"
+      ],
+      "charge": [
+        "AERIAL_ACE",
+        "BRAVE_BIRD",
+        "HEAT_WAVE"
+      ]
+    },
+    "stats": {
+      "stamina": 146,
+      "attack": 142,
+      "defense": 94
+    },
+    "family": "FAMILY_STARLY",
+    "parentPokemonId": "STARLY",
+    "kmBuddyDistance": 1,
+    "evolutionBranch": [
+      {
+        "evolution": "STARAPTOR",
+        "candyCost": 100
+      }
+    ],
+    "captureRate": 0.25,
+    "fleeRate": 0.09,
+    "height": 0.6,
+    "weight": 15.5
+  },
+  {
+    "id": "STARAPTOR",
+    "name": "STARAPTOR",
+    "type1": "NORMAL",
+    "type2": "FLYING",
+    "moves": {
+      "quick": [
+        "WING_ATTACK_FAST",
+        "QUICK_ATTACK_FAST"
+      ],
+      "charge": [
+        "BRAVE_BIRD",
+        "HEAT_WAVE",
+        "CLOSE_COMBAT"
+      ]
+    },
+    "stats": {
+      "stamina": 198,
+      "attack": 234,
+      "defense": 140
+    },
+    "family": "FAMILY_STARLY",
+    "parentPokemonId": "STARAVIA",
+    "kmBuddyDistance": 1,
+    "captureRate": 0.125,
+    "fleeRate": 0.06,
+    "height": 1.2,
+    "weight": 24.9
+  },
+  {
+    "id": "BIDOOF",
+    "name": "BIDOOF",
+    "type1": "NORMAL",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "TACKLE_FAST",
+        "TAKE_DOWN_FAST"
+      ],
+      "charge": [
+        "HYPER_FANG",
+        "CRUNCH",
+        "GRASS_KNOT"
+      ]
+    },
+    "stats": {
+      "stamina": 153,
+      "attack": 80,
+      "defense": 73
+    },
+    "family": "FAMILY_BIDOOF",
+    "kmBuddyDistance": 1,
+    "evolutionBranch": [
+      {
+        "evolution": "BIBAREL",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.2,
+    "height": 0.5,
+    "weight": 20
+  },
+  {
+    "id": "BIBAREL",
+    "name": "BIBAREL",
+    "type1": "NORMAL",
+    "type2": "WATER",
+    "moves": {
+      "quick": [
+        "WATER_GUN_FAST",
+        "TAKE_DOWN_FAST"
+      ],
+      "charge": [
+        "HYPER_FANG",
+        "HYPER_BEAM",
+        "SURF"
+      ]
+    },
+    "stats": {
+      "stamina": 188,
+      "attack": 162,
+      "defense": 119
+    },
+    "family": "FAMILY_BIDOOF",
+    "parentPokemonId": "BIDOOF",
+    "kmBuddyDistance": 1,
+    "captureRate": 0.2,
+    "fleeRate": 0.07,
+    "height": 1,
+    "weight": 31.5
+  },
+  {
+    "id": "KRICKETOT",
+    "name": "KRICKETOT",
+    "type1": "BUG",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "STRUGGLE_BUG_FAST",
+        "BUG_BITE_FAST"
+      ],
+      "charge": [
+        "STRUGGLE"
+      ]
+    },
+    "stats": {
+      "stamina": 114,
+      "attack": 45,
+      "defense": 74
+    },
+    "family": "FAMILY_KRICKETOT",
+    "kmBuddyDistance": 1,
+    "evolutionBranch": [
+      {
+        "evolution": "KRICKETUNE",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.2,
+    "height": 0.3,
+    "weight": 2.2
+  },
+  {
+    "id": "KRICKETUNE",
+    "name": "KRICKETUNE",
+    "type1": "BUG",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "STRUGGLE_BUG_FAST",
+        "FURY_CUTTER_FAST"
+      ],
+      "charge": [
+        "BUG_BUZZ",
+        "X_SCISSOR",
+        "AERIAL_ACE"
+      ]
+    },
+    "stats": {
+      "stamina": 184,
+      "attack": 160,
+      "defense": 100
+    },
+    "family": "FAMILY_KRICKETOT",
+    "parentPokemonId": "KRICKETOT",
+    "kmBuddyDistance": 1,
+    "captureRate": 0.2,
+    "fleeRate": 0.07,
+    "height": 1,
+    "weight": 25.5
+  },
+  {
+    "id": "SHINX",
+    "name": "SHINX",
+    "type1": "ELECTRIC",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "TACKLE_FAST",
+        "SPARK_FAST"
+      ],
+      "charge": [
+        "DISCHARGE",
+        "THUNDERBOLT",
+        "SWIFT"
+      ]
+    },
+    "stats": {
+      "stamina": 128,
+      "attack": 117,
+      "defense": 64
+    },
+    "family": "FAMILY_SHINX",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [
+      {
+        "evolution": "LUXIO",
+        "candyCost": 25
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.1,
+    "height": 0.5,
+    "weight": 9.5
+  },
+  {
+    "id": "LUXIO",
+    "name": "LUXIO",
+    "type1": "ELECTRIC",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "SPARK_FAST",
+        "BITE_FAST"
+      ],
+      "charge": [
+        "THUNDERBOLT",
+        "WILD_CHARGE",
+        "CRUNCH"
+      ]
+    },
+    "stats": {
+      "stamina": 155,
+      "attack": 159,
+      "defense": 95
+    },
+    "family": "FAMILY_SHINX",
+    "parentPokemonId": "SHINX",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [
+      {
+        "evolution": "LUXRAY",
+        "candyCost": 100
+      }
+    ],
+    "captureRate": 0.25,
+    "fleeRate": 0.07,
+    "height": 0.9,
+    "weight": 30.5
+  },
+  {
+    "id": "LUXRAY",
+    "name": "LUXRAY",
+    "type1": "ELECTRIC",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "SPARK_FAST",
+        "SNARL_FAST"
+      ],
+      "charge": [
+        "HYPER_BEAM",
+        "WILD_CHARGE",
+        "CRUNCH"
+      ]
+    },
+    "stats": {
+      "stamina": 190,
+      "attack": 232,
+      "defense": 156
+    },
+    "family": "FAMILY_SHINX",
+    "parentPokemonId": "LUXIO",
+    "kmBuddyDistance": 5,
+    "captureRate": 0.125,
+    "fleeRate": 0.05,
+    "height": 1.4,
+    "weight": 42
+  },
+  {
+    "id": "BUDEW",
+    "name": "BUDEW",
+    "type1": "GRASS",
+    "type2": "POISON",
+    "moves": {
+      "quick": [
+        "HIDDEN_POWER_FAST",
+        "RAZOR_LEAF_FAST"
+      ],
+      "charge": [
+        "ENERGY_BALL",
+        "GRASS_KNOT"
+      ]
+    },
+    "stats": {
+      "stamina": 120,
+      "attack": 91,
+      "defense": 109
+    },
+    "family": "FAMILY_ROSELIA",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "ROSELIA",
+        "candyCost": 25
+      }
+    ],
+    "captureRate": 0.1,
+    "fleeRate": 0.04,
+    "height": 0.2,
+    "weight": 1.2
+  },
+  {
+    "id": "ROSERADE",
+    "name": "ROSERADE",
+    "type1": "GRASS",
+    "type2": "POISON",
+    "moves": {
+      "quick": [
+        "POISON_JAB_FAST",
+        "RAZOR_LEAF_FAST"
+      ],
+      "charge": [
+        "SOLAR_BEAM",
+        "SLUDGE_BOMB",
+        "DAZZLING_GLEAM"
+      ]
+    },
+    "stats": {
+      "stamina": 155,
+      "attack": 243,
+      "defense": 185
+    },
+    "family": "FAMILY_ROSELIA",
+    "parentPokemonId": "ROSELIA",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.15,
+    "fleeRate": 0.07,
+    "height": 0.9,
+    "weight": 14.5
+  },
+  {
+    "id": "CRANIDOS",
+    "name": "CRANIDOS",
+    "type1": "ROCK",
+    "type2": "ROCK",
+    "moves": {
+      "quick": [
+        "ZEN_HEADBUTT_FAST",
+        "TAKE_DOWN_FAST"
+      ],
+      "charge": [
+        "ROCK_TOMB",
+        "ANCIENT_POWER",
+        "BULLDOZE"
+      ]
+    },
+    "stats": {
+      "stamina": 167,
+      "attack": 218,
+      "defense": 71
+    },
+    "family": "FAMILY_CRANIDOS",
+    "kmBuddyDistance": 1,
+    "evolutionBranch": [
+      {
+        "evolution": "RAMPARDOS",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.1,
+    "height": 0.9,
+    "weight": 31.5
+  },
+  {
+    "id": "RAMPARDOS",
+    "name": "RAMPARDOS",
+    "type1": "ROCK",
+    "type2": "ROCK",
+    "moves": {
+      "quick": [
+        "ZEN_HEADBUTT_FAST",
+        "SMACK_DOWN_FAST"
+      ],
+      "charge": [
+        "ROCK_SLIDE",
+        "OUTRAGE",
+        "FLAMETHROWER"
+      ]
+    },
+    "stats": {
+      "stamina": 219,
+      "attack": 295,
+      "defense": 109
+    },
+    "family": "FAMILY_CRANIDOS",
+    "parentPokemonId": "CRANIDOS",
+    "kmBuddyDistance": 5,
+    "captureRate": 0.2,
+    "fleeRate": 0.06,
+    "height": 1.6,
+    "weight": 102.5
+  },
+  {
+    "id": "SHIELDON",
+    "name": "SHIELDON",
+    "type1": "ROCK",
+    "type2": "STEEL",
+    "moves": {
+      "quick": [
+        "TACKLE_FAST",
+        "IRON_TAIL_FAST"
+      ],
+      "charge": [
+        "ROCK_TOMB",
+        "ANCIENT_POWER",
+        "HEAVY_SLAM"
+      ]
+    },
+    "stats": {
+      "stamina": 102,
+      "attack": 76,
+      "defense": 195
+    },
+    "family": "FAMILY_SHIELDON",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [
+      {
+        "evolution": "BASTIODON",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.1,
+    "height": 0.5,
+    "weight": 57
+  },
+  {
+    "id": "BASTIODON",
+    "name": "BASTIODON",
+    "type1": "ROCK",
+    "type2": "STEEL",
+    "moves": {
+      "quick": [
+        "SMACK_DOWN_FAST",
+        "IRON_TAIL_FAST"
+      ],
+      "charge": [
+        "STONE_EDGE",
+        "FLAMETHROWER",
+        "FLASH_CANNON"
+      ]
+    },
+    "stats": {
+      "stamina": 155,
+      "attack": 94,
+      "defense": 286
+    },
+    "family": "FAMILY_SHIELDON",
+    "parentPokemonId": "SHIELDON",
+    "kmBuddyDistance": 5,
+    "captureRate": 0.2,
+    "fleeRate": 0.06,
+    "height": 1.3,
+    "weight": 149.5
+  },
+  {
+    "id": "BURMY",
+    "name": "BURMY",
+    "type1": "BUG",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "TACKLE_FAST",
+        "QUICK_ATTACK_FAST"
+      ],
+      "charge": [
+        "STRUGGLE"
+      ]
+    },
+    "stats": {
+      "stamina": 120,
+      "attack": 53,
+      "defense": 83
+    },
+    "family": "FAMILY_BURMY",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [
+      {
+        "evolution": "WORMADAM",
+        "candyCost": 50,
+        "kmBuddyDistanceRequirement": 50,
+        "form": "WORMADAM_PLANT"
+      },
+      {
+        "evolution": "WORMADAM",
+        "candyCost": 50,
+        "form": "WORMADAM_SANDY"
+      },
+      {
+        "evolution": "WORMADAM",
+        "candyCost": 50,
+        "form": "WORMADAM_TRASH"
+      },
+      {
+        "evolution": "MOTHIM",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.2,
+    "height": 0.2,
+    "weight": 3.4
+  },
+  {
+    "id": "WORMADAM",
+    "name": "WORMADAM",
+    "type1": "BUG",
+    "type2": "GRASS",
+    "moves": {
+      "quick": [
+        "TACKLE_FAST",
+        "BUG_BITE_FAST"
+      ],
+      "charge": [
+        "STRUGGLE"
+      ]
+    },
+    "stats": {
+      "stamina": 155,
+      "attack": 141,
+      "defense": 180
+    },
+    "family": "FAMILY_BURMY",
+    "parentPokemonId": "BURMY",
+    "kmBuddyDistance": 1,
+    "captureRate": 0.15,
+    "fleeRate": 0.07,
+    "height": 0.5,
+    "weight": 6.5
+  },
+  {
+    "id": "WORMADAM_PLANT",
+    "name": "WORMADAM",
+    "type1": "BUG",
+    "type2": "GRASS",
+    "moves": {
+      "quick": [
+        "CONFUSION_FAST",
+        "BUG_BITE_FAST"
+      ],
+      "charge": [
+        "PSYBEAM",
+        "ENERGY_BALL",
+        "BUG_BUZZ"
+      ]
+    },
+    "stats": {
+      "stamina": 155,
+      "attack": 141,
+      "defense": 180
+    },
+    "family": "FAMILY_BURMY",
+    "parentPokemonId": "BURMY",
+    "kmBuddyDistance": 1,
+    "captureRate": 0.15,
+    "fleeRate": 0.07,
+    "height": 0.5,
+    "weight": 6.5
+  },
+  {
+    "id": "WORMADAM_SANDY",
+    "name": "WORMADAM",
+    "type1": "BUG",
+    "type2": "GROUND",
+    "moves": {
+      "quick": [
+        "CONFUSION_FAST",
+        "BUG_BITE_FAST"
+      ],
+      "charge": [
+        "PSYBEAM",
+        "BULLDOZE",
+        "BUG_BUZZ"
+      ]
+    },
+    "stats": {
+      "stamina": 155,
+      "attack": 127,
+      "defense": 175
+    },
+    "family": "FAMILY_BURMY",
+    "parentPokemonId": "BURMY",
+    "kmBuddyDistance": 1,
+    "captureRate": 0.15,
+    "fleeRate": 0.07,
+    "height": 0.5,
+    "weight": 6.5
+  },
+  {
+    "id": "WORMADAM_TRASH",
+    "name": "WORMADAM",
+    "type1": "BUG",
+    "type2": "STEEL",
+    "moves": {
+      "quick": [
+        "CONFUSION_FAST",
+        "BUG_BITE_FAST"
+      ],
+      "charge": [
+        "PSYBEAM",
+        "IRON_HEAD",
+        "BUG_BUZZ"
+      ]
+    },
+    "stats": {
+      "stamina": 155,
+      "attack": 141,
+      "defense": 180
+    },
+    "family": "FAMILY_BURMY",
+    "parentPokemonId": "BURMY",
+    "kmBuddyDistance": 1,
+    "captureRate": 0.15,
+    "fleeRate": 0.07,
+    "height": 0.5,
+    "weight": 6.5
+  },
+  {
+    "id": "MOTHIM",
+    "name": "MOTHIM",
+    "type1": "BUG",
+    "type2": "FLYING",
+    "moves": {
+      "quick": [
+        "AIR_SLASH_FAST",
+        "BUG_BITE_FAST"
+      ],
+      "charge": [
+        "PSYBEAM",
+        "AERIAL_ACE",
+        "BUG_BUZZ"
+      ]
+    },
+    "stats": {
+      "stamina": 172,
+      "attack": 185,
+      "defense": 98
+    },
+    "family": "FAMILY_BURMY",
+    "kmBuddyDistance": 1,
+    "captureRate": 0.15,
+    "fleeRate": 0.07,
+    "height": 0.9,
+    "weight": 23.3
+  },
+  {
+    "id": "COMBEE",
+    "name": "COMBEE",
+    "type1": "BUG",
+    "type2": "FLYING",
+    "moves": {
+      "quick": [
+        "BUG_BITE_FAST"
+      ],
+      "charge": [
+        "BUG_BUZZ"
+      ]
+    },
+    "stats": {
+      "stamina": 102,
+      "attack": 59,
+      "defense": 83
+    },
+    "family": "FAMILY_COMBEE",
+    "parentPokemonId": "MOTHIM",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "VESPIQUEN",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.15,
+    "fleeRate": 0.07,
+    "height": 0.3,
+    "weight": 5.5
+  },
+  {
+    "id": "VESPIQUEN",
+    "name": "VESPIQUEN",
+    "type1": "BUG",
+    "type2": "FLYING",
+    "moves": {
+      "quick": [
+        "BUG_BITE_FAST",
+        "POISON_STING_FAST"
+      ],
+      "charge": [
+        "BUG_BUZZ",
+        "POWER_GEM",
+        "X_SCISSOR"
+      ]
+    },
+    "stats": {
+      "stamina": 172,
+      "attack": 149,
+      "defense": 190
+    },
+    "family": "FAMILY_COMBEE",
+    "parentPokemonId": "MOTHIM",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.15,
+    "fleeRate": 0.07,
+    "height": 1.2,
+    "weight": 38.5
+  },
+  {
+    "id": "PACHIRISU",
+    "name": "PACHIRISU",
+    "type1": "ELECTRIC",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "SPARK_FAST",
+        "VOLT_SWITCH_FAST"
+      ],
+      "charge": [
+        "THUNDER",
+        "THUNDERBOLT",
+        "THUNDER_PUNCH"
+      ]
+    },
+    "stats": {
+      "stamina": 155,
+      "attack": 94,
+      "defense": 172
+    },
+    "family": "FAMILY_PACHIRISU",
+    "kmBuddyDistance": 5,
+    "captureRate": 0.3,
+    "fleeRate": 0.09,
+    "height": 0.4,
+    "weight": 3.9
+  },
+  {
+    "id": "BUIZEL",
+    "name": "BUIZEL",
+    "type1": "WATER",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "WATER_GUN_FAST",
+        "QUICK_ATTACK_FAST"
+      ],
+      "charge": [
+        "AQUA_JET",
+        "WATER_PULSE",
+        "SWIFT"
+      ]
+    },
+    "stats": {
+      "stamina": 146,
+      "attack": 132,
+      "defense": 67
+    },
+    "family": "FAMILY_BUIZEL",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "FLOATZEL",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.1,
+    "height": 0.7,
+    "weight": 29.5
+  },
+  {
+    "id": "FLOATZEL",
+    "name": "FLOATZEL",
+    "type1": "WATER",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "WATER_GUN_FAST",
+        "WATERFALL_FAST"
+      ],
+      "charge": [
+        "AQUA_JET",
+        "HYDRO_PUMP",
+        "SWIFT"
+      ]
+    },
+    "stats": {
+      "stamina": 198,
+      "attack": 221,
+      "defense": 114
+    },
+    "family": "FAMILY_BUIZEL",
+    "parentPokemonId": "BUIZEL",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.2,
+    "fleeRate": 0.06,
+    "height": 1.1,
+    "weight": 33.5
+  },
+  {
+    "id": "CHERUBI",
+    "name": "CHERUBI",
+    "type1": "GRASS",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "TACKLE_FAST",
+        "BULLET_SEED_FAST"
+      ],
+      "charge": [
+        "POWER_WHIP",
+        "PETAL_BLIZZARD",
+        "SEED_BOMB"
+      ]
+    },
+    "stats": {
+      "stamina": 128,
+      "attack": 108,
+      "defense": 92
+    },
+    "family": "FAMILY_CHERUBI",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "CHERRIM",
+        "candyCost": 50,
+        "form": "CHERRIM_OVERCAST"
+      },
+      {
+        "evolution": "CHERRIM",
+        "candyCost": 50,
+        "form": "CHERRIM_SUNNY"
+      },
+      {
+        "candyCost": 50
+      },
+      {
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.09,
+    "height": 0.4,
+    "weight": 3.3
+  },
+  {
+    "id": "CHERRIM",
+    "name": "CHERRIM",
+    "type1": "GRASS",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "RAZOR_LEAF_FAST",
+        "BULLET_SEED_FAST"
+      ],
+      "charge": [
+        "POWER_WHIP",
+        "HYPER_BEAM",
+        "SOLAR_BEAM"
+      ]
+    },
+    "stats": {
+      "stamina": 172,
+      "attack": 170,
+      "defense": 153
+    },
+    "family": "FAMILY_CHERUBI",
+    "parentPokemonId": "CHERUBI",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.1,
+    "fleeRate": 0.07,
+    "height": 0.5,
+    "weight": 9.3
+  },
+  {
+    "id": "CHERRIM_OVERCAST",
+    "name": "CHERRIM",
+    "type1": "GRASS",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "RAZOR_LEAF_FAST",
+        "BULLET_SEED_FAST"
+      ],
+      "charge": [
+        "POWER_WHIP",
+        "HYPER_BEAM",
+        "SOLAR_BEAM"
+      ]
+    },
+    "stats": {
+      "stamina": 172,
+      "attack": 170,
+      "defense": 153
+    },
+    "family": "FAMILY_CHERUBI",
+    "parentPokemonId": "CHERUBI",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.1,
+    "fleeRate": 0.07,
+    "height": 0.5,
+    "weight": 9.3
+  },
+  {
+    "id": "CHERRIM_SUNNY",
+    "name": "CHERRIM",
+    "type1": "GRASS",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "RAZOR_LEAF_FAST",
+        "BULLET_SEED_FAST"
+      ],
+      "charge": [
+        "POWER_WHIP",
+        "HYPER_BEAM",
+        "SOLAR_BEAM"
+      ]
+    },
+    "stats": {
+      "stamina": 172,
+      "attack": 170,
+      "defense": 153
+    },
+    "family": "FAMILY_CHERUBI",
+    "parentPokemonId": "CHERUBI",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.1,
+    "fleeRate": 0.07,
+    "height": 0.5,
+    "weight": 9.3
+  },
+  {
+    "id": "SHELLOS",
+    "name": "SHELLOS",
+    "type1": "WATER",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "MUD_SLAP_FAST",
+        "HIDDEN_POWER_FAST"
+      ],
+      "charge": [
+        "WATER_PULSE",
+        "MUD_BOMB",
+        "BODY_SLAM"
+      ]
+    },
+    "stats": {
+      "stamina": 183,
+      "attack": 103,
+      "defense": 105
+    },
+    "family": "FAMILY_SHELLOS",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [
+      {
+        "evolution": "GASTRODON",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.1,
+    "height": 0.3,
+    "weight": 6.3
+  },
+  {
+    "id": "SHELLOS_EAST_SEA",
+    "name": "SHELLOS",
+    "type1": "WATER",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "MUD_SLAP_FAST",
+        "HIDDEN_POWER_FAST"
+      ],
+      "charge": [
+        "WATER_PULSE",
+        "MUD_BOMB",
+        "BODY_SLAM"
+      ]
+    },
+    "stats": {
+      "stamina": 183,
+      "attack": 103,
+      "defense": 105
+    },
+    "family": "FAMILY_SHELLOS",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [
+      {
+        "evolution": "GASTRODON",
+        "candyCost": 50,
+        "form": "GASTRODON_WEST_SEA"
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.1,
+    "height": 0.3,
+    "weight": 6.3
+  },
+  {
+    "id": "SHELLOS_WEST_SEA",
+    "name": "SHELLOS",
+    "type1": "WATER",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "MUD_SLAP_FAST",
+        "HIDDEN_POWER_FAST"
+      ],
+      "charge": [
+        "WATER_PULSE",
+        "MUD_BOMB",
+        "BODY_SLAM"
+      ]
+    },
+    "stats": {
+      "stamina": 183,
+      "attack": 103,
+      "defense": 105
+    },
+    "family": "FAMILY_SHELLOS",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [
+      {
+        "evolution": "GASTRODON",
+        "candyCost": 50,
+        "form": "GASTRODON_WEST_SEA"
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.1,
+    "height": 0.3,
+    "weight": 6.3
+  },
+  {
+    "id": "GASTRODON",
+    "name": "GASTRODON",
+    "type1": "WATER",
+    "type2": "GROUND",
+    "moves": {
+      "quick": [
+        "MUD_SLAP_FAST",
+        "HIDDEN_POWER_FAST"
+      ],
+      "charge": [
+        "WATER_PULSE",
+        "EARTHQUAKE",
+        "BODY_SLAM"
+      ]
+    },
+    "stats": {
+      "stamina": 244,
+      "attack": 169,
+      "defense": 143
+    },
+    "family": "FAMILY_SHELLOS",
+    "kmBuddyDistance": 5,
+    "captureRate": 0.2,
+    "fleeRate": 0.06,
+    "height": 0.9,
+    "weight": 29.9
+  },
+  {
+    "id": "GASTRODON_EAST_SEA",
+    "name": "GASTRODON",
+    "type1": "WATER",
+    "type2": "GROUND",
+    "moves": {
+      "quick": [
+        "MUD_SLAP_FAST",
+        "HIDDEN_POWER_FAST"
+      ],
+      "charge": [
+        "WATER_PULSE",
+        "EARTHQUAKE",
+        "BODY_SLAM"
+      ]
+    },
+    "stats": {
+      "stamina": 244,
+      "attack": 169,
+      "defense": 143
+    },
+    "family": "FAMILY_SHELLOS",
+    "parentPokemonId": "SHELLOS",
+    "kmBuddyDistance": 5,
+    "captureRate": 0.2,
+    "fleeRate": 0.06,
+    "height": 0.9,
+    "weight": 29.9
+  },
+  {
+    "id": "GASTRODON_WEST_SEA",
+    "name": "GASTRODON",
+    "type1": "WATER",
+    "type2": "GROUND",
+    "moves": {
+      "quick": [
+        "MUD_SLAP_FAST",
+        "HIDDEN_POWER_FAST"
+      ],
+      "charge": [
+        "WATER_PULSE",
+        "EARTHQUAKE",
+        "BODY_SLAM"
+      ]
+    },
+    "stats": {
+      "stamina": 244,
+      "attack": 169,
+      "defense": 143
+    },
+    "family": "FAMILY_SHELLOS",
+    "parentPokemonId": "SHELLOS",
+    "kmBuddyDistance": 5,
+    "captureRate": 0.2,
+    "fleeRate": 0.06,
+    "height": 0.9,
+    "weight": 29.9
+  },
+  {
+    "id": "AMBIPOM",
+    "name": "AMBIPOM",
+    "type1": "NORMAL",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "SCRATCH_FAST",
+        "ASTONISH_FAST"
+      ],
+      "charge": [
+        "LOW_SWEEP",
+        "HYPER_BEAM",
+        "AERIAL_ACE"
+      ]
+    },
+    "stats": {
+      "stamina": 181,
+      "attack": 205,
+      "defense": 143
+    },
+    "family": "FAMILY_AIPOM",
+    "parentPokemonId": "AIPOM",
+    "kmBuddyDistance": 1,
+    "captureRate": 0.2,
+    "fleeRate": 0.06,
+    "height": 1.2,
+    "weight": 20.3
+  },
+  {
+    "id": "DRIFLOON",
+    "name": "DRIFLOON",
+    "type1": "GHOST",
+    "type2": "FLYING",
+    "moves": {
+      "quick": [
+        "HEX_FAST",
+        "ASTONISH_FAST"
+      ],
+      "charge": [
+        "OMINOUS_WIND",
+        "ICY_WIND",
+        "SHADOW_BALL"
+      ]
+    },
+    "stats": {
+      "stamina": 207,
+      "attack": 117,
+      "defense": 80
+    },
+    "family": "FAMILY_DRIFLOON",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [
+      {
+        "evolution": "DRIFBLIM",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.4,
+    "fleeRate": 0.1,
+    "height": 0.4,
+    "weight": 1.2
+  },
+  {
+    "id": "DRIFBLIM",
+    "name": "DRIFBLIM",
+    "type1": "GHOST",
+    "type2": "FLYING",
+    "moves": {
+      "quick": [
+        "HEX_FAST",
+        "ASTONISH_FAST"
+      ],
+      "charge": [
+        "OMINOUS_WIND",
+        "ICY_WIND",
+        "SHADOW_BALL"
+      ]
+    },
+    "stats": {
+      "stamina": 312,
+      "attack": 180,
+      "defense": 102
+    },
+    "family": "FAMILY_DRIFLOON",
+    "parentPokemonId": "DRIFLOON",
+    "kmBuddyDistance": 5,
+    "captureRate": 0.2,
+    "fleeRate": 0.07,
+    "height": 1.2,
+    "weight": 15
+  },
+  {
+    "id": "BUNEARY",
+    "name": "BUNEARY",
+    "type1": "NORMAL",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "POUND_FAST",
+        "QUICK_ATTACK_FAST"
+      ],
+      "charge": [
+        "FIRE_PUNCH",
+        "SWIFT"
+      ]
+    },
+    "stats": {
+      "stamina": 146,
+      "attack": 130,
+      "defense": 105
+    },
+    "family": "FAMILY_BUNEARY",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "LOPUNNY",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.1,
+    "height": 0.4,
+    "weight": 5.5
+  },
+  {
+    "id": "LOPUNNY",
+    "name": "LOPUNNY",
+    "type1": "NORMAL",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "POUND_FAST",
+        "LOW_KICK_FAST"
+      ],
+      "charge": [
+        "FIRE_PUNCH",
+        "HYPER_BEAM",
+        "FOCUS_BLAST"
+      ]
+    },
+    "stats": {
+      "stamina": 163,
+      "attack": 156,
+      "defense": 194
+    },
+    "family": "FAMILY_BUNEARY",
+    "parentPokemonId": "BUNEARY",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.2,
+    "fleeRate": 0.06,
+    "height": 1.2,
+    "weight": 33.3
+  },
+  {
+    "id": "MISMAGIUS",
+    "name": "MISMAGIUS",
+    "type1": "GHOST",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "SUCKER_PUNCH_FAST",
+        "HEX_FAST"
+      ],
+      "charge": [
+        "SHADOW_BALL",
+        "DARK_PULSE",
+        "DAZZLING_GLEAM"
+      ]
+    },
+    "stats": {
+      "stamina": 155,
+      "attack": 211,
+      "defense": 187
+    },
+    "family": "FAMILY_MISDREAVUS",
+    "parentPokemonId": "MISDREAVUS",
+    "kmBuddyDistance": 1,
+    "captureRate": 0.1,
+    "fleeRate": 0.07,
+    "height": 0.9,
+    "weight": 4.4
+  },
+  {
+    "id": "HONCHKROW",
+    "name": "HONCHKROW",
+    "type1": "DARK",
+    "type2": "FLYING",
+    "moves": {
+      "quick": [
+        "PECK_FAST",
+        "SNARL_FAST"
+      ],
+      "charge": [
+        "BRAVE_BIRD",
+        "PSYCHIC",
+        "DARK_PULSE"
+      ]
+    },
+    "stats": {
+      "stamina": 225,
+      "attack": 243,
+      "defense": 103
+    },
+    "family": "FAMILY_MURKROW",
+    "parentPokemonId": "MURKROW",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.1,
+    "fleeRate": 0.07,
+    "height": 0.9,
+    "weight": 27.3
+  },
+  {
+    "id": "GLAMEOW",
+    "name": "GLAMEOW",
+    "type1": "NORMAL",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "SCRATCH_FAST",
+        "QUICK_ATTACK_FAST"
+      ],
+      "charge": [
+        "PLAY_ROUGH",
+        "THUNDERBOLT",
+        "AERIAL_ACE"
+      ]
+    },
+    "stats": {
+      "stamina": 135,
+      "attack": 109,
+      "defense": 82
+    },
+    "family": "FAMILY_GLAMEOW",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "PURUGLY",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.4,
+    "fleeRate": 0.1,
+    "height": 0.5,
+    "weight": 3.9
+  },
+  {
+    "id": "PURUGLY",
+    "name": "PURUGLY",
+    "type1": "NORMAL",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "SCRATCH_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "PLAY_ROUGH",
+        "THUNDER",
+        "AERIAL_ACE"
+      ]
+    },
+    "stats": {
+      "stamina": 174,
+      "attack": 172,
+      "defense": 133
+    },
+    "family": "FAMILY_GLAMEOW",
+    "parentPokemonId": "GLAMEOW",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.15,
+    "fleeRate": 0.08,
+    "height": 1,
+    "weight": 43.8
+  },
+  {
+    "id": "CHINGLING",
+    "name": "CHINGLING",
+    "type1": "PSYCHIC",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "ZEN_HEADBUTT_FAST",
+        "ASTONISH_FAST"
+      ],
+      "charge": [
+        "WRAP",
+        "SHADOW_BALL",
+        "PSYSHOCK"
+      ]
+    },
+    "stats": {
+      "stamina": 128,
+      "attack": 114,
+      "defense": 94
+    },
+    "family": "FAMILY_CHIMECHO",
+    "kmBuddyDistance": 1,
+    "evolutionBranch": [
+      {
+        "evolution": "CHIMECHO",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.1,
+    "fleeRate": 0.04,
+    "height": 0.2,
+    "weight": 0.6
+  },
+  {
+    "id": "STUNKY",
+    "name": "STUNKY",
+    "type1": "POISON",
+    "type2": "DARK",
+    "moves": {
+      "quick": [
+        "SCRATCH_FAST",
+        "BITE_FAST"
+      ],
+      "charge": [
+        "CRUNCH",
+        "FLAMETHROWER",
+        "SLUDGE_BOMB"
+      ]
+    },
+    "stats": {
+      "stamina": 160,
+      "attack": 121,
+      "defense": 90
+    },
+    "family": "FAMILY_STUNKY",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "SKUNTANK",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.1,
+    "height": 0.4,
+    "weight": 19.2
+  },
+  {
+    "id": "SKUNTANK",
+    "name": "SKUNTANK",
+    "type1": "POISON",
+    "type2": "DARK",
+    "moves": {
+      "quick": [
+        "POISON_JAB_FAST",
+        "BITE_FAST"
+      ],
+      "charge": [
+        "CRUNCH",
+        "FLAMETHROWER",
+        "SLUDGE_BOMB"
+      ]
+    },
+    "stats": {
+      "stamina": 230,
+      "attack": 184,
+      "defense": 132
+    },
+    "family": "FAMILY_STUNKY",
+    "parentPokemonId": "STUNKY",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.2,
+    "fleeRate": 0.06,
+    "height": 1,
+    "weight": 38
+  },
+  {
+    "id": "BRONZOR",
+    "name": "BRONZOR",
+    "type1": "STEEL",
+    "type2": "PSYCHIC",
+    "moves": {
+      "quick": [
+        "TACKLE_FAST",
+        "CONFUSION_FAST"
+      ],
+      "charge": [
+        "GYRO_BALL",
+        "PSYSHOCK",
+        "HEAVY_SLAM"
+      ]
+    },
+    "stats": {
+      "stamina": 149,
+      "attack": 43,
+      "defense": 154
+    },
+    "family": "FAMILY_BRONZOR",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "BRONZONG",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.1,
+    "height": 0.5,
+    "weight": 60.5
+  },
+  {
+    "id": "BRONZONG",
+    "name": "BRONZONG",
+    "type1": "STEEL",
+    "type2": "PSYCHIC",
+    "moves": {
+      "quick": [
+        "FEINT_ATTACK_FAST",
+        "CONFUSION_FAST"
+      ],
+      "charge": [
+        "FLASH_CANNON",
+        "PSYCHIC",
+        "HEAVY_SLAM"
+      ]
+    },
+    "stats": {
+      "stamina": 167,
+      "attack": 161,
+      "defense": 213
+    },
+    "family": "FAMILY_BRONZOR",
+    "parentPokemonId": "BRONZOR",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.2,
+    "fleeRate": 0.06,
+    "height": 1.3,
+    "weight": 187
+  },
+  {
+    "id": "BONSLY",
+    "name": "BONSLY",
+    "type1": "ROCK",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "ROCK_THROW_FAST",
+        "COUNTER_FAST"
+      ],
+      "charge": [
+        "ROCK_TOMB",
+        "BULLDOZE",
+        "ROCK_SLIDE"
+      ]
+    },
+    "stats": {
+      "stamina": 137,
+      "attack": 124,
+      "defense": 133
+    },
+    "family": "FAMILY_SUDOWOODO",
+    "kmBuddyDistance": 1,
+    "evolutionBranch": [
+      {
+        "evolution": "SUDOWOODO",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.1,
+    "fleeRate": 0.04,
+    "height": 0.5,
+    "weight": 15
+  },
+  {
+    "id": "MIME_JR",
+    "name": "MIME_JR",
+    "type1": "PSYCHIC",
+    "type2": "FAIRY",
+    "moves": {
+      "quick": [
+        "CONFUSION_FAST",
+        "POUND_FAST"
+      ],
+      "charge": [
+        "PSYBEAM",
+        "PSYCHIC",
+        "PSYSHOCK"
+      ]
+    },
+    "stats": {
+      "stamina": 85,
+      "attack": 125,
+      "defense": 142
+    },
+    "family": "FAMILY_MR_MIME",
+    "kmBuddyDistance": 1,
+    "evolutionBranch": [
+      {
+        "evolution": "MR_MIME",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.1,
+    "fleeRate": 0.04,
+    "height": 0.6,
+    "weight": 13
+  },
+  {
+    "id": "HAPPINY",
+    "name": "HAPPINY",
+    "type1": "NORMAL",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "POUND_FAST",
+        "ZEN_HEADBUTT_FAST"
+      ],
+      "charge": [
+        "PSYCHIC",
+        "DAZZLING_GLEAM"
+      ]
+    },
+    "stats": {
+      "stamina": 225,
+      "attack": 25,
+      "defense": 77
+    },
+    "family": "FAMILY_CHANSEY",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [
+      {
+        "evolution": "CHANSEY",
+        "candyCost": 25
+      }
+    ],
+    "captureRate": 0.1,
+    "fleeRate": 0.04,
+    "height": 0.6,
+    "weight": 24.4
+  },
+  {
+    "id": "CHATOT",
+    "name": "CHATOT",
+    "type1": "NORMAL",
+    "type2": "FLYING",
+    "moves": {
+      "quick": [
+        "PECK_FAST",
+        "STEEL_WING_FAST"
+      ],
+      "charge": [
+        "NIGHT_SHADE",
+        "SKY_ATTACK",
+        "HEAT_WAVE"
+      ]
+    },
+    "stats": {
+      "stamina": 183,
+      "attack": 183,
+      "defense": 91
+    },
+    "family": "FAMILY_CHATOT",
+    "kmBuddyDistance": 5,
+    "captureRate": 0.3,
+    "fleeRate": 0.09,
+    "height": 0.5,
+    "weight": 1.9
+  },
+  {
+    "id": "SPIRITOMB",
+    "name": "SPIRITOMB",
+    "type1": "GHOST",
+    "type2": "DARK",
+    "moves": {
+      "quick": [
+        "FEINT_ATTACK_FAST",
+        "SUCKER_PUNCH_FAST"
+      ],
+      "charge": [
+        "SHADOW_SNEAK",
+        "OMINOUS_WIND",
+        "SHADOW_BALL"
+      ]
+    },
+    "stats": {
+      "stamina": 137,
+      "attack": 169,
+      "defense": 199
+    },
+    "family": "FAMILY_SPIRITOMB",
+    "kmBuddyDistance": 5,
+    "captureRate": 0.1,
+    "fleeRate": 0.04,
+    "height": 1,
+    "weight": 108
+  },
+  {
+    "id": "GIBLE",
+    "name": "GIBLE",
+    "type1": "DRAGON",
+    "type2": "GROUND",
+    "moves": {
+      "quick": [
+        "TAKE_DOWN_FAST",
+        "MUD_SHOT_FAST"
+      ],
+      "charge": [
+        "DIG",
+        "TWISTER",
+        "BODY_SLAM"
+      ]
+    },
+    "stats": {
+      "stamina": 151,
+      "attack": 124,
+      "defense": 84
+    },
+    "family": "FAMILY_GIBLE",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [
+      {
+        "evolution": "GABITE",
+        "candyCost": 25
+      }
+    ],
+    "captureRate": 0.4,
+    "fleeRate": 0.09,
+    "height": 0.7,
+    "weight": 20.5
+  },
+  {
+    "id": "GABITE",
+    "name": "GABITE",
+    "type1": "DRAGON",
+    "type2": "GROUND",
+    "moves": {
+      "quick": [
+        "TAKE_DOWN_FAST",
+        "MUD_SHOT_FAST"
+      ],
+      "charge": [
+        "DIG",
+        "TWISTER",
+        "FLAMETHROWER"
+      ]
+    },
+    "stats": {
+      "stamina": 169,
+      "attack": 172,
+      "defense": 125
+    },
+    "family": "FAMILY_GIBLE",
+    "parentPokemonId": "GIBLE",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [
+      {
+        "evolution": "GARCHOMP",
+        "candyCost": 100
+      }
+    ],
+    "captureRate": 0.1,
+    "fleeRate": 0.06,
+    "height": 1.4,
+    "weight": 56
+  },
+  {
+    "id": "GARCHOMP",
+    "name": "GARCHOMP",
+    "type1": "DRAGON",
+    "type2": "GROUND",
+    "moves": {
+      "quick": [
+        "DRAGON_TAIL_FAST",
+        "MUD_SHOT_FAST"
+      ],
+      "charge": [
+        "OUTRAGE",
+        "EARTHQUAKE",
+        "FIRE_BLAST"
+      ]
+    },
+    "stats": {
+      "stamina": 239,
+      "attack": 261,
+      "defense": 193
+    },
+    "family": "FAMILY_GIBLE",
+    "parentPokemonId": "GIBLE",
+    "kmBuddyDistance": 5,
+    "captureRate": 0.05,
+    "fleeRate": 0.05,
+    "height": 1.9,
+    "weight": 95
+  },
+  {
+    "id": "MUNCHLAX",
+    "name": "MUNCHLAX",
+    "type1": "NORMAL",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "TACKLE_FAST",
+        "LICK_FAST"
+      ],
+      "charge": [
+        "GUNK_SHOT",
+        "BODY_SLAM",
+        "BULLDOZE"
+      ]
+    },
+    "stats": {
+      "stamina": 286,
+      "attack": 137,
+      "defense": 117
+    },
+    "family": "FAMILY_SNORLAX",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [
+      {
+        "evolution": "SNORLAX",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.1,
+    "fleeRate": 0.04,
+    "height": 0.6,
+    "weight": 105
+  },
+  {
+    "id": "RIOLU",
+    "name": "RIOLU",
+    "type1": "FIGHTING",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "COUNTER_FAST",
+        "QUICK_ATTACK_FAST"
+      ],
+      "charge": [
+        "BRICK_BREAK",
+        "LOW_SWEEP",
+        "CROSS_CHOP"
+      ]
+    },
+    "stats": {
+      "stamina": 120,
+      "attack": 127,
+      "defense": 78
+    },
+    "family": "FAMILY_LUCARIO",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [
+      {
+        "evolution": "LUCARIO",
+        "candyCost": 50
+      }
+    ],
+    "fleeRate": 0.2,
+    "height": 0.7,
+    "weight": 20.2
+  },
+  {
+    "id": "LUCARIO",
+    "name": "LUCARIO",
+    "type1": "FIGHTING",
+    "type2": "STEEL",
+    "moves": {
+      "quick": [
+        "COUNTER_FAST",
+        "BULLET_PUNCH_FAST"
+      ],
+      "charge": [
+        "FLASH_CANNON",
+        "SHADOW_BALL",
+        "CLOSE_COMBAT"
+      ]
+    },
+    "stats": {
+      "stamina": 172,
+      "attack": 236,
+      "defense": 144
+    },
+    "family": "FAMILY_LUCARIO",
+    "parentPokemonId": "RIOLU",
+    "kmBuddyDistance": 5,
+    "captureRate": 0.1,
+    "fleeRate": 0.05,
+    "height": 1.2,
+    "weight": 54
+  },
+  {
+    "id": "HIPPOPOTAS",
+    "name": "HIPPOPOTAS",
+    "type1": "GROUND",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "TACKLE_FAST",
+        "BITE_FAST"
+      ],
+      "charge": [
+        "DIG",
+        "ROCK_TOMB",
+        "BODY_SLAM"
+      ]
+    },
+    "stats": {
+      "stamina": 169,
+      "attack": 124,
+      "defense": 118
+    },
+    "family": "FAMILY_HIPPOPOTAS",
+    "kmBuddyDistance": 1,
+    "evolutionBranch": [
+      {
+        "evolution": "HIPPOWDON",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.4,
+    "fleeRate": 0.1,
+    "height": 0.8,
+    "weight": 49.5
+  },
+  {
+    "id": "HIPPOWDON",
+    "name": "HIPPOWDON",
+    "type1": "GROUND",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "FIRE_FANG_FAST",
+        "BITE_FAST"
+      ],
+      "charge": [
+        "EARTHQUAKE",
+        "STONE_EDGE",
+        "BODY_SLAM"
+      ]
+    },
+    "stats": {
+      "stamina": 239,
+      "attack": 201,
+      "defense": 191
+    },
+    "family": "FAMILY_HIPPOPOTAS",
+    "parentPokemonId": "HIPPOPOTAS",
+    "kmBuddyDistance": 1,
+    "captureRate": 0.15,
+    "fleeRate": 0.08,
+    "height": 2,
+    "weight": 300
+  },
+  {
+    "id": "SKORUPI",
+    "name": "SKORUPI",
+    "type1": "POISON",
+    "type2": "BUG",
+    "moves": {
+      "quick": [
+        "POISON_STING_FAST",
+        "INFESTATION_FAST"
+      ],
+      "charge": [
+        "CROSS_POISON",
+        "AQUA_TAIL",
+        "SLUDGE_BOMB"
+      ]
+    },
+    "stats": {
+      "stamina": 120,
+      "attack": 93,
+      "defense": 151
+    },
+    "family": "FAMILY_SKORUPI",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [
+      {
+        "evolution": "DRAPION",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.4,
+    "fleeRate": 0.1,
+    "height": 0.8,
+    "weight": 12
+  },
+  {
+    "id": "DRAPION",
+    "name": "DRAPION",
+    "type1": "POISON",
+    "type2": "DARK",
+    "moves": {
+      "quick": [
+        "POISON_STING_FAST",
+        "INFESTATION_FAST"
+      ],
+      "charge": [
+        "CRUNCH",
+        "AQUA_TAIL",
+        "SLUDGE_BOMB"
+      ]
+    },
+    "stats": {
+      "stamina": 172,
+      "attack": 180,
+      "defense": 202
+    },
+    "family": "FAMILY_SKORUPI",
+    "parentPokemonId": "SKORUPI",
+    "kmBuddyDistance": 5,
+    "captureRate": 0.15,
+    "fleeRate": 0.08,
+    "height": 1.3,
+    "weight": 61.5
+  },
+  {
+    "id": "CROAGUNK",
+    "name": "CROAGUNK",
+    "type1": "POISON",
+    "type2": "FIGHTING",
+    "moves": {
+      "quick": [
+        "POISON_STING_FAST",
+        "POISON_JAB_FAST"
+      ],
+      "charge": [
+        "BRICK_BREAK",
+        "LOW_SWEEP",
+        "SLUDGE_BOMB"
+      ]
+    },
+    "stats": {
+      "stamina": 134,
+      "attack": 116,
+      "defense": 76
+    },
+    "family": "FAMILY_CROAGUNK",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "TOXICROAK",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.4,
+    "fleeRate": 0.12,
+    "height": 0.7,
+    "weight": 23
+  },
+  {
+    "id": "TOXICROAK",
+    "name": "TOXICROAK",
+    "type1": "POISON",
+    "type2": "FIGHTING",
+    "moves": {
+      "quick": [
+        "POISON_JAB_FAST",
+        "COUNTER_FAST"
+      ],
+      "charge": [
+        "DYNAMIC_PUNCH",
+        "MUD_BOMB",
+        "SLUDGE_BOMB"
+      ]
+    },
+    "stats": {
+      "stamina": 195,
+      "attack": 211,
+      "defense": 133
+    },
+    "family": "FAMILY_CROAGUNK",
+    "parentPokemonId": "CROAGUNK",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.15,
+    "fleeRate": 0.07,
+    "height": 1.3,
+    "weight": 44.4
+  },
+  {
+    "id": "CARNIVINE",
+    "name": "CARNIVINE",
+    "type1": "GRASS",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "BITE_FAST",
+        "VINE_WHIP_FAST"
+      ],
+      "charge": [
+        "POWER_WHIP",
+        "ENERGY_BALL",
+        "CRUNCH"
+      ]
+    },
+    "stats": {
+      "stamina": 179,
+      "attack": 187,
+      "defense": 136
+    },
+    "family": "FAMILY_CARNIVINE",
+    "kmBuddyDistance": 5,
+    "captureRate": 0.9,
+    "fleeRate": 0.01,
+    "height": 1.4,
+    "weight": 27
+  },
+  {
+    "id": "FINNEON",
+    "name": "FINNEON",
+    "type1": "WATER",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "POUND_FAST",
+        "WATER_GUN_FAST"
+      ],
+      "charge": [
+        "WATER_PULSE",
+        "ICE_BEAM",
+        "SILVER_WIND"
+      ]
+    },
+    "stats": {
+      "stamina": 135,
+      "attack": 96,
+      "defense": 116
+    },
+    "family": "FAMILY_FINNEON",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "LUMINEON",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.5,
+    "fleeRate": 0.1,
+    "height": 0.4,
+    "weight": 7
+  },
+  {
+    "id": "LUMINEON",
+    "name": "LUMINEON",
+    "type1": "WATER",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "WATERFALL_FAST",
+        "WATER_GUN_FAST"
+      ],
+      "charge": [
+        "WATER_PULSE",
+        "BLIZZARD",
+        "SILVER_WIND"
+      ]
+    },
+    "stats": {
+      "stamina": 170,
+      "attack": 142,
+      "defense": 170
+    },
+    "family": "FAMILY_FINNEON",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.2,
+    "fleeRate": 0.06,
+    "height": 1.2,
+    "weight": 24
+  },
+  {
+    "id": "MANTYKE",
+    "name": "MANTYKE",
+    "type1": "WATER",
+    "type2": "FLYING",
+    "moves": {
+      "quick": [
+        "BUBBLE_FAST",
+        "TACKLE_FAST"
+      ],
+      "charge": [
+        "WATER_PULSE",
+        "ICE_BEAM",
+        "AERIAL_ACE"
+      ]
+    },
+    "stats": {
+      "stamina": 128,
+      "attack": 105,
+      "defense": 179
+    },
+    "family": "FAMILY_MANTINE",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "MANTINE"
+      }
+    ],
+    "captureRate": 0.1,
+    "fleeRate": 0.04,
+    "height": 1,
+    "weight": 65
+  },
+  {
+    "id": "SNOVER",
+    "name": "SNOVER",
+    "type1": "ICE",
+    "type2": "GRASS",
+    "moves": {
+      "quick": [
+        "POWDER_SNOW_FAST",
+        "ICE_SHARD_FAST"
+      ],
+      "charge": [
+        "ICE_BEAM",
+        "ENERGY_BALL",
+        "STOMP"
+      ]
+    },
+    "stats": {
+      "stamina": 155,
+      "attack": 115,
+      "defense": 105
+    },
+    "family": "FAMILY_SNOVER",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "ABOMASNOW",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.3,
+    "fleeRate": 0.1,
+    "height": 1,
+    "weight": 50.5
+  },
+  {
+    "id": "ABOMASNOW",
+    "name": "ABOMASNOW",
+    "type1": "ICE",
+    "type2": "GRASS",
+    "moves": {
+      "quick": [
+        "POWDER_SNOW_FAST",
+        "RAZOR_LEAF_FAST"
+      ],
+      "charge": [
+        "BLIZZARD",
+        "ENERGY_BALL",
+        "OUTRAGE"
+      ]
+    },
+    "stats": {
+      "stamina": 207,
+      "attack": 178,
+      "defense": 158
+    },
+    "family": "FAMILY_SNOVER",
+    "parentPokemonId": "SNOVER",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.125,
+    "fleeRate": 0.06,
+    "height": 2.2,
+    "weight": 135.5
+  },
+  {
+    "id": "WEAVILE",
+    "name": "WEAVILE",
+    "type1": "DARK",
+    "type2": "ICE",
+    "moves": {
+      "quick": [
+        "ICE_SHARD_FAST",
+        "FEINT_ATTACK_FAST"
+      ],
+      "charge": [
+        "AVALANCHE",
+        "FOCUS_BLAST",
+        "FOUL_PLAY"
+      ]
+    },
+    "stats": {
+      "stamina": 172,
+      "attack": 243,
+      "defense": 171
+    },
+    "family": "FAMILY_SNEASEL",
+    "parentPokemonId": "SNEASEL",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.15,
+    "fleeRate": 0.09,
+    "height": 1.1,
+    "weight": 34
+  },
+  {
+    "id": "MAGNEZONE",
+    "name": "MAGNEZONE",
+    "type1": "ELECTRIC",
+    "type2": "STEEL",
+    "moves": {
+      "quick": [
+        "SPARK_FAST",
+        "CHARGE_BEAM_FAST"
+      ],
+      "charge": [
+        "ZAP_CANNON",
+        "WILD_CHARGE",
+        "FLASH_CANNON"
+      ]
+    },
+    "stats": {
+      "stamina": 172,
+      "attack": 238,
+      "defense": 205
+    },
+    "family": "FAMILY_MAGNEMITE",
+    "parentPokemonId": "MAGNETON",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.125,
+    "fleeRate": 0.05,
+    "height": 1.2,
+    "weight": 180
+  },
+  {
+    "id": "LICKILICKY",
+    "name": "LICKILICKY",
+    "type1": "NORMAL",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "LICK_FAST",
+        "ZEN_HEADBUTT_FAST"
+      ],
+      "charge": [
+        "HYPER_BEAM",
+        "EARTHQUAKE",
+        "SOLAR_BEAM"
+      ]
+    },
+    "stats": {
+      "stamina": 242,
+      "attack": 161,
+      "defense": 181
+    },
+    "family": "FAMILY_LICKITUNG",
+    "parentPokemonId": "LICKITUNG",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.15,
+    "fleeRate": 0.09,
+    "height": 1.7,
+    "weight": 140
+  },
+  {
+    "id": "RHYPERIOR",
+    "name": "RHYPERIOR",
+    "type1": "GROUND",
+    "type2": "ROCK",
+    "moves": {
+      "quick": [
+        "MUD_SLAP_FAST",
+        "SMACK_DOWN_FAST"
+      ],
+      "charge": [
+        "SURF",
+        "EARTHQUAKE",
+        "STONE_EDGE"
+      ]
+    },
+    "stats": {
+      "stamina": 251,
+      "attack": 241,
+      "defense": 190
+    },
+    "family": "FAMILY_RHYHORN",
+    "parentPokemonId": "RHYDON",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.05,
+    "fleeRate": 0.05,
+    "height": 2.4,
+    "weight": 282.8
+  },
+  {
+    "id": "TANGROWTH",
+    "name": "TANGROWTH",
+    "type1": "GRASS",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "VINE_WHIP_FAST",
+        "INFESTATION_FAST"
+      ],
+      "charge": [
+        "ANCIENT_POWER",
+        "SLUDGE_BOMB",
+        "SOLAR_BEAM"
+      ]
+    },
+    "stats": {
+      "stamina": 225,
+      "attack": 207,
+      "defense": 184
+    },
+    "family": "FAMILY_TANGELA",
+    "parentPokemonId": "TANGELA",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.15,
+    "fleeRate": 0.1,
+    "height": 2,
+    "weight": 128.6
+  },
+  {
+    "id": "ELECTIVIRE",
+    "name": "ELECTIVIRE",
+    "type1": "ELECTRIC",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "THUNDER_SHOCK_FAST",
+        "LOW_KICK_FAST"
+      ],
+      "charge": [
+        "THUNDER_PUNCH",
+        "WILD_CHARGE",
+        "THUNDER"
+      ]
+    },
+    "stats": {
+      "stamina": 181,
+      "attack": 249,
+      "defense": 163
+    },
+    "family": "FAMILY_ELECTABUZZ",
+    "parentPokemonId": "ELECTABUZZ",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.15,
+    "fleeRate": 0.1,
+    "height": 1.8,
+    "weight": 138.6
+  },
+  {
+    "id": "MAGMORTAR",
+    "name": "MAGMORTAR",
+    "type1": "FIRE",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "FIRE_SPIN_FAST",
+        "KARATE_CHOP_FAST"
+      ],
+      "charge": [
+        "BRICK_BREAK",
+        "FIRE_PUNCH",
+        "FIRE_BLAST"
+      ]
+    },
+    "stats": {
+      "stamina": 181,
+      "attack": 247,
+      "defense": 172
+    },
+    "family": "FAMILY_MAGMAR",
+    "parentPokemonId": "MAGMAR",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.15,
+    "fleeRate": 0.1,
+    "height": 1.6,
+    "weight": 68
+  },
+  {
+    "id": "TOGEKISS",
+    "name": "TOGEKISS",
+    "type1": "FAIRY",
+    "type2": "FLYING",
+    "moves": {
+      "quick": [
+        "AIR_SLASH_FAST",
+        "HIDDEN_POWER_FAST"
+      ],
+      "charge": [
+        "ANCIENT_POWER",
+        "DAZZLING_GLEAM",
+        "AERIAL_ACE"
+      ]
+    },
+    "stats": {
+      "stamina": 198,
+      "attack": 225,
+      "defense": 217
+    },
+    "family": "FAMILY_TOGEPI",
+    "parentPokemonId": "TOGETIC",
+    "kmBuddyDistance": 1,
+    "captureRate": 0.01,
+    "fleeRate": 0.05,
+    "height": 1.5,
+    "weight": 38
+  },
+  {
+    "id": "YANMEGA",
+    "name": "YANMEGA",
+    "type1": "BUG",
+    "type2": "FLYING",
+    "moves": {
+      "quick": [
+        "BUG_BITE_FAST",
+        "WING_ATTACK_FAST"
+      ],
+      "charge": [
+        "ANCIENT_POWER",
+        "AERIAL_ACE",
+        "BUG_BUZZ"
+      ]
+    },
+    "stats": {
+      "stamina": 200,
+      "attack": 231,
+      "defense": 156
+    },
+    "family": "FAMILY_YANMA",
+    "parentPokemonId": "YANMA",
+    "kmBuddyDistance": 1,
+    "captureRate": 0.175,
+    "fleeRate": 0.05,
+    "height": 1.9,
+    "weight": 51.5
+  },
+  {
+    "id": "LEAFEON",
+    "name": "LEAFEON",
+    "type1": "GRASS",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "RAZOR_LEAF_FAST",
+        "QUICK_ATTACK_FAST"
+      ],
+      "charge": [
+        "SOLAR_BEAM",
+        "LEAF_BLADE",
+        "ENERGY_BALL"
+      ]
+    },
+    "stats": {
+      "stamina": 163,
+      "attack": 216,
+      "defense": 219
+    },
+    "family": "FAMILY_EEVEE",
+    "parentPokemonId": "EEVEE",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.125,
+    "fleeRate": 0.06,
+    "height": 1,
+    "weight": 25.5
+  },
+  {
+    "id": "GLACEON",
+    "name": "GLACEON",
+    "type1": "ICE",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "ICE_SHARD_FAST",
+        "FROST_BREATH_FAST"
+      ],
+      "charge": [
+        "AVALANCHE",
+        "ICY_WIND",
+        "ICE_BEAM"
+      ]
+    },
+    "stats": {
+      "stamina": 163,
+      "attack": 238,
+      "defense": 205
+    },
+    "family": "FAMILY_EEVEE",
+    "parentPokemonId": "EEVEE",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.125,
+    "fleeRate": 0.06,
+    "height": 0.8,
+    "weight": 25.9
+  },
+  {
+    "id": "GLISCOR",
+    "name": "GLISCOR",
+    "type1": "GROUND",
+    "type2": "FLYING",
+    "moves": {
+      "quick": [
+        "FURY_CUTTER_FAST",
+        "WING_ATTACK_FAST"
+      ],
+      "charge": [
+        "EARTHQUAKE",
+        "AERIAL_ACE",
+        "NIGHT_SLASH"
+      ]
+    },
+    "stats": {
+      "stamina": 181,
+      "attack": 185,
+      "defense": 222
+    },
+    "family": "FAMILY_GLIGAR",
+    "parentPokemonId": "GLIGAR",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.125,
+    "fleeRate": 0.09,
+    "height": 2,
+    "weight": 42.5
+  },
+  {
+    "id": "MAMOSWINE",
+    "name": "MAMOSWINE",
+    "type1": "ICE",
+    "type2": "GROUND",
+    "moves": {
+      "quick": [
+        "MUD_SLAP_FAST",
+        "POWDER_SNOW_FAST"
+      ],
+      "charge": [
+        "AVALANCHE",
+        "BULLDOZE",
+        "STONE_EDGE"
+      ]
+    },
+    "stats": {
+      "stamina": 242,
+      "attack": 247,
+      "defense": 146
+    },
+    "family": "FAMILY_SWINUB",
+    "parentPokemonId": "PILOSWINE",
+    "kmBuddyDistance": 1,
+    "captureRate": 0.05,
+    "fleeRate": 0.05,
+    "height": 2.5,
+    "weight": 291
+  },
+  {
+    "id": "PORYGON_Z",
+    "name": "PORYGON_Z",
+    "type1": "NORMAL",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "HIDDEN_POWER_FAST",
+        "CHARGE_BEAM_FAST"
+      ],
+      "charge": [
+        "SOLAR_BEAM",
+        "HYPER_BEAM",
+        "ZAP_CANNON"
+      ]
+    },
+    "stats": {
+      "stamina": 198,
+      "attack": 264,
+      "defense": 150
+    },
+    "family": "FAMILY_PORYGON",
+    "parentPokemonId": "PORYGON2",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.05,
+    "fleeRate": 0.05,
+    "height": 0.9,
+    "weight": 34
+  },
+  {
+    "id": "GALLADE",
+    "name": "GALLADE",
+    "type1": "PSYCHIC",
+    "type2": "FIGHTING",
+    "moves": {
+      "quick": [
+        "CONFUSION_FAST",
+        "LOW_KICK_FAST"
+      ],
+      "charge": [
+        "CLOSE_COMBAT",
+        "PSYCHIC",
+        "LEAF_BLADE"
+      ]
+    },
+    "stats": {
+      "stamina": 169,
+      "attack": 237,
+      "defense": 195
+    },
+    "family": "FAMILY_RALTS",
+    "parentPokemonId": "KIRLIA",
+    "kmBuddyDistance": 5,
+    "captureRate": 0.5,
+    "fleeRate": 0.05,
+    "height": 1.6,
+    "weight": 52
+  },
+  {
+    "id": "PROBOPASS",
+    "name": "PROBOPASS",
+    "type1": "ROCK",
+    "type2": "STEEL",
+    "moves": {
+      "quick": [
+        "ROCK_THROW_FAST",
+        "SPARK_FAST"
+      ],
+      "charge": [
+        "MAGNET_BOMB",
+        "ROCK_SLIDE",
+        "THUNDERBOLT"
+      ]
+    },
+    "stats": {
+      "stamina": 155,
+      "attack": 135,
+      "defense": 275
+    },
+    "family": "FAMILY_NOSEPASS",
+    "parentPokemonId": "NOSEPASS",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.1,
+    "fleeRate": 0.07,
+    "height": 1.4,
+    "weight": 340
+  },
+  {
+    "id": "DUSKNOIR",
+    "name": "DUSKNOIR",
+    "type1": "GHOST",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "HEX_FAST",
+        "ASTONISH_FAST"
+      ],
+      "charge": [
+        "OMINOUS_WIND",
+        "PSYCHIC",
+        "DARK_PULSE"
+      ]
+    },
+    "stats": {
+      "stamina": 128,
+      "attack": 180,
+      "defense": 254
+    },
+    "family": "FAMILY_DUSKULL",
+    "parentPokemonId": "DUSCLOPS",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.1,
+    "fleeRate": 0.05,
+    "height": 2.2,
+    "weight": 106.6
+  },
+  {
+    "id": "FROSLASS",
+    "name": "FROSLASS",
+    "type1": "ICE",
+    "type2": "GHOST",
+    "moves": {
+      "quick": [
+        "POWDER_SNOW_FAST",
+        "HEX_FAST"
+      ],
+      "charge": [
+        "AVALANCHE",
+        "CRUNCH",
+        "SHADOW_BALL"
+      ]
+    },
+    "stats": {
+      "stamina": 172,
+      "attack": 171,
+      "defense": 150
+    },
+    "family": "FAMILY_SNORUNT",
+    "parentPokemonId": "SNORUNT",
+    "kmBuddyDistance": 3,
+    "captureRate": 0.2,
+    "fleeRate": 0.07,
+    "height": 1.3,
+    "weight": 26.6
+  },
+  {
+    "id": "ROTOM",
+    "name": "ROTOM",
+    "type1": "ELECTRIC",
+    "type2": "GHOST",
+    "moves": {
+      "quick": [
+        "TACKLE_FAST",
+        "THUNDER_SHOCK_FAST"
+      ],
+      "charge": [
+        "OMINOUS_WIND",
+        "THUNDERBOLT",
+        "THUNDER"
+      ]
+    },
+    "stats": {
+      "stamina": 137,
+      "attack": 204,
+      "defense": 219
+    },
+    "family": "FAMILY_ROTOM",
+    "kmBuddyDistance": 5,
+    "captureRate": 0.3,
+    "fleeRate": 0.1,
+    "height": 0.3,
+    "weight": 0.3
+  },
+  {
+    "id": "ROTOM_FAN",
+    "name": "ROTOM",
+    "type1": "ELECTRIC",
+    "type2": "FLYING",
+    "moves": {
+      "quick": [
+        "TACKLE_FAST",
+        "AIR_SLASH_FAST"
+      ],
+      "charge": [
+        "OMINOUS_WIND",
+        "THUNDERBOLT",
+        "THUNDER"
+      ]
+    },
+    "stats": {
+      "stamina": 137,
+      "attack": 204,
+      "defense": 219
+    },
+    "family": "FAMILY_ROTOM",
+    "kmBuddyDistance": 5,
+    "captureRate": 0.3,
+    "fleeRate": 0.1,
+    "height": 0.3,
+    "weight": 0.3
+  },
+  {
+    "id": "ROTOM_FROST",
+    "name": "ROTOM",
+    "type1": "ELECTRIC",
+    "type2": "ICE",
+    "moves": {
+      "quick": [
+        "TACKLE_FAST",
+        "THUNDER_SHOCK_FAST"
+      ],
+      "charge": [
+        "BLIZZARD",
+        "THUNDERBOLT",
+        "THUNDER"
+      ]
+    },
+    "stats": {
+      "stamina": 137,
+      "attack": 204,
+      "defense": 219
+    },
+    "family": "FAMILY_ROTOM",
+    "kmBuddyDistance": 5,
+    "captureRate": 0.3,
+    "fleeRate": 0.1,
+    "height": 0.3,
+    "weight": 0.3
+  },
+  {
+    "id": "ROTOM_HEAT",
+    "name": "ROTOM",
+    "type1": "ELECTRIC",
+    "type2": "FIRE",
+    "moves": {
+      "quick": [
+        "TACKLE_FAST",
+        "THUNDER_SHOCK_FAST"
+      ],
+      "charge": [
+        "OVERHEAT",
+        "THUNDERBOLT",
+        "THUNDER"
+      ]
+    },
+    "stats": {
+      "stamina": 137,
+      "attack": 204,
+      "defense": 219
+    },
+    "family": "FAMILY_ROTOM",
+    "kmBuddyDistance": 5,
+    "captureRate": 0.3,
+    "fleeRate": 0.1,
+    "height": 0.3,
+    "weight": 0.3
+  },
+  {
+    "id": "ROTOM_MOW",
+    "name": "ROTOM",
+    "type1": "ELECTRIC",
+    "type2": "GRASS",
+    "moves": {
+      "quick": [
+        "TACKLE_FAST",
+        "THUNDER_SHOCK_FAST"
+      ],
+      "charge": [
+        "OMINOUS_WIND",
+        "THUNDERBOLT",
+        "THUNDER"
+      ]
+    },
+    "stats": {
+      "stamina": 137,
+      "attack": 204,
+      "defense": 219
+    },
+    "family": "FAMILY_ROTOM",
+    "kmBuddyDistance": 5,
+    "captureRate": 0.3,
+    "fleeRate": 0.1,
+    "height": 0.3,
+    "weight": 0.3
+  },
+  {
+    "id": "ROTOM_NORMAL",
+    "name": "ROTOM",
+    "type1": "ELECTRIC",
+    "type2": "GHOST",
+    "moves": {
+      "quick": [
+        "TACKLE_FAST",
+        "THUNDER_SHOCK_FAST"
+      ],
+      "charge": [
+        "OMINOUS_WIND",
+        "THUNDERBOLT",
+        "THUNDER"
+      ]
+    },
+    "stats": {
+      "stamina": 137,
+      "attack": 204,
+      "defense": 219
+    },
+    "family": "FAMILY_ROTOM",
+    "kmBuddyDistance": 5,
+    "captureRate": 0.3,
+    "fleeRate": 0.1,
+    "height": 0.3,
+    "weight": 0.3
+  },
+  {
+    "id": "ROTOM_WASH",
+    "name": "ROTOM",
+    "type1": "ELECTRIC",
+    "type2": "WATER",
+    "moves": {
+      "quick": [
+        "TACKLE_FAST",
+        "THUNDER_SHOCK_FAST"
+      ],
+      "charge": [
+        "HYDRO_PUMP",
+        "THUNDERBOLT",
+        "THUNDER"
+      ]
+    },
+    "stats": {
+      "stamina": 137,
+      "attack": 185,
+      "defense": 159
+    },
+    "family": "FAMILY_ROTOM",
+    "kmBuddyDistance": 5,
+    "captureRate": 0.3,
+    "fleeRate": 0.1,
+    "height": 0.3,
+    "weight": 0.3
+  },
+  {
+    "id": "UXIE",
+    "name": "UXIE",
+    "type1": "PSYCHIC",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "CONFUSION_FAST",
+        "EXTRASENSORY_FAST"
+      ],
+      "charge": [
+        "FUTURESIGHT",
+        "SWIFT",
+        "THUNDER"
+      ]
+    },
+    "stats": {
+      "stamina": 181,
+      "attack": 156,
+      "defense": 270
+    },
+    "family": "FAMILY_UXIE",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "fleeRate": 0.04,
+    "height": 0.3,
+    "weight": 0.3
+  },
+  {
+    "id": "MESPRIT",
+    "name": "MESPRIT",
+    "type1": "PSYCHIC",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "CONFUSION_FAST",
+        "EXTRASENSORY_FAST"
+      ],
+      "charge": [
+        "FUTURESIGHT",
+        "SWIFT",
+        "BLIZZARD"
+      ]
+    },
+    "stats": {
+      "stamina": 190,
+      "attack": 212,
+      "defense": 212
+    },
+    "family": "FAMILY_MESPRIT",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "fleeRate": 0.04,
+    "height": 0.3,
+    "weight": 0.3
+  },
+  {
+    "id": "AZELF",
+    "name": "AZELF",
+    "type1": "PSYCHIC",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "CONFUSION_FAST",
+        "EXTRASENSORY_FAST"
+      ],
+      "charge": [
+        "FUTURESIGHT",
+        "SWIFT",
+        "FIRE_BLAST"
+      ]
+    },
+    "stats": {
+      "stamina": 181,
+      "attack": 270,
+      "defense": 151
+    },
+    "family": "FAMILY_AZELF",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "fleeRate": 0.04,
+    "height": 0.3,
+    "weight": 0.3
+  },
+  {
+    "id": "DIALGA",
+    "name": "DIALGA",
+    "type1": "STEEL",
+    "type2": "DRAGON",
+    "moves": {
+      "quick": [
+        "DRAGON_BREATH_FAST",
+        "METAL_CLAW_FAST"
+      ],
+      "charge": [
+        "DRACO_METEOR",
+        "IRON_HEAD",
+        "THUNDER"
+      ]
+    },
+    "stats": {
+      "stamina": 205,
+      "attack": 275,
+      "defense": 211
+    },
+    "family": "FAMILY_DIALGA",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "fleeRate": 0.04,
+    "height": 5.4,
+    "weight": 683
+  },
+  {
+    "id": "PALKIA",
+    "name": "PALKIA",
+    "type1": "WATER",
+    "type2": "DRAGON",
+    "moves": {
+      "quick": [
+        "DRAGON_BREATH_FAST",
+        "DRAGON_TAIL_FAST"
+      ],
+      "charge": [
+        "DRACO_METEOR",
+        "FIRE_BLAST",
+        "HYDRO_PUMP"
+      ]
+    },
+    "stats": {
+      "stamina": 189,
+      "attack": 280,
+      "defense": 215
+    },
+    "family": "FAMILY_PALKIA",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "fleeRate": 0.04,
+    "height": 4.2,
+    "weight": 336
+  },
+  {
+    "id": "HEATRAN",
+    "name": "HEATRAN",
+    "type1": "FIRE",
+    "type2": "STEEL",
+    "moves": {
+      "quick": [
+        "FIRE_SPIN_FAST",
+        "BUG_BITE_FAST"
+      ],
+      "charge": [
+        "FIRE_BLAST",
+        "IRON_HEAD",
+        "STONE_EDGE"
+      ]
+    },
+    "stats": {
+      "stamina": 209,
+      "attack": 251,
+      "defense": 213
+    },
+    "family": "FAMILY_HEATRAN",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "fleeRate": 0.04,
+    "height": 1.7,
+    "weight": 430
+  },
+  {
+    "id": "REGIGIGAS",
+    "name": "REGIGIGAS",
+    "type1": "NORMAL",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "ZEN_HEADBUTT_FAST",
+        "ROCK_SMASH_FAST"
+      ],
+      "charge": [
+        "STONE_EDGE",
+        "AVALANCHE",
+        "HEAVY_SLAM"
+      ]
+    },
+    "stats": {
+      "stamina": 221,
+      "attack": 287,
+      "defense": 210
+    },
+    "family": "FAMILY_REGIGIGAS",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "fleeRate": 0.04,
+    "height": 3.7,
+    "weight": 420
+  },
+  {
+    "id": "GIRATINA",
+    "name": "GIRATINA",
+    "type1": "GHOST",
+    "type2": "DRAGON",
+    "moves": {
+      "quick": [
+        "DRAGON_BREATH_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "DRAGON_CLAW",
+        "ANCIENT_POWER",
+        "SHADOW_SNEAK"
+      ]
+    },
+    "stats": {
+      "stamina": 284,
+      "attack": 187,
+      "defense": 225
+    },
+    "family": "FAMILY_GIRATINA",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "fleeRate": 0.04,
+    "height": 4.5,
+    "weight": 750
+  },
+  {
+    "id": "GIRATINA_ALTERED",
+    "name": "GIRATINA",
+    "type1": "GHOST",
+    "type2": "DRAGON",
+    "moves": {
+      "quick": [
+        "DRAGON_BREATH_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "DRAGON_CLAW",
+        "ANCIENT_POWER",
+        "SHADOW_SNEAK"
+      ]
+    },
+    "stats": {
+      "stamina": 284,
+      "attack": 187,
+      "defense": 225
+    },
+    "family": "FAMILY_GIRATINA",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "fleeRate": 0.04,
+    "height": 4.5,
+    "weight": 750
+  },
+  {
+    "id": "GIRATINA_ORIGIN",
+    "name": "GIRATINA",
+    "type1": "GHOST",
+    "type2": "DRAGON",
+    "moves": {
+      "quick": [
+        "DRAGON_BREATH_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "DRAGON_CLAW",
+        "ANCIENT_POWER",
+        "SHADOW_SNEAK"
+      ]
+    },
+    "stats": {
+      "stamina": 284,
+      "attack": 225,
+      "defense": 187
+    },
+    "family": "FAMILY_GIRATINA",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "fleeRate": 0.04,
+    "height": 4.5,
+    "weight": 750
+  },
+  {
+    "id": "CRESSELIA",
+    "name": "CRESSELIA",
+    "type1": "PSYCHIC",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "PSYCHO_CUT_FAST",
+        "CONFUSION_FAST"
+      ],
+      "charge": [
+        "AURORA_BEAM",
+        "MOONBLAST",
+        "FUTURESIGHT"
+      ]
+    },
+    "stats": {
+      "stamina": 260,
+      "attack": 152,
+      "defense": 258
+    },
+    "family": "FAMILY_CRESSELIA",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "fleeRate": 0.04,
+    "height": 1.5,
+    "weight": 85.6
+  },
+  {
+    "id": "PHIONE",
+    "name": "PHIONE",
+    "type1": "WATER",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "WATERFALL_FAST",
+        "BUBBLE_FAST"
+      ],
+      "charge": [
+        "BUBBLE_BEAM",
+        "WATER_PULSE",
+        "SURF"
+      ]
+    },
+    "stats": {
+      "stamina": 190,
+      "attack": 162,
+      "defense": 162
+    },
+    "family": "FAMILY_PHIONE",
+    "kmBuddyDistance": 20,
+    "evolutionBranch": [
+      {
+        "evolution": "MANAPHY",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.02,
+    "height": 0.4,
+    "weight": 3.1
+  },
+  {
+    "id": "MANAPHY",
+    "name": "MANAPHY",
+    "type1": "WATER",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "WATERFALL_FAST",
+        "BUBBLE_FAST"
+      ],
+      "charge": [
+        "BUBBLE_BEAM",
+        "PSYCHIC",
+        "SURF"
+      ]
+    },
+    "stats": {
+      "stamina": 225,
+      "attack": 210,
+      "defense": 210
+    },
+    "family": "FAMILY_MANAPHY",
+    "parentPokemonId": "PHIONE",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 0.3,
+    "weight": 1.4
+  },
+  {
+    "id": "DARKRAI",
+    "name": "DARKRAI",
+    "type1": "DARK",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "SNARL_FAST",
+        "FEINT_ATTACK_FAST"
+      ],
+      "charge": [
+        "FOCUS_BLAST",
+        "SHADOW_BALL",
+        "DARK_PULSE"
+      ]
+    },
+    "stats": {
+      "stamina": 172,
+      "attack": 285,
+      "defense": 198
+    },
+    "family": "FAMILY_DARKRAI",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 1.5,
+    "weight": 50.5
+  },
+  {
+    "id": "SHAYMIN",
+    "name": "SHAYMIN",
+    "type1": "GRASS",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "HIDDEN_POWER_FAST",
+        "ZEN_HEADBUTT_FAST"
+      ],
+      "charge": [
+        "ENERGY_BALL",
+        "GRASS_KNOT",
+        "SOLAR_BEAM"
+      ]
+    },
+    "stats": {
+      "stamina": 225,
+      "attack": 261,
+      "defense": 166
+    },
+    "family": "FAMILY_SHAYMIN",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 0.2,
+    "weight": 2.1
+  },
+  {
+    "id": "SHAYMIN_LAND",
+    "name": "SHAYMIN",
+    "type1": "GRASS",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "HIDDEN_POWER_FAST",
+        "ZEN_HEADBUTT_FAST"
+      ],
+      "charge": [
+        "ENERGY_BALL",
+        "GRASS_KNOT",
+        "SOLAR_BEAM"
+      ]
+    },
+    "stats": {
+      "stamina": 225,
+      "attack": 261,
+      "defense": 166
+    },
+    "family": "FAMILY_SHAYMIN",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 0.2,
+    "weight": 2.1
+  },
+  {
+    "id": "SHAYMIN_SKY",
+    "name": "SHAYMIN",
+    "type1": "GRASS",
+    "type2": "FLYING",
+    "moves": {
+      "quick": [
+        "HIDDEN_POWER_FAST",
+        "ZEN_HEADBUTT_FAST"
+      ],
+      "charge": [
+        "ENERGY_BALL",
+        "GRASS_KNOT",
+        "SOLAR_BEAM"
+      ]
+    },
+    "stats": {
+      "stamina": 225,
+      "attack": 210,
+      "defense": 210
+    },
+    "family": "FAMILY_SHAYMIN",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 0.2,
+    "weight": 2.1
+  },
+  {
+    "id": "ARCEUS",
+    "name": "ARCEUS",
+    "type1": "NORMAL",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "IRON_TAIL_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "FUTURESIGHT",
+        "HYPER_BEAM",
+        "OUTRAGE"
+      ]
+    },
+    "stats": {
+      "stamina": 237,
+      "attack": 238,
+      "defense": 238
+    },
+    "family": "FAMILY_ARCEUS",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 3.2,
+    "weight": 320
+  },
+  {
+    "id": "ARCEUS_BUG",
+    "name": "ARCEUS",
+    "type1": "BUG",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "IRON_TAIL_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "FUTURESIGHT",
+        "HYPER_BEAM",
+        "OUTRAGE"
+      ]
+    },
+    "stats": {
+      "stamina": 237,
+      "attack": 238,
+      "defense": 238
+    },
+    "family": "FAMILY_ARCEUS",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 3.2,
+    "weight": 320
+  },
+  {
+    "id": "ARCEUS_DARK",
+    "name": "ARCEUS",
+    "type1": "DARK",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "IRON_TAIL_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "FUTURESIGHT",
+        "HYPER_BEAM",
+        "OUTRAGE"
+      ]
+    },
+    "stats": {
+      "stamina": 237,
+      "attack": 238,
+      "defense": 238
+    },
+    "family": "FAMILY_ARCEUS",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 3.2,
+    "weight": 320
+  },
+  {
+    "id": "ARCEUS_DRAGON",
+    "name": "ARCEUS",
+    "type1": "DRAGON",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "IRON_TAIL_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "FUTURESIGHT",
+        "HYPER_BEAM",
+        "OUTRAGE"
+      ]
+    },
+    "stats": {
+      "stamina": 237,
+      "attack": 238,
+      "defense": 238
+    },
+    "family": "FAMILY_ARCEUS",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 3.2,
+    "weight": 320
+  },
+  {
+    "id": "ARCEUS_ELECTRIC",
+    "name": "ARCEUS",
+    "type1": "ELECTRIC",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "IRON_TAIL_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "FUTURESIGHT",
+        "HYPER_BEAM",
+        "OUTRAGE"
+      ]
+    },
+    "stats": {
+      "stamina": 237,
+      "attack": 238,
+      "defense": 238
+    },
+    "family": "FAMILY_ARCEUS",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 3.2,
+    "weight": 320
+  },
+  {
+    "id": "ARCEUS_FAIRY",
+    "name": "ARCEUS",
+    "type1": "FAIRY",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "IRON_TAIL_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "FUTURESIGHT",
+        "HYPER_BEAM",
+        "OUTRAGE"
+      ]
+    },
+    "stats": {
+      "stamina": 237,
+      "attack": 238,
+      "defense": 238
+    },
+    "family": "FAMILY_ARCEUS",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 3.2,
+    "weight": 320
+  },
+  {
+    "id": "ARCEUS_FIGHTING",
+    "name": "ARCEUS",
+    "type1": "FIGHTING",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "IRON_TAIL_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "FUTURESIGHT",
+        "HYPER_BEAM",
+        "OUTRAGE"
+      ]
+    },
+    "stats": {
+      "stamina": 237,
+      "attack": 238,
+      "defense": 238
+    },
+    "family": "FAMILY_ARCEUS",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 3.2,
+    "weight": 320
+  },
+  {
+    "id": "ARCEUS_FIRE",
+    "name": "ARCEUS",
+    "type1": "FIRE",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "IRON_TAIL_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "FUTURESIGHT",
+        "HYPER_BEAM",
+        "OUTRAGE"
+      ]
+    },
+    "stats": {
+      "stamina": 237,
+      "attack": 238,
+      "defense": 238
+    },
+    "family": "FAMILY_ARCEUS",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 3.2,
+    "weight": 320
+  },
+  {
+    "id": "ARCEUS_FLYING",
+    "name": "ARCEUS",
+    "type1": "FLYING",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "IRON_TAIL_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "FUTURESIGHT",
+        "HYPER_BEAM",
+        "OUTRAGE"
+      ]
+    },
+    "stats": {
+      "stamina": 237,
+      "attack": 238,
+      "defense": 238
+    },
+    "family": "FAMILY_ARCEUS",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 3.2,
+    "weight": 320
+  },
+  {
+    "id": "ARCEUS_GHOST",
+    "name": "ARCEUS",
+    "type1": "GHOST",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "IRON_TAIL_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "FUTURESIGHT",
+        "HYPER_BEAM",
+        "OUTRAGE"
+      ]
+    },
+    "stats": {
+      "stamina": 237,
+      "attack": 238,
+      "defense": 238
+    },
+    "family": "FAMILY_ARCEUS",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 3.2,
+    "weight": 320
+  },
+  {
+    "id": "ARCEUS_GRASS",
+    "name": "ARCEUS",
+    "type1": "GRASS",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "IRON_TAIL_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "FUTURESIGHT",
+        "HYPER_BEAM",
+        "OUTRAGE"
+      ]
+    },
+    "stats": {
+      "stamina": 237,
+      "attack": 238,
+      "defense": 238
+    },
+    "family": "FAMILY_ARCEUS",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 3.2,
+    "weight": 320
+  },
+  {
+    "id": "ARCEUS_GROUND",
+    "name": "ARCEUS",
+    "type1": "GROUND",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "IRON_TAIL_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "FUTURESIGHT",
+        "HYPER_BEAM",
+        "OUTRAGE"
+      ]
+    },
+    "stats": {
+      "stamina": 237,
+      "attack": 238,
+      "defense": 238
+    },
+    "family": "FAMILY_ARCEUS",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 3.2,
+    "weight": 320
+  },
+  {
+    "id": "ARCEUS_ICE",
+    "name": "ARCEUS",
+    "type1": "ICE",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "IRON_TAIL_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "FUTURESIGHT",
+        "HYPER_BEAM",
+        "OUTRAGE"
+      ]
+    },
+    "stats": {
+      "stamina": 237,
+      "attack": 238,
+      "defense": 238
+    },
+    "family": "FAMILY_ARCEUS",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 3.2,
+    "weight": 320
+  },
+  {
+    "id": "ARCEUS_NORMAL",
+    "name": "ARCEUS",
+    "type1": "NORMAL",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "IRON_TAIL_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "FUTURESIGHT",
+        "HYPER_BEAM",
+        "OUTRAGE"
+      ]
+    },
+    "stats": {
+      "stamina": 237,
+      "attack": 238,
+      "defense": 238
+    },
+    "family": "FAMILY_ARCEUS",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 3.2,
+    "weight": 320
+  },
+  {
+    "id": "ARCEUS_POISON",
+    "name": "ARCEUS",
+    "type1": "POISON",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "IRON_TAIL_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "FUTURESIGHT",
+        "HYPER_BEAM",
+        "OUTRAGE"
+      ]
+    },
+    "stats": {
+      "stamina": 237,
+      "attack": 238,
+      "defense": 238
+    },
+    "family": "FAMILY_ARCEUS",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 3.2,
+    "weight": 320
+  },
+  {
+    "id": "ARCEUS_PSYCHIC",
+    "name": "ARCEUS",
+    "type1": "PSYCHIC",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "IRON_TAIL_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "FUTURESIGHT",
+        "HYPER_BEAM",
+        "OUTRAGE"
+      ]
+    },
+    "stats": {
+      "stamina": 237,
+      "attack": 238,
+      "defense": 238
+    },
+    "family": "FAMILY_ARCEUS",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 3.2,
+    "weight": 320
+  },
+  {
+    "id": "ARCEUS_ROCK",
+    "name": "ARCEUS",
+    "type1": "ROCK",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "IRON_TAIL_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "FUTURESIGHT",
+        "HYPER_BEAM",
+        "OUTRAGE"
+      ]
+    },
+    "stats": {
+      "stamina": 237,
+      "attack": 238,
+      "defense": 238
+    },
+    "family": "FAMILY_ARCEUS",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 3.2,
+    "weight": 320
+  },
+  {
+    "id": "ARCEUS_STEEL",
+    "name": "ARCEUS",
+    "type1": "STEEL",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "IRON_TAIL_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "FUTURESIGHT",
+        "HYPER_BEAM",
+        "OUTRAGE"
+      ]
+    },
+    "stats": {
+      "stamina": 237,
+      "attack": 238,
+      "defense": 238
+    },
+    "family": "FAMILY_ARCEUS",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 3.2,
+    "weight": 320
+  },
+  {
+    "id": "ARCEUS_WATER",
+    "name": "ARCEUS",
+    "type1": "WATER",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "IRON_TAIL_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "FUTURESIGHT",
+        "HYPER_BEAM",
+        "OUTRAGE"
+      ]
+    },
+    "stats": {
+      "stamina": 237,
+      "attack": 238,
+      "defense": 238
+    },
+    "family": "FAMILY_ARCEUS",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.02,
+    "height": 3.2,
+    "weight": 320
   }
 ]

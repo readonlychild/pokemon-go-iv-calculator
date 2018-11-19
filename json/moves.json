@@ -1748,5 +1748,14 @@
     "Energy": -50,
     "DamageWindowStartMs": 500,
     "DamageWindowEndMs": 1600
+  },
+  "LAST_RESORT": {
+    "Name": "LAST_RESORT",
+    "Type": "NORMAL",
+    "Power": 90,
+    "DurationMs": 2900,
+    "Energy": -50,
+    "DamageWindowStartMs": 2700,
+    "DamageWindowEndMs": 2850
   }
 }
