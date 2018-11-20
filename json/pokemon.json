@@ -16,9 +16,9 @@
       ]
     },
     "stats": {
-      "stamina": 90,
+      "stamina": 128,
       "attack": 118,
-      "defense": 118
+      "defense": 111
     },
     "family": "FAMILY_BULBASAUR",
     "kmBuddyDistance": 3,
@@ -50,9 +50,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 151,
-      "defense": 151
+      "defense": 143
     },
     "family": "FAMILY_BULBASAUR",
     "parentPokemonId": "BULBASAUR",
@@ -85,9 +85,9 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 198,
-      "defense": 198
+      "defense": 189
     },
     "family": "FAMILY_BULBASAUR",
     "parentPokemonId": "IVYSAUR",
@@ -114,9 +114,9 @@
       ]
     },
     "stats": {
-      "stamina": 78,
+      "stamina": 118,
       "attack": 116,
-      "defense": 96
+      "defense": 93
     },
     "family": "FAMILY_CHARMANDER",
     "kmBuddyDistance": 3,
@@ -148,9 +148,9 @@
       ]
     },
     "stats": {
-      "stamina": 116,
+      "stamina": 151,
       "attack": 158,
-      "defense": 129
+      "defense": 126
     },
     "family": "FAMILY_CHARMANDER",
     "parentPokemonId": "CHARMANDER",
@@ -183,9 +183,9 @@
       ]
     },
     "stats": {
-      "stamina": 156,
+      "stamina": 186,
       "attack": 223,
-      "defense": 176
+      "defense": 173
     },
     "family": "FAMILY_CHARMANDER",
     "parentPokemonId": "CHARMELEON",
@@ -212,9 +212,9 @@
       ]
     },
     "stats": {
-      "stamina": 88,
+      "stamina": 127,
       "attack": 94,
-      "defense": 122
+      "defense": 121
     },
     "family": "FAMILY_SQUIRTLE",
     "kmBuddyDistance": 3,
@@ -246,7 +246,7 @@
       ]
     },
     "stats": {
-      "stamina": 118,
+      "stamina": 153,
       "attack": 126,
       "defense": 155
     },
@@ -281,9 +281,9 @@
       ]
     },
     "stats": {
-      "stamina": 158,
+      "stamina": 188,
       "attack": 171,
-      "defense": 210
+      "defense": 207
     },
     "family": "FAMILY_SQUIRTLE",
     "parentPokemonId": "WARTORTLE",
@@ -308,9 +308,9 @@
       ]
     },
     "stats": {
-      "stamina": 90,
+      "stamina": 128,
       "attack": 55,
-      "defense": 62
+      "defense": 55
     },
     "family": "FAMILY_CATERPIE",
     "kmBuddyDistance": 1,
@@ -340,9 +340,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 45,
-      "defense": 94
+      "defense": 80
     },
     "family": "FAMILY_CATERPIE",
     "parentPokemonId": "CATERPIE",
@@ -375,9 +375,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 167,
-      "defense": 151
+      "defense": 137
     },
     "family": "FAMILY_CATERPIE",
     "parentPokemonId": "METAPOD",
@@ -402,9 +402,9 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 63,
-      "defense": 55
+      "defense": 50
     },
     "family": "FAMILY_WEEDLE",
     "kmBuddyDistance": 1,
@@ -434,9 +434,9 @@
       ]
     },
     "stats": {
-      "stamina": 90,
+      "stamina": 128,
       "attack": 46,
-      "defense": 86
+      "defense": 75
     },
     "family": "FAMILY_WEEDLE",
     "parentPokemonId": "WEEDLE",
@@ -469,9 +469,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 169,
-      "defense": 150
+      "defense": 130
     },
     "family": "FAMILY_WEEDLE",
     "parentPokemonId": "KAKUNA",
@@ -498,9 +498,9 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 85,
-      "defense": 76
+      "defense": 73
     },
     "family": "FAMILY_PIDGEY",
     "kmBuddyDistance": 1,
@@ -532,9 +532,9 @@
       ]
     },
     "stats": {
-      "stamina": 126,
+      "stamina": 160,
       "attack": 117,
-      "defense": 108
+      "defense": 105
     },
     "family": "FAMILY_PIDGEY",
     "parentPokemonId": "PIDGEY",
@@ -567,9 +567,9 @@
       ]
     },
     "stats": {
-      "stamina": 166,
+      "stamina": 195,
       "attack": 166,
-      "defense": 157
+      "defense": 154
     },
     "family": "FAMILY_PIDGEY",
     "parentPokemonId": "PIDGEOTTO",
@@ -596,7 +596,7 @@
       ]
     },
     "stats": {
-      "stamina": 60,
+      "stamina": 102,
       "attack": 103,
       "defense": 70
     },
@@ -631,7 +631,7 @@
       ]
     },
     "stats": {
-      "stamina": 60,
+      "stamina": 102,
       "attack": 103,
       "defense": 70
     },
@@ -666,7 +666,7 @@
       ]
     },
     "stats": {
-      "stamina": 60,
+      "stamina": 102,
       "attack": 103,
       "defense": 70
     },
@@ -701,9 +701,9 @@
       ]
     },
     "stats": {
-      "stamina": 110,
+      "stamina": 146,
       "attack": 161,
-      "defense": 144
+      "defense": 139
     },
     "family": "FAMILY_RATTATA",
     "parentPokemonId": "RATTATA",
@@ -730,9 +730,9 @@
       ]
     },
     "stats": {
-      "stamina": 150,
+      "stamina": 181,
       "attack": 135,
-      "defense": 159
+      "defense": 154
     },
     "family": "FAMILY_RATTATA",
     "parentPokemonId": "RATTATA",
@@ -759,9 +759,9 @@
       ]
     },
     "stats": {
-      "stamina": 110,
+      "stamina": 146,
       "attack": 161,
-      "defense": 144
+      "defense": 139
     },
     "family": "FAMILY_RATTATA",
     "parentPokemonId": "RATTATA",
@@ -788,9 +788,9 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 112,
-      "defense": 61
+      "defense": 60
     },
     "family": "FAMILY_SPEAROW",
     "kmBuddyDistance": 1,
@@ -822,9 +822,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 182,
-      "defense": 135
+      "defense": 133
     },
     "family": "FAMILY_SPEAROW",
     "parentPokemonId": "SPEAROW",
@@ -851,9 +851,9 @@
       ]
     },
     "stats": {
-      "stamina": 70,
+      "stamina": 111,
       "attack": 110,
-      "defense": 102
+      "defense": 97
     },
     "family": "FAMILY_EKANS",
     "kmBuddyDistance": 3,
@@ -885,9 +885,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 167,
-      "defense": 158
+      "defense": 153
     },
     "family": "FAMILY_EKANS",
     "parentPokemonId": "EKANS",
@@ -914,9 +914,9 @@
       ]
     },
     "stats": {
-      "stamina": 70,
+      "stamina": 111,
       "attack": 112,
-      "defense": 101
+      "defense": 96
     },
     "family": "FAMILY_PIKACHU",
     "parentPokemonId": "PICHU",
@@ -949,9 +949,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 193,
-      "defense": 165
+      "defense": 151
     },
     "family": "FAMILY_PIKACHU",
     "parentPokemonId": "PIKACHU",
@@ -978,9 +978,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 201,
-      "defense": 172
+      "defense": 154
     },
     "family": "FAMILY_PIKACHU",
     "parentPokemonId": "PIKACHU",
@@ -1007,9 +1007,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 193,
-      "defense": 165
+      "defense": 151
     },
     "family": "FAMILY_PIKACHU",
     "parentPokemonId": "PIKACHU",
@@ -1036,9 +1036,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 126,
-      "defense": 145
+      "defense": 120
     },
     "family": "FAMILY_SANDSHREW",
     "kmBuddyDistance": 3,
@@ -1071,9 +1071,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 125,
-      "defense": 154
+      "defense": 129
     },
     "family": "FAMILY_SANDSHREW",
     "kmBuddyDistance": 3,
@@ -1106,9 +1106,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 126,
-      "defense": 145
+      "defense": 120
     },
     "family": "FAMILY_SANDSHREW",
     "kmBuddyDistance": 3,
@@ -1141,9 +1141,9 @@
       ]
     },
     "stats": {
-      "stamina": 150,
+      "stamina": 181,
       "attack": 182,
-      "defense": 202
+      "defense": 175
     },
     "family": "FAMILY_SANDSHREW",
     "parentPokemonId": "SANDSHREW",
@@ -1170,9 +1170,9 @@
       ]
     },
     "stats": {
-      "stamina": 150,
+      "stamina": 181,
       "attack": 177,
-      "defense": 221
+      "defense": 195
     },
     "family": "FAMILY_SANDSHREW",
     "parentPokemonId": "SANDSHREW",
@@ -1199,9 +1199,9 @@
       ]
     },
     "stats": {
-      "stamina": 150,
+      "stamina": 181,
       "attack": 182,
-      "defense": 202
+      "defense": 175
     },
     "family": "FAMILY_SANDSHREW",
     "parentPokemonId": "SANDSHREW",
@@ -1228,9 +1228,9 @@
       ]
     },
     "stats": {
-      "stamina": 110,
+      "stamina": 146,
       "attack": 86,
-      "defense": 94
+      "defense": 89
     },
     "family": "FAMILY_NIDORAN_FEMALE",
     "kmBuddyDistance": 3,
@@ -1262,9 +1262,9 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 117,
-      "defense": 126
+      "defense": 120
     },
     "family": "FAMILY_NIDORAN_FEMALE",
     "parentPokemonId": "NIDORAN_FEMALE",
@@ -1297,9 +1297,9 @@
       ]
     },
     "stats": {
-      "stamina": 180,
+      "stamina": 207,
       "attack": 180,
-      "defense": 174
+      "defense": 173
     },
     "family": "FAMILY_NIDORAN_FEMALE",
     "parentPokemonId": "NIDORINA",
@@ -1326,7 +1326,7 @@
       ]
     },
     "stats": {
-      "stamina": 92,
+      "stamina": 130,
       "attack": 105,
       "defense": 76
     },
@@ -1360,9 +1360,9 @@
       ]
     },
     "stats": {
-      "stamina": 122,
+      "stamina": 156,
       "attack": 137,
-      "defense": 112
+      "defense": 111
     },
     "family": "FAMILY_NIDORAN_MALE",
     "parentPokemonId": "NIDORAN_MALE",
@@ -1395,9 +1395,9 @@
       ]
     },
     "stats": {
-      "stamina": 162,
+      "stamina": 191,
       "attack": 204,
-      "defense": 157
+      "defense": 156
     },
     "family": "FAMILY_NIDORAN_MALE",
     "parentPokemonId": "NIDORINO",
@@ -1424,9 +1424,9 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 107,
-      "defense": 116
+      "defense": 108
     },
     "family": "FAMILY_CLEFAIRY",
     "parentPokemonId": "CLEFFA",
@@ -1459,9 +1459,9 @@
       ]
     },
     "stats": {
-      "stamina": 190,
+      "stamina": 216,
       "attack": 178,
-      "defense": 171
+      "defense": 162
     },
     "family": "FAMILY_CLEFAIRY",
     "parentPokemonId": "CLEFAIRY",
@@ -1488,9 +1488,9 @@
       ]
     },
     "stats": {
-      "stamina": 76,
+      "stamina": 116,
       "attack": 96,
-      "defense": 122
+      "defense": 109
     },
     "family": "FAMILY_VULPIX",
     "kmBuddyDistance": 3,
@@ -1523,9 +1523,9 @@
       ]
     },
     "stats": {
-      "stamina": 76,
+      "stamina": 116,
       "attack": 96,
-      "defense": 122
+      "defense": 109
     },
     "family": "FAMILY_VULPIX",
     "kmBuddyDistance": 3,
@@ -1558,9 +1558,9 @@
       ]
     },
     "stats": {
-      "stamina": 76,
+      "stamina": 116,
       "attack": 96,
-      "defense": 122
+      "defense": 109
     },
     "family": "FAMILY_VULPIX",
     "kmBuddyDistance": 3,
@@ -1593,9 +1593,9 @@
       ]
     },
     "stats": {
-      "stamina": 146,
+      "stamina": 177,
       "attack": 169,
-      "defense": 204
+      "defense": 190
     },
     "family": "FAMILY_VULPIX",
     "parentPokemonId": "VULPIX",
@@ -1622,9 +1622,9 @@
       ]
     },
     "stats": {
-      "stamina": 146,
+      "stamina": 177,
       "attack": 170,
-      "defense": 207
+      "defense": 193
     },
     "family": "FAMILY_VULPIX",
     "parentPokemonId": "VULPIX",
@@ -1651,9 +1651,9 @@
       ]
     },
     "stats": {
-      "stamina": 146,
+      "stamina": 177,
       "attack": 169,
-      "defense": 204
+      "defense": 190
     },
     "family": "FAMILY_VULPIX",
     "parentPokemonId": "VULPIX",
@@ -1680,9 +1680,9 @@
       ]
     },
     "stats": {
-      "stamina": 230,
+      "stamina": 251,
       "attack": 80,
-      "defense": 44
+      "defense": 41
     },
     "family": "FAMILY_JIGGLYPUFF",
     "parentPokemonId": "IGGLYBUFF",
@@ -1715,9 +1715,9 @@
       ]
     },
     "stats": {
-      "stamina": 280,
+      "stamina": 295,
       "attack": 156,
-      "defense": 93
+      "defense": 90
     },
     "family": "FAMILY_JIGGLYPUFF",
     "parentPokemonId": "JIGGLYPUFF",
@@ -1744,9 +1744,9 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 83,
-      "defense": 76
+      "defense": 73
     },
     "family": "FAMILY_ZUBAT",
     "kmBuddyDistance": 1,
@@ -1778,9 +1778,9 @@
       ]
     },
     "stats": {
-      "stamina": 150,
+      "stamina": 181,
       "attack": 161,
-      "defense": 153
+      "defense": 150
     },
     "family": "FAMILY_ZUBAT",
     "parentPokemonId": "ZUBAT",
@@ -1813,9 +1813,9 @@
       ]
     },
     "stats": {
-      "stamina": 90,
+      "stamina": 128,
       "attack": 131,
-      "defense": 116
+      "defense": 112
     },
     "family": "FAMILY_ODDISH",
     "kmBuddyDistance": 3,
@@ -1847,9 +1847,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 153,
-      "defense": 139
+      "defense": 136
     },
     "family": "FAMILY_ODDISH",
     "parentPokemonId": "ODDISH",
@@ -1887,9 +1887,9 @@
       ]
     },
     "stats": {
-      "stamina": 150,
+      "stamina": 181,
       "attack": 202,
-      "defense": 170
+      "defense": 167
     },
     "family": "FAMILY_ODDISH",
     "parentPokemonId": "GLOOM",
@@ -1916,7 +1916,7 @@
       ]
     },
     "stats": {
-      "stamina": 70,
+      "stamina": 111,
       "attack": 121,
       "defense": 99
     },
@@ -1950,7 +1950,7 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 165,
       "defense": 146
     },
@@ -1979,9 +1979,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 100,
-      "defense": 102
+      "defense": 100
     },
     "family": "FAMILY_VENONAT",
     "kmBuddyDistance": 3,
@@ -2013,9 +2013,9 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 179,
-      "defense": 150
+      "defense": 143
     },
     "family": "FAMILY_VENONAT",
     "parentPokemonId": "VENONAT",
@@ -2042,9 +2042,9 @@
       ]
     },
     "stats": {
-      "stamina": 20,
+      "stamina": 67,
       "attack": 109,
-      "defense": 88
+      "defense": 78
     },
     "family": "FAMILY_DIGLETT",
     "kmBuddyDistance": 3,
@@ -2077,9 +2077,9 @@
       ]
     },
     "stats": {
-      "stamina": 20,
+      "stamina": 67,
       "attack": 109,
-      "defense": 89
+      "defense": 82
     },
     "family": "FAMILY_DIGLETT",
     "kmBuddyDistance": 3,
@@ -2112,9 +2112,9 @@
       ]
     },
     "stats": {
-      "stamina": 20,
+      "stamina": 67,
       "attack": 109,
-      "defense": 88
+      "defense": 78
     },
     "family": "FAMILY_DIGLETT",
     "kmBuddyDistance": 3,
@@ -2147,9 +2147,9 @@
       ]
     },
     "stats": {
-      "stamina": 70,
+      "stamina": 111,
       "attack": 167,
-      "defense": 147
+      "defense": 134
     },
     "family": "FAMILY_DIGLETT",
     "parentPokemonId": "DIGLETT",
@@ -2176,9 +2176,9 @@
       ]
     },
     "stats": {
-      "stamina": 70,
+      "stamina": 111,
       "attack": 201,
-      "defense": 148
+      "defense": 145
     },
     "family": "FAMILY_DIGLETT",
     "parentPokemonId": "DIGLETT",
@@ -2205,9 +2205,9 @@
       ]
     },
     "stats": {
-      "stamina": 70,
+      "stamina": 111,
       "attack": 167,
-      "defense": 147
+      "defense": 134
     },
     "family": "FAMILY_DIGLETT",
     "parentPokemonId": "DIGLETT",
@@ -2234,9 +2234,9 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 92,
-      "defense": 81
+      "defense": 78
     },
     "family": "FAMILY_MEOWTH",
     "kmBuddyDistance": 3,
@@ -2269,9 +2269,9 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 99,
-      "defense": 81
+      "defense": 78
     },
     "family": "FAMILY_MEOWTH",
     "kmBuddyDistance": 3,
@@ -2304,9 +2304,9 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 92,
-      "defense": 81
+      "defense": 78
     },
     "family": "FAMILY_MEOWTH",
     "kmBuddyDistance": 3,
@@ -2339,9 +2339,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 150,
-      "defense": 139
+      "defense": 136
     },
     "family": "FAMILY_MEOWTH",
     "parentPokemonId": "MEOWTH",
@@ -2368,9 +2368,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 158,
-      "defense": 139
+      "defense": 136
     },
     "family": "FAMILY_MEOWTH",
     "parentPokemonId": "MEOWTH",
@@ -2397,9 +2397,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 150,
-      "defense": 139
+      "defense": 136
     },
     "family": "FAMILY_MEOWTH",
     "parentPokemonId": "MEOWTH",
@@ -2426,9 +2426,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 122,
-      "defense": 96
+      "defense": 95
     },
     "family": "FAMILY_PSYDUCK",
     "kmBuddyDistance": 3,
@@ -2460,9 +2460,9 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 191,
-      "defense": 163
+      "defense": 162
     },
     "family": "FAMILY_PSYDUCK",
     "parentPokemonId": "PSYDUCK",
@@ -2489,9 +2489,9 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 148,
-      "defense": 87
+      "defense": 82
     },
     "family": "FAMILY_MANKEY",
     "kmBuddyDistance": 3,
@@ -2523,9 +2523,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 207,
-      "defense": 144
+      "defense": 138
     },
     "family": "FAMILY_MANKEY",
     "parentPokemonId": "MANKEY",
@@ -2552,9 +2552,9 @@
       ]
     },
     "stats": {
-      "stamina": 110,
+      "stamina": 146,
       "attack": 136,
-      "defense": 96
+      "defense": 93
     },
     "family": "FAMILY_GROWLITHE",
     "kmBuddyDistance": 3,
@@ -2586,7 +2586,7 @@
       ]
     },
     "stats": {
-      "stamina": 180,
+      "stamina": 207,
       "attack": 227,
       "defense": 166
     },
@@ -2615,7 +2615,7 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 101,
       "defense": 82
     },
@@ -2649,9 +2649,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 130,
-      "defense": 130
+      "defense": 123
     },
     "family": "FAMILY_POLIWAG",
     "parentPokemonId": "POLIWAG",
@@ -2689,9 +2689,9 @@
       ]
     },
     "stats": {
-      "stamina": 180,
+      "stamina": 207,
       "attack": 182,
-      "defense": 187
+      "defense": 184
     },
     "family": "FAMILY_POLIWAG",
     "parentPokemonId": "POLIWHIRL",
@@ -2718,9 +2718,9 @@
       ]
     },
     "stats": {
-      "stamina": 50,
+      "stamina": 93,
       "attack": 195,
-      "defense": 103
+      "defense": 82
     },
     "family": "FAMILY_ABRA",
     "kmBuddyDistance": 3,
@@ -2752,9 +2752,9 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 232,
-      "defense": 138
+      "defense": 117
     },
     "family": "FAMILY_ABRA",
     "parentPokemonId": "ABRA",
@@ -2787,9 +2787,9 @@
       ]
     },
     "stats": {
-      "stamina": 110,
+      "stamina": 146,
       "attack": 271,
-      "defense": 194
+      "defense": 167
     },
     "family": "FAMILY_ABRA",
     "parentPokemonId": "KADABRA",
@@ -2816,9 +2816,9 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 137,
-      "defense": 88
+      "defense": 82
     },
     "family": "FAMILY_MACHOP",
     "kmBuddyDistance": 3,
@@ -2850,9 +2850,9 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 177,
-      "defense": 130
+      "defense": 125
     },
     "family": "FAMILY_MACHOP",
     "parentPokemonId": "MACHOP",
@@ -2885,9 +2885,9 @@
       ]
     },
     "stats": {
-      "stamina": 180,
+      "stamina": 207,
       "attack": 234,
-      "defense": 162
+      "defense": 159
     },
     "family": "FAMILY_MACHOP",
     "parentPokemonId": "MACHOKE",
@@ -2914,9 +2914,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 139,
-      "defense": 64
+      "defense": 61
     },
     "family": "FAMILY_BELLSPROUT",
     "kmBuddyDistance": 3,
@@ -2948,9 +2948,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 172,
-      "defense": 95
+      "defense": 92
     },
     "family": "FAMILY_BELLSPROUT",
     "parentPokemonId": "BELLSPROUT",
@@ -2983,9 +2983,9 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 207,
-      "defense": 138
+      "defense": 135
     },
     "family": "FAMILY_BELLSPROUT",
     "parentPokemonId": "WEEPINBELL",
@@ -3012,9 +3012,9 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 97,
-      "defense": 182
+      "defense": 149
     },
     "family": "FAMILY_TENTACOOL",
     "kmBuddyDistance": 3,
@@ -3046,9 +3046,9 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 166,
-      "defense": 237
+      "defense": 209
     },
     "family": "FAMILY_TENTACOOL",
     "parentPokemonId": "TENTACOOL",
@@ -3075,9 +3075,9 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 132,
-      "defense": 163
+      "defense": 132
     },
     "family": "FAMILY_GEODUDE",
     "kmBuddyDistance": 1,
@@ -3110,9 +3110,9 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 132,
-      "defense": 163
+      "defense": 132
     },
     "family": "FAMILY_GEODUDE",
     "kmBuddyDistance": 1,
@@ -3145,9 +3145,9 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 132,
-      "defense": 163
+      "defense": 132
     },
     "family": "FAMILY_GEODUDE",
     "kmBuddyDistance": 1,
@@ -3180,9 +3180,9 @@
       ]
     },
     "stats": {
-      "stamina": 110,
+      "stamina": 146,
       "attack": 164,
-      "defense": 196
+      "defense": 164
     },
     "family": "FAMILY_GEODUDE",
     "parentPokemonId": "GEODUDE",
@@ -3216,9 +3216,9 @@
       ]
     },
     "stats": {
-      "stamina": 110,
+      "stamina": 146,
       "attack": 164,
-      "defense": 196
+      "defense": 164
     },
     "family": "FAMILY_GEODUDE",
     "parentPokemonId": "GEODUDE",
@@ -3252,9 +3252,9 @@
       ]
     },
     "stats": {
-      "stamina": 110,
+      "stamina": 146,
       "attack": 164,
-      "defense": 196
+      "defense": 164
     },
     "family": "FAMILY_GEODUDE",
     "parentPokemonId": "GEODUDE",
@@ -3288,9 +3288,9 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 211,
-      "defense": 229
+      "defense": 198
     },
     "family": "FAMILY_GEODUDE",
     "parentPokemonId": "GRAVELER",
@@ -3317,9 +3317,9 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 211,
-      "defense": 229
+      "defense": 198
     },
     "family": "FAMILY_GEODUDE",
     "parentPokemonId": "GRAVELER",
@@ -3346,9 +3346,9 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 211,
-      "defense": 229
+      "defense": 198
     },
     "family": "FAMILY_GEODUDE",
     "parentPokemonId": "GRAVELER",
@@ -3375,9 +3375,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 170,
-      "defense": 132
+      "defense": 127
     },
     "family": "FAMILY_PONYTA",
     "kmBuddyDistance": 3,
@@ -3409,9 +3409,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 207,
-      "defense": 167
+      "defense": 162
     },
     "family": "FAMILY_PONYTA",
     "parentPokemonId": "PONYTA",
@@ -3438,9 +3438,9 @@
       ]
     },
     "stats": {
-      "stamina": 180,
+      "stamina": 207,
       "attack": 109,
-      "defense": 109
+      "defense": 98
     },
     "family": "FAMILY_SLOWPOKE",
     "kmBuddyDistance": 3,
@@ -3477,9 +3477,9 @@
       ]
     },
     "stats": {
-      "stamina": 190,
+      "stamina": 216,
       "attack": 177,
-      "defense": 194
+      "defense": 180
     },
     "family": "FAMILY_SLOWPOKE",
     "parentPokemonId": "SLOWPOKE",
@@ -3506,9 +3506,9 @@
       ]
     },
     "stats": {
-      "stamina": 50,
+      "stamina": 93,
       "attack": 165,
-      "defense": 128
+      "defense": 121
     },
     "family": "FAMILY_MAGNEMITE",
     "kmBuddyDistance": 3,
@@ -3540,9 +3540,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 223,
-      "defense": 182
+      "defense": 169
     },
     "family": "FAMILY_MAGNEMITE",
     "parentPokemonId": "MAGNEMITE",
@@ -3569,9 +3569,9 @@
       ]
     },
     "stats": {
-      "stamina": 104,
+      "stamina": 141,
       "attack": 124,
-      "defense": 118
+      "defense": 115
     },
     "family": "FAMILY_FARFETCHD",
     "kmBuddyDistance": 3,
@@ -3597,9 +3597,9 @@
       ]
     },
     "stats": {
-      "stamina": 70,
+      "stamina": 111,
       "attack": 158,
-      "defense": 88
+      "defense": 83
     },
     "family": "FAMILY_DODUO",
     "kmBuddyDistance": 3,
@@ -3631,9 +3631,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 218,
-      "defense": 145
+      "defense": 140
     },
     "family": "FAMILY_DODUO",
     "parentPokemonId": "DODUO",
@@ -3660,9 +3660,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 85,
-      "defense": 128
+      "defense": 121
     },
     "family": "FAMILY_SEEL",
     "kmBuddyDistance": 3,
@@ -3694,9 +3694,9 @@
       ]
     },
     "stats": {
-      "stamina": 180,
+      "stamina": 207,
       "attack": 139,
-      "defense": 184
+      "defense": 177
     },
     "family": "FAMILY_SEEL",
     "parentPokemonId": "SEEL",
@@ -3723,7 +3723,7 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 135,
       "defense": 90
     },
@@ -3758,7 +3758,7 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 135,
       "defense": 90
     },
@@ -3793,7 +3793,7 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 135,
       "defense": 90
     },
@@ -3828,9 +3828,9 @@
       ]
     },
     "stats": {
-      "stamina": 210,
+      "stamina": 233,
       "attack": 190,
-      "defense": 184
+      "defense": 172
     },
     "family": "FAMILY_GRIMER",
     "parentPokemonId": "GRIMER",
@@ -3857,9 +3857,9 @@
       ]
     },
     "stats": {
-      "stamina": 210,
+      "stamina": 233,
       "attack": 190,
-      "defense": 184
+      "defense": 172
     },
     "family": "FAMILY_GRIMER",
     "parentPokemonId": "GRIMER",
@@ -3886,9 +3886,9 @@
       ]
     },
     "stats": {
-      "stamina": 210,
+      "stamina": 233,
       "attack": 190,
-      "defense": 184
+      "defense": 172
     },
     "family": "FAMILY_GRIMER",
     "parentPokemonId": "GRIMER",
@@ -3915,9 +3915,9 @@
       ]
     },
     "stats": {
-      "stamina": 60,
+      "stamina": 102,
       "attack": 116,
-      "defense": 168
+      "defense": 134
     },
     "family": "FAMILY_SHELLDER",
     "kmBuddyDistance": 3,
@@ -3949,9 +3949,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 186,
-      "defense": 323
+      "defense": 256
     },
     "family": "FAMILY_SHELLDER",
     "parentPokemonId": "SHELLDER",
@@ -3978,9 +3978,9 @@
       ]
     },
     "stats": {
-      "stamina": 60,
+      "stamina": 102,
       "attack": 186,
-      "defense": 70
+      "defense": 67
     },
     "family": "FAMILY_GASTLY",
     "kmBuddyDistance": 3,
@@ -4012,9 +4012,9 @@
       ]
     },
     "stats": {
-      "stamina": 90,
+      "stamina": 128,
       "attack": 223,
-      "defense": 112
+      "defense": 107
     },
     "family": "FAMILY_GASTLY",
     "parentPokemonId": "GASTLY",
@@ -4047,9 +4047,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 261,
-      "defense": 156
+      "defense": 149
     },
     "family": "FAMILY_GASTLY",
     "parentPokemonId": "HAUNTER",
@@ -4076,9 +4076,9 @@
       ]
     },
     "stats": {
-      "stamina": 70,
+      "stamina": 111,
       "attack": 85,
-      "defense": 288
+      "defense": 232
     },
     "family": "FAMILY_ONIX",
     "kmBuddyDistance": 5,
@@ -4111,9 +4111,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 89,
-      "defense": 158
+      "defense": 136
     },
     "family": "FAMILY_DROWZEE",
     "kmBuddyDistance": 3,
@@ -4145,9 +4145,9 @@
       ]
     },
     "stats": {
-      "stamina": 170,
+      "stamina": 198,
       "attack": 144,
-      "defense": 215
+      "defense": 193
     },
     "family": "FAMILY_DROWZEE",
     "parentPokemonId": "DROWZEE",
@@ -4174,9 +4174,9 @@
       ]
     },
     "stats": {
-      "stamina": 60,
+      "stamina": 102,
       "attack": 181,
-      "defense": 156
+      "defense": 124
     },
     "family": "FAMILY_KRABBY",
     "kmBuddyDistance": 3,
@@ -4208,9 +4208,9 @@
       ]
     },
     "stats": {
-      "stamina": 110,
+      "stamina": 146,
       "attack": 240,
-      "defense": 214
+      "defense": 181
     },
     "family": "FAMILY_KRABBY",
     "parentPokemonId": "KRABBY",
@@ -4237,9 +4237,9 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 109,
-      "defense": 114
+      "defense": 111
     },
     "family": "FAMILY_VOLTORB",
     "kmBuddyDistance": 3,
@@ -4271,9 +4271,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 173,
-      "defense": 179
+      "defense": 173
     },
     "family": "FAMILY_VOLTORB",
     "parentPokemonId": "VOLTORB",
@@ -4300,9 +4300,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 107,
-      "defense": 140
+      "defense": 125
     },
     "family": "FAMILY_EXEGGCUTE",
     "kmBuddyDistance": 3,
@@ -4334,9 +4334,9 @@
       ]
     },
     "stats": {
-      "stamina": 190,
+      "stamina": 216,
       "attack": 233,
-      "defense": 158
+      "defense": 149
     },
     "family": "FAMILY_EXEGGCUTE",
     "parentPokemonId": "EXEGGCUTE",
@@ -4363,9 +4363,9 @@
       ]
     },
     "stats": {
-      "stamina": 190,
+      "stamina": 216,
       "attack": 230,
-      "defense": 158
+      "defense": 153
     },
     "family": "FAMILY_EXEGGCUTE",
     "parentPokemonId": "EXEGGCUTE",
@@ -4392,9 +4392,9 @@
       ]
     },
     "stats": {
-      "stamina": 190,
+      "stamina": 216,
       "attack": 233,
-      "defense": 158
+      "defense": 149
     },
     "family": "FAMILY_EXEGGCUTE",
     "parentPokemonId": "EXEGGCUTE",
@@ -4421,9 +4421,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 90,
-      "defense": 165
+      "defense": 144
     },
     "family": "FAMILY_CUBONE",
     "kmBuddyDistance": 3,
@@ -4455,9 +4455,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 144,
-      "defense": 200
+      "defense": 186
     },
     "family": "FAMILY_CUBONE",
     "parentPokemonId": "CUBONE",
@@ -4484,9 +4484,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 144,
-      "defense": 200
+      "defense": 186
     },
     "family": "FAMILY_CUBONE",
     "parentPokemonId": "CUBONE",
@@ -4513,9 +4513,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 144,
-      "defense": 200
+      "defense": 186
     },
     "family": "FAMILY_CUBONE",
     "parentPokemonId": "CUBONE",
@@ -4542,9 +4542,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 224,
-      "defense": 211
+      "defense": 181
     },
     "family": "FAMILY_TYROGUE",
     "parentPokemonId": "TYROGUE",
@@ -4572,9 +4572,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 193,
-      "defense": 212
+      "defense": 197
     },
     "family": "FAMILY_TYROGUE",
     "parentPokemonId": "TYROGUE",
@@ -4601,7 +4601,7 @@
       ]
     },
     "stats": {
-      "stamina": 180,
+      "stamina": 207,
       "attack": 108,
       "defense": 137
     },
@@ -4629,9 +4629,9 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 119,
-      "defense": 164
+      "defense": 141
     },
     "family": "FAMILY_KOFFING",
     "kmBuddyDistance": 3,
@@ -4663,9 +4663,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 174,
-      "defense": 221
+      "defense": 197
     },
     "family": "FAMILY_KOFFING",
     "parentPokemonId": "KOFFING",
@@ -4692,16 +4692,16 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 140,
-      "defense": 157
+      "defense": 127
     },
     "family": "FAMILY_RHYHORN",
     "kmBuddyDistance": 3,
     "evolutionBranch": [
       {
         "evolution": "RHYDON",
-        "candyCost": 50
+        "candyCost": 25
       }
     ],
     "captureRate": 0.5,
@@ -4726,13 +4726,20 @@
       ]
     },
     "stats": {
-      "stamina": 210,
+      "stamina": 233,
       "attack": 222,
-      "defense": 206
+      "defense": 171
     },
     "family": "FAMILY_RHYHORN",
     "parentPokemonId": "RHYHORN",
     "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "RHYPERIOR",
+        "evolutionItemRequirement": 1106,
+        "candyCost": 100
+      }
+    ],
     "captureRate": 0.05,
     "fleeRate": 0.06,
     "height": 1.9,
@@ -4755,9 +4762,9 @@
       ]
     },
     "stats": {
-      "stamina": 500,
+      "stamina": 487,
       "attack": 60,
-      "defense": 176
+      "defense": 128
     },
     "family": "FAMILY_CHANSEY",
     "kmBuddyDistance": 5,
@@ -4789,9 +4796,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 183,
-      "defense": 205
+      "defense": 169
     },
     "family": "FAMILY_TANGELA",
     "kmBuddyDistance": 3,
@@ -4817,7 +4824,7 @@
       ]
     },
     "stats": {
-      "stamina": 210,
+      "stamina": 233,
       "attack": 181,
       "defense": 165
     },
@@ -4845,9 +4852,9 @@
       ]
     },
     "stats": {
-      "stamina": 60,
+      "stamina": 102,
       "attack": 129,
-      "defense": 125
+      "defense": 103
     },
     "family": "FAMILY_HORSEA",
     "kmBuddyDistance": 3,
@@ -4879,9 +4886,9 @@
       ]
     },
     "stats": {
-      "stamina": 110,
+      "stamina": 146,
       "attack": 187,
-      "defense": 182
+      "defense": 156
     },
     "family": "FAMILY_HORSEA",
     "parentPokemonId": "HORSEA",
@@ -4915,9 +4922,9 @@
       ]
     },
     "stats": {
-      "stamina": 90,
+      "stamina": 128,
       "attack": 123,
-      "defense": 115
+      "defense": 110
     },
     "family": "FAMILY_GOLDEEN",
     "kmBuddyDistance": 3,
@@ -4949,9 +4956,9 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 175,
-      "defense": 154
+      "defense": 147
     },
     "family": "FAMILY_GOLDEEN",
     "parentPokemonId": "GOLDEEN",
@@ -4978,7 +4985,7 @@
       ]
     },
     "stats": {
-      "stamina": 60,
+      "stamina": 102,
       "attack": 137,
       "defense": 112
     },
@@ -5012,7 +5019,7 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 210,
       "defense": 184
     },
@@ -5041,9 +5048,9 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 192,
-      "defense": 233
+      "defense": 205
     },
     "family": "FAMILY_MR_MIME",
     "kmBuddyDistance": 5,
@@ -5069,7 +5076,7 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 218,
       "defense": 170
     },
@@ -5104,9 +5111,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 223,
-      "defense": 182
+      "defense": 151
     },
     "family": "FAMILY_JYNX",
     "parentPokemonId": "SMOOCHUM",
@@ -5133,13 +5140,20 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 198,
-      "defense": 173
+      "defense": 158
     },
     "family": "FAMILY_ELECTABUZZ",
     "parentPokemonId": "ELEKID",
     "kmBuddyDistance": 5,
+    "evolutionBranch": [
+      {
+        "evolution": "ELECTIVIRE",
+        "evolutionItemRequirement": 1106,
+        "candyCost": 100
+      }
+    ],
     "captureRate": 0.2,
     "fleeRate": 0.09,
     "height": 1.1,
@@ -5162,13 +5176,20 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 206,
-      "defense": 169
+      "defense": 154
     },
     "family": "FAMILY_MAGMAR",
     "parentPokemonId": "MAGBY",
     "kmBuddyDistance": 5,
+    "evolutionBranch": [
+      {
+        "evolution": "MAGMORTAR",
+        "evolutionItemRequirement": 1106,
+        "candyCost": 100
+      }
+    ],
     "captureRate": 0.2,
     "fleeRate": 0.09,
     "height": 1.3,
@@ -5191,9 +5212,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 238,
-      "defense": 197
+      "defense": 182
     },
     "family": "FAMILY_PINSIR",
     "kmBuddyDistance": 5,
@@ -5219,9 +5240,9 @@
       ]
     },
     "stats": {
-      "stamina": 150,
+      "stamina": 181,
       "attack": 198,
-      "defense": 197
+      "defense": 183
     },
     "family": "FAMILY_TAUROS",
     "kmBuddyDistance": 3,
@@ -5244,9 +5265,9 @@
       ]
     },
     "stats": {
-      "stamina": 40,
+      "stamina": 85,
       "attack": 29,
-      "defense": 102
+      "defense": 85
     },
     "family": "FAMILY_MAGIKARP",
     "kmBuddyDistance": 1,
@@ -5278,9 +5299,9 @@
       ]
     },
     "stats": {
-      "stamina": 190,
+      "stamina": 216,
       "attack": 237,
-      "defense": 197
+      "defense": 186
     },
     "family": "FAMILY_MAGIKARP",
     "parentPokemonId": "MAGIKARP",
@@ -5307,9 +5328,9 @@
       ]
     },
     "stats": {
-      "stamina": 260,
+      "stamina": 277,
       "attack": 165,
-      "defense": 180
+      "defense": 174
     },
     "family": "FAMILY_LAPRAS",
     "kmBuddyDistance": 5,
@@ -5332,7 +5353,7 @@
       ]
     },
     "stats": {
-      "stamina": 96,
+      "stamina": 134,
       "attack": 91,
       "defense": 91
     },
@@ -5359,9 +5380,9 @@
       ]
     },
     "stats": {
-      "stamina": 110,
+      "stamina": 146,
       "attack": 104,
-      "defense": 121
+      "defense": 114
     },
     "family": "FAMILY_EEVEE",
     "kmBuddyDistance": 5,
@@ -5408,9 +5429,9 @@
       ]
     },
     "stats": {
-      "stamina": 260,
+      "stamina": 277,
       "attack": 205,
-      "defense": 177
+      "defense": 161
     },
     "family": "FAMILY_EEVEE",
     "parentPokemonId": "EEVEE",
@@ -5437,9 +5458,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 232,
-      "defense": 201
+      "defense": 182
     },
     "family": "FAMILY_EEVEE",
     "parentPokemonId": "EEVEE",
@@ -5466,9 +5487,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 246,
-      "defense": 204
+      "defense": 179
     },
     "family": "FAMILY_EEVEE",
     "parentPokemonId": "EEVEE",
@@ -5495,9 +5516,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 153,
-      "defense": 139
+      "defense": 136
     },
     "family": "FAMILY_PORYGON",
     "kmBuddyDistance": 3,
@@ -5505,7 +5526,7 @@
       {
         "evolution": "PORYGON2",
         "evolutionItemRequirement": "ITEM_UP_GRADE",
-        "candyCost": 50
+        "candyCost": 25
       }
     ],
     "captureRate": 0.4,
@@ -5530,9 +5551,9 @@
       ]
     },
     "stats": {
-      "stamina": 70,
+      "stamina": 111,
       "attack": 155,
-      "defense": 174
+      "defense": 153
     },
     "family": "FAMILY_OMANYTE",
     "kmBuddyDistance": 5,
@@ -5564,9 +5585,9 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 207,
-      "defense": 227
+      "defense": 201
     },
     "family": "FAMILY_OMANYTE",
     "parentPokemonId": "OMANYTE",
@@ -5593,9 +5614,9 @@
       ]
     },
     "stats": {
-      "stamina": 60,
+      "stamina": 102,
       "attack": 148,
-      "defense": 162
+      "defense": 140
     },
     "family": "FAMILY_KABUTO",
     "kmBuddyDistance": 5,
@@ -5627,9 +5648,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 220,
-      "defense": 203
+      "defense": 186
     },
     "family": "FAMILY_KABUTO",
     "parentPokemonId": "KABUTO",
@@ -5656,9 +5677,9 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 221,
-      "defense": 164
+      "defense": 159
     },
     "family": "FAMILY_AERODACTYL",
     "kmBuddyDistance": 5,
@@ -5684,9 +5705,9 @@
       ]
     },
     "stats": {
-      "stamina": 320,
+      "stamina": 330,
       "attack": 190,
-      "defense": 190
+      "defense": 169
     },
     "family": "FAMILY_SNORLAX",
     "kmBuddyDistance": 5,
@@ -5711,9 +5732,9 @@
       ]
     },
     "stats": {
-      "stamina": 180,
+      "stamina": 207,
       "attack": 192,
-      "defense": 249
+      "defense": 236
     },
     "family": "FAMILY_ARTICUNO",
     "kmBuddyDistance": 20,
@@ -5738,9 +5759,9 @@
       ]
     },
     "stats": {
-      "stamina": 180,
+      "stamina": 207,
       "attack": 253,
-      "defense": 188
+      "defense": 185
     },
     "family": "FAMILY_ZAPDOS",
     "kmBuddyDistance": 20,
@@ -5765,9 +5786,9 @@
       ]
     },
     "stats": {
-      "stamina": 180,
+      "stamina": 207,
       "attack": 251,
-      "defense": 184
+      "defense": 181
     },
     "family": "FAMILY_MOLTRES",
     "kmBuddyDistance": 20,
@@ -5793,9 +5814,9 @@
       ]
     },
     "stats": {
-      "stamina": 82,
+      "stamina": 121,
       "attack": 119,
-      "defense": 94
+      "defense": 91
     },
     "family": "FAMILY_DRATINI",
     "kmBuddyDistance": 5,
@@ -5827,9 +5848,9 @@
       ]
     },
     "stats": {
-      "stamina": 122,
+      "stamina": 156,
       "attack": 163,
-      "defense": 138
+      "defense": 135
     },
     "family": "FAMILY_DRATINI",
     "parentPokemonId": "DRATINI",
@@ -5862,9 +5883,9 @@
       ]
     },
     "stats": {
-      "stamina": 182,
+      "stamina": 209,
       "attack": 263,
-      "defense": 201
+      "defense": 198
     },
     "family": "FAMILY_DRATINI",
     "parentPokemonId": "DRAGONAIR",
@@ -5893,7 +5914,7 @@
       ]
     },
     "stats": {
-      "stamina": 193,
+      "stamina": 214,
       "attack": 300,
       "defense": 182
     },
@@ -5955,7 +5976,7 @@
       ]
     },
     "stats": {
-      "stamina": 200,
+      "stamina": 225,
       "attack": 210,
       "defense": 210
     },
@@ -5982,7 +6003,7 @@
       ]
     },
     "stats": {
-      "stamina": 90,
+      "stamina": 128,
       "attack": 92,
       "defense": 122
     },
@@ -6016,7 +6037,7 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 122,
       "defense": 155
     },
@@ -6051,7 +6072,7 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 168,
       "defense": 202
     },
@@ -6080,9 +6101,9 @@
       ]
     },
     "stats": {
-      "stamina": 78,
+      "stamina": 118,
       "attack": 116,
-      "defense": 96
+      "defense": 93
     },
     "family": "FAMILY_CYNDAQUIL",
     "kmBuddyDistance": 3,
@@ -6114,9 +6135,9 @@
       ]
     },
     "stats": {
-      "stamina": 116,
+      "stamina": 151,
       "attack": 158,
-      "defense": 129
+      "defense": 126
     },
     "family": "FAMILY_CYNDAQUIL",
     "parentPokemonId": "CYNDAQUIL",
@@ -6149,9 +6170,9 @@
       ]
     },
     "stats": {
-      "stamina": 156,
+      "stamina": 186,
       "attack": 223,
-      "defense": 176
+      "defense": 173
     },
     "family": "FAMILY_CYNDAQUIL",
     "parentPokemonId": "QUILAVA",
@@ -6178,9 +6199,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 117,
-      "defense": 116
+      "defense": 109
     },
     "family": "FAMILY_TOTODILE",
     "kmBuddyDistance": 3,
@@ -6212,9 +6233,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 150,
-      "defense": 151
+      "defense": 142
     },
     "family": "FAMILY_TOTODILE",
     "parentPokemonId": "TOTODILE",
@@ -6247,9 +6268,9 @@
       ]
     },
     "stats": {
-      "stamina": 170,
+      "stamina": 198,
       "attack": 205,
-      "defense": 197
+      "defense": 188
     },
     "family": "FAMILY_TOTODILE",
     "parentPokemonId": "CROCONAW",
@@ -6276,9 +6297,9 @@
       ]
     },
     "stats": {
-      "stamina": 70,
+      "stamina": 111,
       "attack": 79,
-      "defense": 77
+      "defense": 73
     },
     "family": "FAMILY_SENTRET",
     "kmBuddyDistance": 1,
@@ -6310,9 +6331,9 @@
       ]
     },
     "stats": {
-      "stamina": 170,
+      "stamina": 198,
       "attack": 148,
-      "defense": 130
+      "defense": 125
     },
     "family": "FAMILY_SENTRET",
     "parentPokemonId": "SENTRET",
@@ -6339,9 +6360,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 67,
-      "defense": 101
+      "defense": 88
     },
     "family": "FAMILY_HOOTHOOT",
     "kmBuddyDistance": 1,
@@ -6373,9 +6394,9 @@
       ]
     },
     "stats": {
-      "stamina": 200,
+      "stamina": 225,
       "attack": 145,
-      "defense": 179
+      "defense": 156
     },
     "family": "FAMILY_HOOTHOOT",
     "parentPokemonId": "HOOTHOOT",
@@ -6402,9 +6423,9 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 72,
-      "defense": 142
+      "defense": 118
     },
     "family": "FAMILY_LEDYBA",
     "kmBuddyDistance": 1,
@@ -6436,9 +6457,9 @@
       ]
     },
     "stats": {
-      "stamina": 110,
+      "stamina": 146,
       "attack": 107,
-      "defense": 209
+      "defense": 179
     },
     "family": "FAMILY_LEDYBA",
     "parentPokemonId": "LEDYBA",
@@ -6465,7 +6486,7 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 105,
       "defense": 73
     },
@@ -6499,9 +6520,9 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 161,
-      "defense": 128
+      "defense": 124
     },
     "family": "FAMILY_SPINARAK",
     "parentPokemonId": "SPINARAK",
@@ -6528,7 +6549,7 @@
       ]
     },
     "stats": {
-      "stamina": 170,
+      "stamina": 198,
       "attack": 194,
       "defense": 178
     },
@@ -6557,9 +6578,9 @@
       ]
     },
     "stats": {
-      "stamina": 150,
+      "stamina": 181,
       "attack": 106,
-      "defense": 106
+      "defense": 97
     },
     "family": "FAMILY_CHINCHOU",
     "kmBuddyDistance": 3,
@@ -6591,9 +6612,9 @@
       ]
     },
     "stats": {
-      "stamina": 250,
+      "stamina": 268,
       "attack": 146,
-      "defense": 146
+      "defense": 137
     },
     "family": "FAMILY_CHINCHOU",
     "parentPokemonId": "CHINCHOU",
@@ -6619,9 +6640,9 @@
       ]
     },
     "stats": {
-      "stamina": 40,
+      "stamina": 85,
       "attack": 77,
-      "defense": 63
+      "defense": 53
     },
     "family": "FAMILY_PIKACHU",
     "kmBuddyDistance": 1,
@@ -6652,9 +6673,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 75,
-      "defense": 91
+      "defense": 79
     },
     "family": "FAMILY_CLEFAIRY",
     "kmBuddyDistance": 1,
@@ -6685,9 +6706,9 @@
       ]
     },
     "stats": {
-      "stamina": 180,
+      "stamina": 207,
       "attack": 69,
-      "defense": 34
+      "defense": 32
     },
     "family": "FAMILY_JIGGLYPUFF",
     "kmBuddyDistance": 1,
@@ -6718,7 +6739,7 @@
       ]
     },
     "stats": {
-      "stamina": 70,
+      "stamina": 111,
       "attack": 67,
       "defense": 116
     },
@@ -6727,7 +6748,7 @@
     "evolutionBranch": [
       {
         "evolution": "TOGETIC",
-        "candyCost": 50
+        "candyCost": 25
       }
     ],
     "fleeRate": 0.05,
@@ -6751,13 +6772,20 @@
       ]
     },
     "stats": {
-      "stamina": 110,
+      "stamina": 146,
       "attack": 139,
-      "defense": 191
+      "defense": 181
     },
     "family": "FAMILY_TOGEPI",
     "parentPokemonId": "TOGEPI",
     "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "TOGEKISS",
+        "evolutionItemRequirement": 1106,
+        "candyCost": 100
+      }
+    ],
     "captureRate": 0.05,
     "fleeRate": 0.05,
     "height": 0.61,
@@ -6780,7 +6808,7 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 134,
       "defense": 89
     },
@@ -6814,7 +6842,7 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 192,
       "defense": 146
     },
@@ -6843,9 +6871,9 @@
       ]
     },
     "stats": {
-      "stamina": 110,
+      "stamina": 146,
       "attack": 114,
-      "defense": 82
+      "defense": 79
     },
     "family": "FAMILY_MAREEP",
     "kmBuddyDistance": 5,
@@ -6877,9 +6905,9 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 145,
-      "defense": 112
+      "defense": 109
     },
     "family": "FAMILY_MAREEP",
     "parentPokemonId": "MAREEP",
@@ -6912,9 +6940,9 @@
       ]
     },
     "stats": {
-      "stamina": 180,
+      "stamina": 207,
       "attack": 211,
-      "defense": 172
+      "defense": 169
     },
     "family": "FAMILY_MAREEP",
     "parentPokemonId": "FLAAFFY",
@@ -6941,9 +6969,9 @@
       ]
     },
     "stats": {
-      "stamina": 150,
+      "stamina": 181,
       "attack": 169,
-      "defense": 189
+      "defense": 186
     },
     "family": "FAMILY_ODDISH",
     "parentPokemonId": "GLOOM",
@@ -6970,7 +6998,7 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 37,
       "defense": 93
     },
@@ -7005,7 +7033,7 @@
       ]
     },
     "stats": {
-      "stamina": 200,
+      "stamina": 225,
       "attack": 112,
       "defense": 152
     },
@@ -7034,9 +7062,9 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 167,
-      "defense": 198
+      "defense": 176
     },
     "family": "FAMILY_SUDOWOODO",
     "kmBuddyDistance": 5,
@@ -7062,9 +7090,9 @@
       ]
     },
     "stats": {
-      "stamina": 180,
+      "stamina": 207,
       "attack": 174,
-      "defense": 192
+      "defense": 179
     },
     "family": "FAMILY_POLIWAG",
     "parentPokemonId": "POLIWHIRL",
@@ -7091,9 +7119,9 @@
       ]
     },
     "stats": {
-      "stamina": 70,
+      "stamina": 111,
       "attack": 67,
-      "defense": 101
+      "defense": 94
     },
     "family": "FAMILY_HOPPIP",
     "kmBuddyDistance": 3,
@@ -7125,9 +7153,9 @@
       ]
     },
     "stats": {
-      "stamina": 110,
+      "stamina": 146,
       "attack": 91,
-      "defense": 127
+      "defense": 120
     },
     "family": "FAMILY_HOPPIP",
     "parentPokemonId": "HOPPIP",
@@ -7160,9 +7188,9 @@
       ]
     },
     "stats": {
-      "stamina": 150,
+      "stamina": 181,
       "attack": 118,
-      "defense": 197
+      "defense": 183
     },
     "family": "FAMILY_HOPPIP",
     "parentPokemonId": "SKIPLOOM",
@@ -7189,7 +7217,7 @@
       ]
     },
     "stats": {
-      "stamina": 110,
+      "stamina": 146,
       "attack": 136,
       "defense": 112
     },
@@ -7217,7 +7245,7 @@
       ]
     },
     "stats": {
-      "stamina": 60,
+      "stamina": 102,
       "attack": 55,
       "defense": 55
     },
@@ -7252,9 +7280,9 @@
       ]
     },
     "stats": {
-      "stamina": 150,
+      "stamina": 181,
       "attack": 185,
-      "defense": 148
+      "defense": 135
     },
     "family": "FAMILY_SUNKERN",
     "parentPokemonId": "SUNKERN",
@@ -7281,7 +7309,7 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 154,
       "defense": 94
     },
@@ -7309,9 +7337,9 @@
       ]
     },
     "stats": {
-      "stamina": 110,
+      "stamina": 146,
       "attack": 75,
-      "defense": 75
+      "defense": 66
     },
     "family": "FAMILY_WOOPER",
     "kmBuddyDistance": 3,
@@ -7343,9 +7371,9 @@
       ]
     },
     "stats": {
-      "stamina": 190,
+      "stamina": 216,
       "attack": 152,
-      "defense": 152
+      "defense": 143
     },
     "family": "FAMILY_WOOPER",
     "parentPokemonId": "WOOPER",
@@ -7372,9 +7400,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 261,
-      "defense": 194
+      "defense": 175
     },
     "family": "FAMILY_EEVEE",
     "parentPokemonId": "EEVEE",
@@ -7399,9 +7427,9 @@
       ]
     },
     "stats": {
-      "stamina": 190,
+      "stamina": 216,
       "attack": 126,
-      "defense": 250
+      "defense": 240
     },
     "family": "FAMILY_EEVEE",
     "parentPokemonId": "EEVEE",
@@ -7427,12 +7455,19 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 175,
       "defense": 87
     },
     "family": "FAMILY_MURKROW",
     "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "HONCHKROW",
+        "evolutionItemRequirement": 1106,
+        "candyCost": 100
+      }
+    ],
     "captureRate": 0.2,
     "fleeRate": 0.1,
     "height": 0.51,
@@ -7455,9 +7490,9 @@
       ]
     },
     "stats": {
-      "stamina": 190,
+      "stamina": 216,
       "attack": 177,
-      "defense": 194
+      "defense": 180
     },
     "family": "FAMILY_SLOWPOKE",
     "parentPokemonId": "SLOWPOKE",
@@ -7484,12 +7519,19 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 167,
-      "defense": 167
+      "defense": 154
     },
     "family": "FAMILY_MISDREAVUS",
     "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "MISMAGIUS",
+        "evolutionItemRequirement": 1106,
+        "candyCost": 100
+      }
+    ],
     "captureRate": 0.3,
     "fleeRate": 0.07,
     "height": 0.71,
@@ -7509,7 +7551,7 @@
       ]
     },
     "stats": {
-      "stamina": 96,
+      "stamina": 134,
       "attack": 136,
       "defense": 91
     },
@@ -7535,7 +7577,7 @@
       ]
     },
     "stats": {
-      "stamina": 380,
+      "stamina": 382,
       "attack": 60,
       "defense": 106
     },
@@ -7564,7 +7606,7 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 182,
       "defense": 133
     },
@@ -7592,9 +7634,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 108,
-      "defense": 146
+      "defense": 122
     },
     "family": "FAMILY_PINECO",
     "kmBuddyDistance": 5,
@@ -7626,9 +7668,9 @@
       ]
     },
     "stats": {
-      "stamina": 150,
+      "stamina": 181,
       "attack": 161,
-      "defense": 242
+      "defense": 205
     },
     "family": "FAMILY_PINECO",
     "parentPokemonId": "PINECO",
@@ -7655,9 +7697,9 @@
       ]
     },
     "stats": {
-      "stamina": 200,
+      "stamina": 225,
       "attack": 131,
-      "defense": 131
+      "defense": 128
     },
     "family": "FAMILY_DUNSPARCE",
     "kmBuddyDistance": 3,
@@ -7683,12 +7725,19 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 143,
-      "defense": 204
+      "defense": 184
     },
     "family": "FAMILY_GLIGAR",
     "kmBuddyDistance": 5,
+    "evolutionBranch": [
+      {
+        "evolution": "GLISCOR",
+        "evolutionItemRequirement": 1106,
+        "candyCost": 100
+      }
+    ],
     "captureRate": 0.2,
     "fleeRate": 0.07,
     "height": 1.09,
@@ -7711,9 +7760,9 @@
       ]
     },
     "stats": {
-      "stamina": 150,
+      "stamina": 181,
       "attack": 148,
-      "defense": 333
+      "defense": 272
     },
     "family": "FAMILY_ONIX",
     "parentPokemonId": "ONIX",
@@ -7740,9 +7789,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 137,
-      "defense": 89
+      "defense": 85
     },
     "family": "FAMILY_SNUBBULL",
     "kmBuddyDistance": 3,
@@ -7774,9 +7823,9 @@
       ]
     },
     "stats": {
-      "stamina": 180,
+      "stamina": 207,
       "attack": 212,
-      "defense": 137
+      "defense": 131
     },
     "family": "FAMILY_SNUBBULL",
     "parentPokemonId": "SNUBBULL",
@@ -7803,9 +7852,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 184,
-      "defense": 148
+      "defense": 138
     },
     "family": "FAMILY_QWILFISH",
     "kmBuddyDistance": 3,
@@ -7831,9 +7880,9 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 236,
-      "defense": 191
+      "defense": 181
     },
     "family": "FAMILY_SCYTHER",
     "parentPokemonId": "SCYTHER",
@@ -7860,7 +7909,7 @@
       ]
     },
     "stats": {
-      "stamina": 40,
+      "stamina": 85,
       "attack": 17,
       "defense": 396
     },
@@ -7888,9 +7937,9 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 234,
-      "defense": 189
+      "defense": 179
     },
     "family": "FAMILY_HERACROSS",
     "kmBuddyDistance": 3,
@@ -7916,12 +7965,19 @@
       ]
     },
     "stats": {
-      "stamina": 110,
+      "stamina": 146,
       "attack": 189,
-      "defense": 157
+      "defense": 146
     },
     "family": "FAMILY_SNEASEL",
     "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "WEAVILE",
+        "evolutionItemRequirement": 1106,
+        "candyCost": 100
+      }
+    ],
     "captureRate": 0.2,
     "fleeRate": 0.07,
     "height": 0.89,
@@ -7944,7 +8000,7 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 142,
       "defense": 93
     },
@@ -7978,7 +8034,7 @@
       ]
     },
     "stats": {
-      "stamina": 180,
+      "stamina": 207,
       "attack": 236,
       "defense": 144
     },
@@ -8007,7 +8063,7 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 118,
       "defense": 71
     },
@@ -8041,9 +8097,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 139,
-      "defense": 209
+      "defense": 191
     },
     "family": "FAMILY_SLUGMA",
     "parentPokemonId": "SLUGMA",
@@ -8070,9 +8126,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 90,
-      "defense": 74
+      "defense": 69
     },
     "family": "FAMILY_SWINUB",
     "kmBuddyDistance": 3,
@@ -8104,9 +8160,9 @@
       ]
     },
     "stats": {
-      "stamina": 200,
+      "stamina": 225,
       "attack": 181,
-      "defense": 147
+      "defense": 138
     },
     "family": "FAMILY_SWINUB",
     "parentPokemonId": "SWINUB",
@@ -8133,7 +8189,7 @@
       ]
     },
     "stats": {
-      "stamina": 110,
+      "stamina": 146,
       "attack": 118,
       "defense": 156
     },
@@ -8161,7 +8217,7 @@
       ]
     },
     "stats": {
-      "stamina": 70,
+      "stamina": 111,
       "attack": 127,
       "defense": 69
     },
@@ -8195,7 +8251,7 @@
       ]
     },
     "stats": {
-      "stamina": 150,
+      "stamina": 181,
       "attack": 197,
       "defense": 141
     },
@@ -8223,7 +8279,7 @@
       ]
     },
     "stats": {
-      "stamina": 90,
+      "stamina": 128,
       "attack": 128,
       "defense": 90
     },
@@ -8251,9 +8307,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 148,
-      "defense": 260
+      "defense": 226
     },
     "family": "FAMILY_MANTINE",
     "kmBuddyDistance": 5,
@@ -8279,9 +8335,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 148,
-      "defense": 260
+      "defense": 226
     },
     "family": "FAMILY_SKARMORY",
     "kmBuddyDistance": 5,
@@ -8307,9 +8363,9 @@
       ]
     },
     "stats": {
-      "stamina": 90,
+      "stamina": 128,
       "attack": 152,
-      "defense": 93
+      "defense": 83
     },
     "family": "FAMILY_HOUNDOUR",
     "kmBuddyDistance": 3,
@@ -8341,9 +8397,9 @@
       ]
     },
     "stats": {
-      "stamina": 150,
+      "stamina": 181,
       "attack": 224,
-      "defense": 159
+      "defense": 144
     },
     "family": "FAMILY_HOUNDOUR",
     "parentPokemonId": "HOUNDOUR",
@@ -8370,7 +8426,7 @@
       ]
     },
     "stats": {
-      "stamina": 150,
+      "stamina": 181,
       "attack": 194,
       "defense": 194
     },
@@ -8399,9 +8455,9 @@
       ]
     },
     "stats": {
-      "stamina": 180,
+      "stamina": 207,
       "attack": 107,
-      "defense": 107
+      "defense": 98
     },
     "family": "FAMILY_PHANPY",
     "kmBuddyDistance": 3,
@@ -8433,9 +8489,9 @@
       ]
     },
     "stats": {
-      "stamina": 180,
+      "stamina": 207,
       "attack": 214,
-      "defense": 214
+      "defense": 185
     },
     "family": "FAMILY_PHANPY",
     "parentPokemonId": "PHANPY",
@@ -8462,13 +8518,20 @@
       ]
     },
     "stats": {
-      "stamina": 170,
+      "stamina": 198,
       "attack": 198,
-      "defense": 183
+      "defense": 180
     },
     "family": "FAMILY_PORYGON",
     "parentPokemonId": "PORYGON",
     "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "PORYGON_Z",
+        "evolutionItemRequirement": 1106,
+        "candyCost": 100
+      }
+    ],
     "captureRate": 0.05,
     "fleeRate": 0.05,
     "height": 0.61,
@@ -8491,9 +8554,9 @@
       ]
     },
     "stats": {
-      "stamina": 146,
+      "stamina": 177,
       "attack": 192,
-      "defense": 132
+      "defense": 131
     },
     "family": "FAMILY_STANTLER",
     "kmBuddyDistance": 3,
@@ -8516,9 +8579,9 @@
       ]
     },
     "stats": {
-      "stamina": 110,
+      "stamina": 146,
       "attack": 40,
-      "defense": 88
+      "defense": 83
     },
     "family": "FAMILY_SMEARGLE",
     "kmBuddyDistance": 3,
@@ -8544,7 +8607,7 @@
       ]
     },
     "stats": {
-      "stamina": 70,
+      "stamina": 111,
       "attack": 64,
       "defense": 64
     },
@@ -8585,9 +8648,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 173,
-      "defense": 214
+      "defense": 207
     },
     "family": "FAMILY_TYROGUE",
     "parentPokemonId": "TYROGUE",
@@ -8614,9 +8677,9 @@
       ]
     },
     "stats": {
-      "stamina": 90,
+      "stamina": 128,
       "attack": 153,
-      "defense": 116
+      "defense": 91
     },
     "family": "FAMILY_JYNX",
     "kmBuddyDistance": 5,
@@ -8647,9 +8710,9 @@
       ]
     },
     "stats": {
-      "stamina": 90,
+      "stamina": 128,
       "attack": 135,
-      "defense": 110
+      "defense": 101
     },
     "family": "FAMILY_ELECTABUZZ",
     "kmBuddyDistance": 5,
@@ -8680,9 +8743,9 @@
       ]
     },
     "stats": {
-      "stamina": 90,
+      "stamina": 128,
       "attack": 151,
-      "defense": 108
+      "defense": 99
     },
     "family": "FAMILY_MAGMAR",
     "kmBuddyDistance": 5,
@@ -8713,9 +8776,9 @@
       ]
     },
     "stats": {
-      "stamina": 190,
+      "stamina": 216,
       "attack": 157,
-      "defense": 211
+      "defense": 193
     },
     "family": "FAMILY_MILTANK",
     "kmBuddyDistance": 5,
@@ -8741,9 +8804,9 @@
       ]
     },
     "stats": {
-      "stamina": 510,
+      "stamina": 496,
       "attack": 129,
-      "defense": 229
+      "defense": 169
     },
     "family": "FAMILY_CHANSEY",
     "parentPokemonId": "CHANSEY",
@@ -8770,9 +8833,9 @@
       ]
     },
     "stats": {
-      "stamina": 180,
+      "stamina": 207,
       "attack": 241,
-      "defense": 210
+      "defense": 195
     },
     "family": "FAMILY_RAIKOU",
     "kmBuddyDistance": 20,
@@ -8798,9 +8861,9 @@
       ]
     },
     "stats": {
-      "stamina": 230,
+      "stamina": 251,
       "attack": 235,
-      "defense": 176
+      "defense": 171
     },
     "family": "FAMILY_ENTEI",
     "kmBuddyDistance": 20,
@@ -8826,7 +8889,7 @@
       ]
     },
     "stats": {
-      "stamina": 200,
+      "stamina": 225,
       "attack": 180,
       "defense": 235
     },
@@ -8854,7 +8917,7 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 115,
       "defense": 93
     },
@@ -8888,7 +8951,7 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 155,
       "defense": 133
     },
@@ -8923,9 +8986,9 @@
       ]
     },
     "stats": {
-      "stamina": 200,
+      "stamina": 225,
       "attack": 251,
-      "defense": 212
+      "defense": 207
     },
     "family": "FAMILY_LARVITAR",
     "parentPokemonId": "PUPITAR",
@@ -8952,9 +9015,9 @@
       ]
     },
     "stats": {
-      "stamina": 212,
+      "stamina": 235,
       "attack": 193,
-      "defense": 323
+      "defense": 310
     },
     "family": "FAMILY_LUGIA",
     "kmBuddyDistance": 20,
@@ -8980,9 +9043,9 @@
       ]
     },
     "stats": {
-      "stamina": 193,
+      "stamina": 214,
       "attack": 239,
-      "defense": 274
+      "defense": 244
     },
     "family": "FAMILY_HO_OH",
     "kmBuddyDistance": 20,
@@ -9008,7 +9071,7 @@
       ]
     },
     "stats": {
-      "stamina": 200,
+      "stamina": 225,
       "attack": 210,
       "defense": 210
     },
@@ -9035,9 +9098,9 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 124,
-      "defense": 104
+      "defense": 94
     },
     "family": "FAMILY_TREECKO",
     "kmBuddyDistance": 3,
@@ -9069,9 +9132,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 172,
-      "defense": 130
+      "defense": 120
     },
     "family": "FAMILY_TREECKO",
     "parentPokemonId": "TREECKO",
@@ -9104,9 +9167,9 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 223,
-      "defense": 180
+      "defense": 169
     },
     "family": "FAMILY_TREECKO",
     "parentPokemonId": "GROVYLE",
@@ -9133,9 +9196,9 @@
       ]
     },
     "stats": {
-      "stamina": 90,
+      "stamina": 128,
       "attack": 130,
-      "defense": 92
+      "defense": 87
     },
     "family": "FAMILY_TORCHIC",
     "kmBuddyDistance": 3,
@@ -9167,7 +9230,7 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 163,
       "defense": 115
     },
@@ -9202,7 +9265,7 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 240,
       "defense": 141
     },
@@ -9231,7 +9294,7 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 126,
       "defense": 93
     },
@@ -9265,7 +9328,7 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 156,
       "defense": 133
     },
@@ -9300,7 +9363,7 @@
       ]
     },
     "stats": {
-      "stamina": 200,
+      "stamina": 225,
       "attack": 208,
       "defense": 175
     },
@@ -9329,9 +9392,9 @@
       ]
     },
     "stats": {
-      "stamina": 70,
+      "stamina": 111,
       "attack": 96,
-      "defense": 63
+      "defense": 61
     },
     "family": "FAMILY_POOCHYENA",
     "kmBuddyDistance": 1,
@@ -9363,9 +9426,9 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 171,
-      "defense": 137
+      "defense": 132
     },
     "family": "FAMILY_POOCHYENA",
     "parentPokemonId": "POOCHYENA",
@@ -9392,7 +9455,7 @@
       ]
     },
     "stats": {
-      "stamina": 76,
+      "stamina": 116,
       "attack": 58,
       "defense": 80
     },
@@ -9426,7 +9489,7 @@
       ]
     },
     "stats": {
-      "stamina": 156,
+      "stamina": 186,
       "attack": 142,
       "defense": 128
     },
@@ -9453,9 +9516,9 @@
       ]
     },
     "stats": {
-      "stamina": 90,
+      "stamina": 128,
       "attack": 75,
-      "defense": 61
+      "defense": 59
     },
     "family": "FAMILY_WURMPLE",
     "kmBuddyDistance": 1,
@@ -9489,9 +9552,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 60,
-      "defense": 91
+      "defense": 77
     },
     "family": "FAMILY_WURMPLE",
     "parentPokemonId": "WURMPLE",
@@ -9524,7 +9587,7 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 189,
       "defense": 98
     },
@@ -9551,9 +9614,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 60,
-      "defense": 91
+      "defense": 77
     },
     "family": "FAMILY_WURMPLE",
     "parentPokemonId": "WURMPLE",
@@ -9586,9 +9649,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 98,
-      "defense": 172
+      "defense": 162
     },
     "family": "FAMILY_WURMPLE",
     "parentPokemonId": "CASCOON",
@@ -9614,9 +9677,9 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 71,
-      "defense": 86
+      "defense": 77
     },
     "family": "FAMILY_LOTAD",
     "kmBuddyDistance": 3,
@@ -9648,9 +9711,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 112,
-      "defense": 128
+      "defense": 119
     },
     "family": "FAMILY_LOTAD",
     "parentPokemonId": "LOTAD",
@@ -9683,9 +9746,9 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 173,
-      "defense": 191
+      "defense": 176
     },
     "family": "FAMILY_LOTAD",
     "parentPokemonId": "LOMBRE",
@@ -9712,9 +9775,9 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 71,
-      "defense": 86
+      "defense": 77
     },
     "family": "FAMILY_SEEDOT",
     "kmBuddyDistance": 3,
@@ -9746,7 +9809,7 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 134,
       "defense": 78
     },
@@ -9781,7 +9844,7 @@
       ]
     },
     "stats": {
-      "stamina": 180,
+      "stamina": 207,
       "attack": 200,
       "defense": 121
     },
@@ -9808,7 +9871,7 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 106,
       "defense": 61
     },
@@ -9842,9 +9905,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 185,
-      "defense": 130
+      "defense": 124
     },
     "family": "FAMILY_TAILLOW",
     "parentPokemonId": "TAILLOW",
@@ -9871,7 +9934,7 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 106,
       "defense": 61
     },
@@ -9905,9 +9968,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 175,
-      "defense": 189
+      "defense": 174
     },
     "family": "FAMILY_WINGULL",
     "parentPokemonId": "WINGULL",
@@ -9934,9 +9997,9 @@
       ]
     },
     "stats": {
-      "stamina": 56,
+      "stamina": 99,
       "attack": 79,
-      "defense": 63
+      "defense": 59
     },
     "family": "FAMILY_RALTS",
     "kmBuddyDistance": 5,
@@ -9968,9 +10031,9 @@
       ]
     },
     "stats": {
-      "stamina": 76,
+      "stamina": 116,
       "attack": 117,
-      "defense": 100
+      "defense": 90
     },
     "family": "FAMILY_RALTS",
     "parentPokemonId": "RALTS",
@@ -10003,9 +10066,9 @@
       ]
     },
     "stats": {
-      "stamina": 136,
+      "stamina": 169,
       "attack": 237,
-      "defense": 220
+      "defense": 195
     },
     "family": "FAMILY_RALTS",
     "parentPokemonId": "KIRLIA",
@@ -10032,9 +10095,9 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 93,
-      "defense": 97
+      "defense": 87
     },
     "family": "FAMILY_SURSKIT",
     "kmBuddyDistance": 1,
@@ -10066,9 +10129,9 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 192,
-      "defense": 161
+      "defense": 150
     },
     "family": "FAMILY_SURSKIT",
     "parentPokemonId": "SURSKIT",
@@ -10095,7 +10158,7 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 74,
       "defense": 110
     },
@@ -10129,9 +10192,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 241,
-      "defense": 153
+      "defense": 144
     },
     "family": "FAMILY_SHROOMISH",
     "parentPokemonId": "SHROOMISH",
@@ -10157,9 +10220,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 104,
-      "defense": 104
+      "defense": 92
     },
     "family": "FAMILY_SLAKOTH",
     "kmBuddyDistance": 5,
@@ -10191,9 +10254,9 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 159,
-      "defense": 159
+      "defense": 145
     },
     "family": "FAMILY_SLAKOTH",
     "parentPokemonId": "SLAKOTH",
@@ -10225,9 +10288,9 @@
       ]
     },
     "stats": {
-      "stamina": 273,
+      "stamina": 284,
       "attack": 290,
-      "defense": 183
+      "defense": 166
     },
     "family": "FAMILY_SLAKOTH",
     "parentPokemonId": "VIGOROTH",
@@ -10254,19 +10317,15 @@
       ]
     },
     "stats": {
-      "stamina": 62,
+      "stamina": 104,
       "attack": 80,
-      "defense": 153
+      "defense": 126
     },
     "family": "FAMILY_NINCADA",
     "kmBuddyDistance": 5,
     "evolutionBranch": [
       {
         "evolution": "NINJASK",
-        "candyCost": 50
-      },
-      {
-        "evolution": "SHEDINJA",
         "candyCost": 50
       }
     ],
@@ -10292,9 +10351,9 @@
       ]
     },
     "stats": {
-      "stamina": 122,
+      "stamina": 156,
       "attack": 196,
-      "defense": 114
+      "defense": 112
     },
     "family": "FAMILY_NINCADA",
     "parentPokemonId": "NINCADA",
@@ -10311,8 +10370,8 @@
     "type2": "GHOST",
     "moves": {
       "quick": [
-        "BITE_FAST",
-        "STRUGGLE_BUG_FAST"
+        "BUG_BITE_FAST",
+        "SHADOW_CLAW_FAST"
       ],
       "charge": [
         "SHADOW_SNEAK",
@@ -10321,9 +10380,9 @@
       ]
     },
     "stats": {
-      "stamina": 2,
+      "stamina": 1,
       "attack": 153,
-      "defense": 80
+      "defense": 73
     },
     "family": "FAMILY_NINCADA",
     "parentPokemonId": "NINCADA",
@@ -10350,7 +10409,7 @@
       ]
     },
     "stats": {
-      "stamina": 128,
+      "stamina": 162,
       "attack": 92,
       "defense": 42
     },
@@ -10384,7 +10443,7 @@
       ]
     },
     "stats": {
-      "stamina": 168,
+      "stamina": 197,
       "attack": 134,
       "defense": 81
     },
@@ -10419,9 +10478,9 @@
       ]
     },
     "stats": {
-      "stamina": 208,
+      "stamina": 232,
       "attack": 179,
-      "defense": 142
+      "defense": 137
     },
     "family": "FAMILY_WHISMUR",
     "parentPokemonId": "LOUDRED",
@@ -10448,7 +10507,7 @@
       ]
     },
     "stats": {
-      "stamina": 144,
+      "stamina": 176,
       "attack": 99,
       "defense": 54
     },
@@ -10482,7 +10541,7 @@
       ]
     },
     "stats": {
-      "stamina": 288,
+      "stamina": 302,
       "attack": 209,
       "defense": 114
     },
@@ -10511,7 +10570,7 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 36,
       "defense": 71
     },
@@ -10545,9 +10604,9 @@
       ]
     },
     "stats": {
-      "stamina": 60,
+      "stamina": 102,
       "attack": 82,
-      "defense": 236
+      "defense": 215
     },
     "family": "FAMILY_NOSEPASS",
     "kmBuddyDistance": 3,
@@ -10573,9 +10632,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 84,
-      "defense": 84
+      "defense": 79
     },
     "family": "FAMILY_SKITTY",
     "kmBuddyDistance": 3,
@@ -10607,9 +10666,9 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 132,
-      "defense": 132
+      "defense": 127
     },
     "family": "FAMILY_SKITTY",
     "parentPokemonId": "SKITTY",
@@ -10636,9 +10695,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 141,
-      "defense": 141
+      "defense": 136
     },
     "family": "FAMILY_SABLEYE",
     "kmBuddyDistance": 5,
@@ -10664,9 +10723,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 155,
-      "defense": 155
+      "defense": 141
     },
     "family": "FAMILY_MAWILE",
     "kmBuddyDistance": 5,
@@ -10692,9 +10751,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 121,
-      "defense": 168
+      "defense": 141
     },
     "family": "FAMILY_ARON",
     "kmBuddyDistance": 1,
@@ -10726,9 +10785,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 158,
-      "defense": 240
+      "defense": 198
     },
     "family": "FAMILY_ARON",
     "parentPokemonId": "ARON",
@@ -10761,9 +10820,9 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 198,
-      "defense": 314
+      "defense": 257
     },
     "family": "FAMILY_ARON",
     "parentPokemonId": "LAIRON",
@@ -10790,7 +10849,7 @@
       ]
     },
     "stats": {
-      "stamina": 60,
+      "stamina": 102,
       "attack": 78,
       "defense": 107
     },
@@ -10824,7 +10883,7 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 121,
       "defense": 152
     },
@@ -10853,7 +10912,7 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 123,
       "defense": 78
     },
@@ -10887,7 +10946,7 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 215,
       "defense": 127
     },
@@ -10916,9 +10975,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 167,
-      "defense": 147
+      "defense": 129
     },
     "family": "FAMILY_PLUSLE",
     "kmBuddyDistance": 3,
@@ -10944,9 +11003,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 147,
-      "defense": 167
+      "defense": 150
     },
     "family": "FAMILY_MINUN",
     "kmBuddyDistance": 3,
@@ -10972,9 +11031,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 143,
-      "defense": 171
+      "defense": 166
     },
     "family": "FAMILY_VOLBEAT",
     "kmBuddyDistance": 3,
@@ -11000,9 +11059,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 143,
-      "defense": 171
+      "defense": 166
     },
     "family": "FAMILY_ILLUMISE",
     "kmBuddyDistance": 3,
@@ -11028,12 +11087,20 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 186,
-      "defense": 148
+      "defense": 131
     },
     "family": "FAMILY_ROSELIA",
+    "parentPokemonId": "BUDEW",
     "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "ROSERADE",
+        "evolutionItemRequirement": 1106,
+        "candyCost": 100
+      }
+    ],
     "captureRate": 0.3,
     "fleeRate": 0.09,
     "height": 0.3,
@@ -11056,7 +11123,7 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 80,
       "defense": 99
     },
@@ -11090,7 +11157,7 @@
       ]
     },
     "stats": {
-      "stamina": 200,
+      "stamina": 225,
       "attack": 140,
       "defense": 159
     },
@@ -11119,7 +11186,7 @@
       ]
     },
     "stats": {
-      "stamina": 90,
+      "stamina": 128,
       "attack": 171,
       "defense": 39
     },
@@ -11153,7 +11220,7 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 243,
       "defense": 83
     },
@@ -11182,7 +11249,7 @@
       ]
     },
     "stats": {
-      "stamina": 260,
+      "stamina": 277,
       "attack": 136,
       "defense": 68
     },
@@ -11216,7 +11283,7 @@
       ]
     },
     "stats": {
-      "stamina": 340,
+      "stamina": 347,
       "attack": 175,
       "defense": 87
     },
@@ -11245,9 +11312,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 119,
-      "defense": 82
+      "defense": 79
     },
     "family": "FAMILY_NUMEL",
     "kmBuddyDistance": 3,
@@ -11279,9 +11346,9 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 194,
-      "defense": 139
+      "defense": 136
     },
     "family": "FAMILY_NUMEL",
     "parentPokemonId": "NUMEL",
@@ -11308,9 +11375,9 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 151,
-      "defense": 234
+      "defense": 203
     },
     "family": "FAMILY_TORKOAL",
     "kmBuddyDistance": 3,
@@ -11336,9 +11403,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 125,
-      "defense": 145
+      "defense": 122
     },
     "family": "FAMILY_SPOINK",
     "kmBuddyDistance": 1,
@@ -11370,9 +11437,9 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 171,
-      "defense": 211
+      "defense": 188
     },
     "family": "FAMILY_SPOINK",
     "parentPokemonId": "SPOINK",
@@ -11399,7 +11466,7 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 116,
       "defense": 116
     },
@@ -11427,7 +11494,7 @@
       ]
     },
     "stats": {
-      "stamina": 90,
+      "stamina": 128,
       "attack": 162,
       "defense": 78
     },
@@ -11461,7 +11528,7 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 134,
       "defense": 99
     },
@@ -11496,7 +11563,7 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 205,
       "defense": 168
     },
@@ -11525,7 +11592,7 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 156,
       "defense": 74
     },
@@ -11559,7 +11626,7 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 221,
       "defense": 115
     },
@@ -11588,9 +11655,9 @@
       ]
     },
     "stats": {
-      "stamina": 90,
+      "stamina": 128,
       "attack": 76,
-      "defense": 139
+      "defense": 132
     },
     "family": "FAMILY_SWABLU",
     "kmBuddyDistance": 1,
@@ -11622,9 +11689,9 @@
       ]
     },
     "stats": {
-      "stamina": 150,
+      "stamina": 181,
       "attack": 141,
-      "defense": 208
+      "defense": 201
     },
     "family": "FAMILY_SWABLU",
     "parentPokemonId": "SWABLU",
@@ -11651,7 +11718,7 @@
       ]
     },
     "stats": {
-      "stamina": 146,
+      "stamina": 177,
       "attack": 222,
       "defense": 124
     },
@@ -11679,7 +11746,7 @@
       ]
     },
     "stats": {
-      "stamina": 146,
+      "stamina": 177,
       "attack": 196,
       "defense": 118
     },
@@ -11707,9 +11774,9 @@
       ]
     },
     "stats": {
-      "stamina": 180,
+      "stamina": 207,
       "attack": 178,
-      "defense": 163
+      "defense": 153
     },
     "family": "FAMILY_LUNATONE",
     "kmBuddyDistance": 3,
@@ -11735,9 +11802,9 @@
       ]
     },
     "stats": {
-      "stamina": 180,
+      "stamina": 207,
       "attack": 178,
-      "defense": 163
+      "defense": 153
     },
     "family": "FAMILY_SOLROCK",
     "kmBuddyDistance": 3,
@@ -11763,9 +11830,9 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 93,
-      "defense": 83
+      "defense": 82
     },
     "family": "FAMILY_BARBOACH",
     "kmBuddyDistance": 1,
@@ -11797,9 +11864,9 @@
       ]
     },
     "stats": {
-      "stamina": 220,
+      "stamina": 242,
       "attack": 151,
-      "defense": 142
+      "defense": 141
     },
     "family": "FAMILY_BARBOACH",
     "parentPokemonId": "BARBOACH",
@@ -11826,9 +11893,9 @@
       ]
     },
     "stats": {
-      "stamina": 86,
+      "stamina": 125,
       "attack": 141,
-      "defense": 113
+      "defense": 99
     },
     "family": "FAMILY_CORPHISH",
     "kmBuddyDistance": 3,
@@ -11860,9 +11927,9 @@
       ]
     },
     "stats": {
-      "stamina": 126,
+      "stamina": 160,
       "attack": 224,
-      "defense": 156
+      "defense": 142
     },
     "family": "FAMILY_CORPHISH",
     "parentPokemonId": "CORPHISH",
@@ -11889,9 +11956,9 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 77,
-      "defense": 131
+      "defense": 124
     },
     "family": "FAMILY_BALTOY",
     "kmBuddyDistance": 3,
@@ -11923,9 +11990,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 140,
-      "defense": 236
+      "defense": 229
     },
     "family": "FAMILY_BALTOY",
     "parentPokemonId": "BALTOY",
@@ -11952,9 +12019,9 @@
       ]
     },
     "stats": {
-      "stamina": 132,
+      "stamina": 165,
       "attack": 105,
-      "defense": 154
+      "defense": 150
     },
     "family": "FAMILY_LILEEP",
     "kmBuddyDistance": 3,
@@ -11986,9 +12053,9 @@
       ]
     },
     "stats": {
-      "stamina": 172,
+      "stamina": 200,
       "attack": 152,
-      "defense": 198
+      "defense": 194
     },
     "family": "FAMILY_LILEEP",
     "parentPokemonId": "LILEEP",
@@ -12015,7 +12082,7 @@
       ]
     },
     "stats": {
-      "stamina": 90,
+      "stamina": 128,
       "attack": 176,
       "defense": 100
     },
@@ -12049,9 +12116,9 @@
       ]
     },
     "stats": {
-      "stamina": 150,
+      "stamina": 181,
       "attack": 222,
-      "defense": 183
+      "defense": 174
     },
     "family": "FAMILY_ANORITH",
     "parentPokemonId": "ANORITH",
@@ -12076,9 +12143,9 @@
       ]
     },
     "stats": {
-      "stamina": 40,
+      "stamina": 85,
       "attack": 29,
-      "defense": 102
+      "defense": 85
     },
     "family": "FAMILY_FEEBAS",
     "kmBuddyDistance": 5,
@@ -12111,9 +12178,9 @@
       ]
     },
     "stats": {
-      "stamina": 190,
+      "stamina": 216,
       "attack": 192,
-      "defense": 242
+      "defense": 219
     },
     "family": "FAMILY_FEEBAS",
     "parentPokemonId": "FEEBAS",
@@ -12139,7 +12206,7 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 139,
       "defense": 139
     },
@@ -12166,7 +12233,7 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 139,
       "defense": 139
     },
@@ -12193,7 +12260,7 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 139,
       "defense": 139
     },
@@ -12220,7 +12287,7 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 139,
       "defense": 139
     },
@@ -12247,7 +12314,7 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 139,
       "defense": 139
     },
@@ -12278,9 +12345,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 161,
-      "defense": 212
+      "defense": 189
     },
     "family": "FAMILY_KECLEON",
     "kmBuddyDistance": 5,
@@ -12306,9 +12373,9 @@
       ]
     },
     "stats": {
-      "stamina": 88,
+      "stamina": 127,
       "attack": 138,
-      "defense": 66
+      "defense": 65
     },
     "family": "FAMILY_SHUPPET",
     "kmBuddyDistance": 3,
@@ -12340,9 +12407,9 @@
       ]
     },
     "stats": {
-      "stamina": 128,
+      "stamina": 162,
       "attack": 218,
-      "defense": 127
+      "defense": 126
     },
     "family": "FAMILY_SHUPPET",
     "parentPokemonId": "SHUPPET",
@@ -12369,7 +12436,7 @@
       ]
     },
     "stats": {
-      "stamina": 40,
+      "stamina": 85,
       "attack": 70,
       "defense": 162
     },
@@ -12378,7 +12445,7 @@
     "evolutionBranch": [
       {
         "evolution": "DUSCLOPS",
-        "candyCost": 50
+        "candyCost": 25
       }
     ],
     "captureRate": 0.4,
@@ -12403,13 +12470,20 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 124,
       "defense": 234
     },
     "family": "FAMILY_DUSKULL",
     "parentPokemonId": "DUSKULL",
     "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "DUSKNOIR",
+        "evolutionItemRequirement": 1106,
+        "candyCost": 100
+      }
+    ],
     "captureRate": 0.2,
     "fleeRate": 0.07,
     "height": 1.6,
@@ -12432,9 +12506,9 @@
       ]
     },
     "stats": {
-      "stamina": 198,
+      "stamina": 223,
       "attack": 136,
-      "defense": 165
+      "defense": 163
     },
     "family": "FAMILY_TROPIUS",
     "kmBuddyDistance": 5,
@@ -12460,9 +12534,9 @@
       ]
     },
     "stats": {
-      "stamina": 150,
+      "stamina": 181,
       "attack": 175,
-      "defense": 174
+      "defense": 170
     },
     "family": "FAMILY_CHIMECHO",
     "kmBuddyDistance": 5,
@@ -12488,7 +12562,7 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 246,
       "defense": 120
     },
@@ -12514,7 +12588,7 @@
       ]
     },
     "stats": {
-      "stamina": 190,
+      "stamina": 216,
       "attack": 41,
       "defense": 86
     },
@@ -12548,7 +12622,7 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 95,
       "defense": 95
     },
@@ -12582,7 +12656,7 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 162,
       "defense": 162
     },
@@ -12611,7 +12685,7 @@
       ]
     },
     "stats": {
-      "stamina": 140,
+      "stamina": 172,
       "attack": 95,
       "defense": 90
     },
@@ -12645,7 +12719,7 @@
       ]
     },
     "stats": {
-      "stamina": 180,
+      "stamina": 207,
       "attack": 137,
       "defense": 132
     },
@@ -12680,7 +12754,7 @@
       ]
     },
     "stats": {
-      "stamina": 220,
+      "stamina": 242,
       "attack": 182,
       "defense": 176
     },
@@ -12708,9 +12782,9 @@
       ]
     },
     "stats": {
-      "stamina": 70,
+      "stamina": 111,
       "attack": 133,
-      "defense": 149
+      "defense": 135
     },
     "family": "FAMILY_CLAMPERL",
     "kmBuddyDistance": 3,
@@ -12746,9 +12820,9 @@
       ]
     },
     "stats": {
-      "stamina": 110,
+      "stamina": 146,
       "attack": 197,
-      "defense": 194
+      "defense": 179
     },
     "family": "FAMILY_CLAMPERL",
     "parentPokemonId": "CLAMPERL",
@@ -12775,9 +12849,9 @@
       ]
     },
     "stats": {
-      "stamina": 110,
+      "stamina": 146,
       "attack": 211,
-      "defense": 194
+      "defense": 179
     },
     "family": "FAMILY_CLAMPERL",
     "parentPokemonId": "CLAMPERL",
@@ -12804,9 +12878,9 @@
       ]
     },
     "stats": {
-      "stamina": 200,
+      "stamina": 225,
       "attack": 162,
-      "defense": 234
+      "defense": 203
     },
     "family": "FAMILY_RELICANTH",
     "kmBuddyDistance": 5,
@@ -12832,9 +12906,9 @@
       ]
     },
     "stats": {
-      "stamina": 86,
+      "stamina": 125,
       "attack": 81,
-      "defense": 134
+      "defense": 128
     },
     "family": "FAMILY_LUVDISC",
     "kmBuddyDistance": 3,
@@ -12860,9 +12934,9 @@
       ]
     },
     "stats": {
-      "stamina": 90,
+      "stamina": 128,
       "attack": 134,
-      "defense": 107
+      "defense": 93
     },
     "family": "FAMILY_BAGON",
     "kmBuddyDistance": 5,
@@ -12894,9 +12968,9 @@
       ]
     },
     "stats": {
-      "stamina": 130,
+      "stamina": 163,
       "attack": 172,
-      "defense": 179
+      "defense": 155
     },
     "family": "FAMILY_BAGON",
     "parentPokemonId": "BAGON",
@@ -12929,7 +13003,7 @@
       ]
     },
     "stats": {
-      "stamina": 190,
+      "stamina": 216,
       "attack": 277,
       "defense": 168
     },
@@ -12955,9 +13029,9 @@
       ]
     },
     "stats": {
-      "stamina": 80,
+      "stamina": 120,
       "attack": 96,
-      "defense": 141
+      "defense": 132
     },
     "family": "FAMILY_BELDUM",
     "kmBuddyDistance": 5,
@@ -12989,9 +13063,9 @@
       ]
     },
     "stats": {
-      "stamina": 120,
+      "stamina": 155,
       "attack": 138,
-      "defense": 185
+      "defense": 176
     },
     "family": "FAMILY_BELDUM",
     "parentPokemonId": "BELDUM",
@@ -13024,9 +13098,9 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 257,
-      "defense": 247
+      "defense": 228
     },
     "family": "FAMILY_BELDUM",
     "parentPokemonId": "METANG",
@@ -13053,9 +13127,9 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 179,
-      "defense": 356
+      "defense": 309
     },
     "family": "FAMILY_REGIROCK",
     "kmBuddyDistance": 20,
@@ -13081,9 +13155,9 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 179,
-      "defense": 356
+      "defense": 309
     },
     "family": "FAMILY_REGICE",
     "kmBuddyDistance": 20,
@@ -13109,7 +13183,7 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 143,
       "defense": 285
     },
@@ -13137,9 +13211,9 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 228,
-      "defense": 268
+      "defense": 246
     },
     "family": "FAMILY_LATIAS",
     "kmBuddyDistance": 20,
@@ -13165,9 +13239,9 @@
       ]
     },
     "stats": {
-      "stamina": 160,
+      "stamina": 190,
       "attack": 268,
-      "defense": 228
+      "defense": 212
     },
     "family": "FAMILY_LATIOS",
     "kmBuddyDistance": 20,
@@ -13192,9 +13266,9 @@
       ]
     },
     "stats": {
-      "stamina": 182,
+      "stamina": 205,
       "attack": 270,
-      "defense": 251
+      "defense": 228
     },
     "family": "FAMILY_KYOGRE",
     "kmBuddyDistance": 20,
@@ -13220,9 +13294,9 @@
       ]
     },
     "stats": {
-      "stamina": 182,
+      "stamina": 205,
       "attack": 270,
-      "defense": 251
+      "defense": 228
     },
     "family": "FAMILY_GROUDON",
     "kmBuddyDistance": 20,
@@ -13248,7 +13322,7 @@
       ]
     },
     "stats": {
-      "stamina": 191,
+      "stamina": 213,
       "attack": 284,
       "defense": 170
     },
@@ -13276,7 +13350,7 @@
       ]
     },
     "stats": {
-      "stamina": 200,
+      "stamina": 225,
       "attack": 210,
       "defense": 210
     },
@@ -13304,7 +13378,7 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 345,
       "defense": 115
     },
@@ -13332,7 +13406,7 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 414,
       "defense": 46
     },
@@ -13360,7 +13434,7 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 144,
       "defense": 330
     },
@@ -13388,7 +13462,7 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 345,
       "defense": 115
     },
@@ -13416,7 +13490,7 @@
       ]
     },
     "stats": {
-      "stamina": 100,
+      "stamina": 137,
       "attack": 230,
       "defense": 218
     },
@@ -14236,7 +14310,7 @@
     "moves": {
       "quick": [
         "TACKLE_FAST",
-        "QUICK_ATTACK_FAST"
+        "BUG_BITE_FAST"
       ],
       "charge": [
         "STRUGGLE"
@@ -14253,7 +14327,6 @@
       {
         "evolution": "WORMADAM",
         "candyCost": 50,
-        "kmBuddyDistanceRequirement": 50,
         "form": "WORMADAM_PLANT"
       },
       {
@@ -14350,8 +14423,8 @@
     },
     "stats": {
       "stamina": 155,
-      "attack": 127,
-      "defense": 175
+      "attack": 141,
+      "defense": 180
     },
     "family": "FAMILY_BURMY",
     "parentPokemonId": "BURMY",
@@ -14379,8 +14452,8 @@
     },
     "stats": {
       "stamina": 155,
-      "attack": 141,
-      "defense": 180
+      "attack": 127,
+      "defense": 175
     },
     "family": "FAMILY_BURMY",
     "parentPokemonId": "BURMY",
@@ -14581,7 +14654,7 @@
         "BULLET_SEED_FAST"
       ],
       "charge": [
-        "POWER_WHIP",
+        "DAZZLING_GLEAM",
         "PETAL_BLIZZARD",
         "SEED_BOMB"
       ]
@@ -14603,12 +14676,6 @@
         "evolution": "CHERRIM",
         "candyCost": 50,
         "form": "CHERRIM_SUNNY"
-      },
-      {
-        "candyCost": 50
-      },
-      {
-        "candyCost": 50
       }
     ],
     "captureRate": 0.5,
@@ -14627,7 +14694,7 @@
         "BULLET_SEED_FAST"
       ],
       "charge": [
-        "POWER_WHIP",
+        "DAZZLING_GLEAM",
         "HYPER_BEAM",
         "SOLAR_BEAM"
       ]
@@ -14656,7 +14723,7 @@
         "BULLET_SEED_FAST"
       ],
       "charge": [
-        "POWER_WHIP",
+        "DAZZLING_GLEAM",
         "HYPER_BEAM",
         "SOLAR_BEAM"
       ]
@@ -14685,7 +14752,7 @@
         "BULLET_SEED_FAST"
       ],
       "charge": [
-        "POWER_WHIP",
+        "DAZZLING_GLEAM",
         "HYPER_BEAM",
         "SOLAR_BEAM"
       ]
@@ -15340,7 +15407,7 @@
       ],
       "charge": [
         "ROCK_TOMB",
-        "BULLDOZE",
+        "EARTHQUAKE",
         "ROCK_SLIDE"
       ]
     },
@@ -15407,8 +15474,7 @@
         "ZEN_HEADBUTT_FAST"
       ],
       "charge": [
-        "PSYCHIC",
-        "DAZZLING_GLEAM"
+        "PSYCHIC"
       ]
     },
     "stats": {
@@ -15994,8 +16060,8 @@
   {
     "id": "SNOVER",
     "name": "SNOVER",
-    "type1": "ICE",
-    "type2": "GRASS",
+    "type1": "GRASS",
+    "type2": "ICE",
     "moves": {
       "quick": [
         "POWDER_SNOW_FAST",
@@ -16028,8 +16094,8 @@
   {
     "id": "ABOMASNOW",
     "name": "ABOMASNOW",
-    "type1": "ICE",
-    "type2": "GRASS",
+    "type1": "GRASS",
+    "type2": "ICE",
     "moves": {
       "quick": [
         "POWDER_SNOW_FAST",
@@ -16280,7 +16346,7 @@
     },
     "family": "FAMILY_TOGEPI",
     "parentPokemonId": "TOGETIC",
-    "kmBuddyDistance": 1,
+    "kmBuddyDistance": 3,
     "captureRate": 0.01,
     "fleeRate": 0.05,
     "height": 1.5,
@@ -16309,7 +16375,7 @@
     },
     "family": "FAMILY_YANMA",
     "parentPokemonId": "YANMA",
-    "kmBuddyDistance": 1,
+    "kmBuddyDistance": 3,
     "captureRate": 0.175,
     "fleeRate": 0.05,
     "height": 1.9,
@@ -16583,7 +16649,7 @@
     "type2": "GHOST",
     "moves": {
       "quick": [
-        "TACKLE_FAST",
+        "ASTONISH_FAST",
         "THUNDER_SHOCK_FAST"
       ],
       "charge": [
@@ -16594,8 +16660,8 @@
     },
     "stats": {
       "stamina": 137,
-      "attack": 204,
-      "defense": 219
+      "attack": 185,
+      "defense": 159
     },
     "family": "FAMILY_ROTOM",
     "kmBuddyDistance": 5,
@@ -16611,7 +16677,7 @@
     "type2": "FLYING",
     "moves": {
       "quick": [
-        "TACKLE_FAST",
+        "ASTONISH_FAST",
         "AIR_SLASH_FAST"
       ],
       "charge": [
@@ -16639,7 +16705,7 @@
     "type2": "ICE",
     "moves": {
       "quick": [
-        "TACKLE_FAST",
+        "ASTONISH_FAST",
         "THUNDER_SHOCK_FAST"
       ],
       "charge": [
@@ -16667,7 +16733,7 @@
     "type2": "FIRE",
     "moves": {
       "quick": [
-        "TACKLE_FAST",
+        "ASTONISH_FAST",
         "THUNDER_SHOCK_FAST"
       ],
       "charge": [
@@ -16695,7 +16761,7 @@
     "type2": "GRASS",
     "moves": {
       "quick": [
-        "TACKLE_FAST",
+        "ASTONISH_FAST",
         "THUNDER_SHOCK_FAST"
       ],
       "charge": [
@@ -16723,7 +16789,7 @@
     "type2": "GHOST",
     "moves": {
       "quick": [
-        "TACKLE_FAST",
+        "ASTONISH_FAST",
         "THUNDER_SHOCK_FAST"
       ],
       "charge": [
@@ -16734,8 +16800,8 @@
     },
     "stats": {
       "stamina": 137,
-      "attack": 204,
-      "defense": 219
+      "attack": 185,
+      "defense": 159
     },
     "family": "FAMILY_ROTOM",
     "kmBuddyDistance": 5,
@@ -16751,7 +16817,7 @@
     "type2": "WATER",
     "moves": {
       "quick": [
-        "TACKLE_FAST",
+        "ASTONISH_FAST",
         "THUNDER_SHOCK_FAST"
       ],
       "charge": [
@@ -16762,8 +16828,8 @@
     },
     "stats": {
       "stamina": 137,
-      "attack": 185,
-      "defense": 159
+      "attack": 204,
+      "defense": 219
     },
     "family": "FAMILY_ROTOM",
     "kmBuddyDistance": 5,
@@ -17103,12 +17169,6 @@
     },
     "family": "FAMILY_PHIONE",
     "kmBuddyDistance": 20,
-    "evolutionBranch": [
-      {
-        "evolution": "MANAPHY",
-        "candyCost": 50
-      }
-    ],
     "captureRate": 0.02,
     "height": 0.4,
     "weight": 3.1
@@ -17186,8 +17246,8 @@
     },
     "stats": {
       "stamina": 225,
-      "attack": 261,
-      "defense": 166
+      "attack": 210,
+      "defense": 210
     },
     "family": "FAMILY_SHAYMIN",
     "kmBuddyDistance": 20,
@@ -17213,8 +17273,8 @@
     },
     "stats": {
       "stamina": 225,
-      "attack": 261,
-      "defense": 166
+      "attack": 210,
+      "defense": 210
     },
     "family": "FAMILY_SHAYMIN",
     "kmBuddyDistance": 20,
@@ -17240,8 +17300,8 @@
     },
     "stats": {
       "stamina": 225,
-      "attack": 210,
-      "defense": 210
+      "attack": 261,
+      "defense": 166
     },
     "family": "FAMILY_SHAYMIN",
     "kmBuddyDistance": 20,
@@ -17761,5 +17821,64 @@
     "captureRate": 0.02,
     "height": 3.2,
     "weight": 320
+  },
+  {
+    "id": "MELTAN",
+    "name": "MELTAN",
+    "type1": "STEEL",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "THUNDER_SHOCK_FAST"
+      ],
+      "charge": [
+        "FLASH_CANNON",
+        "THUNDERBOLT"
+      ]
+    },
+    "stats": {
+      "stamina": 130,
+      "attack": 112,
+      "defense": 113
+    },
+    "family": "FAMILY_MELTAN",
+    "kmBuddyDistance": 20,
+    "evolutionBranch": [
+      {
+        "evolution": "MELMETAL",
+        "candyCost": 400
+      }
+    ],
+    "captureRate": 0.3,
+    "height": 0.2,
+    "weight": 8
+  },
+  {
+    "id": "MELMETAL",
+    "name": "MELMETAL",
+    "type1": "STEEL",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "THUNDER_SHOCK_FAST"
+      ],
+      "charge": [
+        "FLASH_CANNON",
+        "THUNDERBOLT",
+        "HYPER_BEAM",
+        "ROCK_SLIDE"
+      ]
+    },
+    "stats": {
+      "stamina": 264,
+      "attack": 231,
+      "defense": 213
+    },
+    "family": "FAMILY_MELTAN",
+    "parentPokemonId": "MELTAN",
+    "kmBuddyDistance": 20,
+    "captureRate": 0.3,
+    "height": 2.5,
+    "weight": 800
   }
 ]

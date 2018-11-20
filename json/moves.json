@@ -1757,5 +1757,14 @@
     "Energy": -50,
     "DamageWindowStartMs": 2700,
     "DamageWindowEndMs": 2850
+  },
+  "METEOR_MASH": {
+    "Name": "METEOR_MASH",
+    "Type": "STEEL",
+    "Power": 100,
+    "DurationMs": 2600,
+    "Energy": -50,
+    "DamageWindowStartMs": 2300,
+    "DamageWindowEndMs": 2500
   }
 }
